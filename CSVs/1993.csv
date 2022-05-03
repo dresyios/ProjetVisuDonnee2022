@@ -1,7 +1,7 @@
 ,Name,Platform,Year,Publisher,Global_Sales,Total_Sales
 57,Super Mario All-Stars,SNES,1993,Nintendo,10.55,10.55
 472,Star Fox,SNES,1993,Nintendo,2.99,2.99
-849,Super Street Fighter II,SNES,1993,Nintendo,2.0,2.15
+849,Super Street Fighter II,Multi,1993,Nintendo,2.0,2.15
 887,Mortal Kombat II,SNES,1993,Acclaim Entertainment,1.93,1.93
 948,Secret of Mana,SNES,1993,SquareSoft,1.83,1.83
 1009,Disney's Aladdin,SNES,1993,Capcom,1.75,1.75
@@ -42,7 +42,7 @@
 9196,The King of Fighters '94 (CD),NG,1993,SNK,0.14,0.14
 9461,Illusion of Gaia,SNES,1993,Nintendo,0.13,0.13
 9929,Harukanaru Augusta 2: Masters,SNES,1993,T&E Soft,0.12,0.12
-10259,Classic Road,SNES,1993,Victor Interactive,0.11,0.18
+10259,Classic Road,Multi,1993,Victor Interactive,0.11,0.18
 10331,Ranma 1/2: Akanekodan Teki Hihou,SNES,1993,TOHO,0.11,0.11
 11127,Lethal Enforcers,SNES,1993,Konami Digital Entertainment,0.09,0.09
 11951,Ecco: The Tides of Time,GEN,1993,Sega,0.07,0.07

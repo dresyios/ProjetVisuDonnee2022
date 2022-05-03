@@ -5,10 +5,10 @@
 157,Super Smash Bros.,N64,1999,Nintendo,5.55,5.55
 165,Pokemon Stadium,N64,1999,Nintendo,5.45,5.45
 175,Donkey Kong 64,N64,1999,Nintendo,5.27,5.27
-202,Tony Hawk's Pro Skater,PS,1999,Activision,5.02,7.129999999999999
+202,Tony Hawk's Pro Skater,Multi,1999,Activision,5.02,7.129999999999999
 204,Warzone 2100,PS,1999,Eidos Interactive,5.01,5.01
 220,Crash Team Racing,PS,1999,Sony Computer Entertainment,4.79,4.79
-332,Resident Evil 3: Nemesis,PS,1999,Eidos Interactive,3.72,3.8000000000000003
+332,Resident Evil 3: Nemesis,Multi,1999,Eidos Interactive,3.72,3.8000000000000003
 346,Pokemon Snap,N64,1999,Nintendo,3.63,3.63
 368,Spyro 2: Ripto's Rage!,PS,1999,Sony Computer Entertainment,3.52,3.52
 420,007: Tomorrow Never Dies,PS,1999,Electronic Arts,3.21,3.21
@@ -23,16 +23,16 @@
 966,NFL GameDay 2000,PS,1999,989 Studios,1.8,1.8
 1014,Star Wars Episode I: The Phantom Menace,PS,1999,LucasArts,1.74,1.74
 1061,Jampack Winter '99,PS,1999,Sony Computer Entertainment,1.69,1.69
-1116,Tom Clancy's Rainbow Six,PS,1999,Red Storm Entertainment,1.64,2.28
-1129,Ape Escape,PS,1999,Sony Computer Entertainment,1.63,1.68
+1116,Tom Clancy's Rainbow Six,Multi,1999,Red Storm Entertainment,1.64,2.28
+1129,Ape Escape,Multi,1999,Sony Computer Entertainment,1.63,1.68
 1154,Silent Hill,PS,1999,Konami Digital Entertainment,1.6,1.6
-1167,NASCAR 2000,PS,1999,Electronic Arts,1.59,2.12
+1167,NASCAR 2000,Multi,1999,Electronic Arts,1.59,2.12
 1279,WWF WrestleMania 2000,N64,1999,THQ,1.48,1.48
 1288,Mario Golf,N64,1999,Nintendo,1.47,1.47
 1327,Namco Museum 64,N64,1999,Namco Bandai Games,1.45,1.45
 1345,Frogger 2: Swampy's Revenge,PS,1999,Hasbro Interactive,1.43,1.43
-1352,Triple Play 2000,PS,1999,Electronic Arts,1.43,1.71
-1375,Knockout Kings 2000,PS,1999,Electronic Arts,1.41,2.33
+1352,Triple Play 2000,Multi,1999,Electronic Arts,1.43,1.71
+1375,Knockout Kings 2000,Multi,1999,Electronic Arts,1.41,2.33
 1435,Dance Dance Revolution (Japan),PS,1999,Konami Digital Entertainment,1.35,1.35
 1506,Rugrats Studio Tour,PS,1999,THQ,1.31,1.31
 1523,Digimon World,PS,1999,Namco Bandai Games,1.3,1.3
@@ -47,8 +47,8 @@
 1804,Derby Stallion 99,PS,1999,ASCII Entertainment,1.13,1.13
 1844,Legend of Mana,PS,1999,SquareSoft,1.11,1.11
 1918,Doko Demo Issyo,PS,1999,Sony Computer Entertainment,1.07,1.07
-1936,Hot Wheels Turbo Racing,PS,1999,Electronic Arts,1.07,1.3800000000000001
-1950,Worms Armageddon,PS,1999,Microprose,1.06,1.1
+1936,Hot Wheels Turbo Racing,Multi,1999,Electronic Arts,1.07,1.3800000000000001
+1950,Worms Armageddon,Multi,1999,Microprose,1.06,1.1
 2150,Jampack Summer '99,PS,1999,Sony Computer Entertainment,0.96,0.96
 2152,Dance Dance Revolution 2nd ReMIX,PS,1999,Konami Digital Entertainment,0.96,0.96
 2184,NCAA Football 2000,PS,1999,Electronic Arts,0.95,0.95
@@ -57,34 +57,34 @@
 2243,SnoCross Championship Racing,PS,1999,Ubisoft,0.93,0.93
 2305,3Xtreme,PS,1999,989 Studios,0.9,0.9
 2430,Army Men: Air Attack,PS,1999,3DO,0.85,0.85
-2479,Q*bert,PS,1999,Atari,0.84,1.42
+2479,Q*bert,Multi,1999,Atari,0.84,1.42
 2481,Ace Combat 3: Electrosphere,PS,1999,Sony Computer Entertainment,0.83,0.83
 2541,Jikkyou Powerful Pro Yakyuu '99 Kaimakuban,PS,1999,Konami Digital Entertainment,0.81,0.81
 2543,Valkyrie Profile,PS,1999,Enix Corporation,0.81,0.81
-2546,Army Men: Sarge's Heroes,N64,1999,3DO,0.81,1.37
+2546,Army Men: Sarge's Heroes,Multi,1999,3DO,0.81,1.37
 2571,Final Fantasy Anthology,PS,1999,Square EA,0.8,0.8
-2639,Marvel vs. Capcom: Clash of Super Heroes,PS,1999,Capcom,0.78,0.88
+2639,Marvel vs. Capcom: Clash of Super Heroes,Multi,1999,Capcom,0.78,0.88
 2670,Need for Speed: Porsche Unleashed,PS,1999,Electronic Arts,0.77,0.77
 2783,Jet Moto 3,PS,1999,Sony Computer Entertainment,0.74,0.74
 2803,Croc 2,PS,1999,Fox Interactive,0.73,0.73
 2836,Test Drive 6,PS,1999,Atari,0.72,0.72
-2883,LEGO Racers,N64,1999,LEGO Media,0.71,1.0699999999999998
+2883,LEGO Racers,Multi,1999,LEGO Media,0.71,1.0699999999999998
 3031,Wild ARMs 2,PS,1999,Sony Computer Entertainment,0.67,0.67
 3051,Pro Pinball: Big Race USA,PS,1999,Take-Two Interactive,0.66,0.66
 3109,World of Dragon Warrior - Torneko: The Last Hope,PS,1999,Enix Corporation,0.65,0.65
-3158,Rayman 2: The Great Escape,N64,1999,Ubisoft,0.64,0.96
+3158,Rayman 2: The Great Escape,Multi,1999,Ubisoft,0.64,0.96
 3191,Sim Theme Park,PS,1999,Electronic Arts,0.63,0.63
 3259,Beetle Adventure Racing!,N64,1999,Electronic Arts,0.62,0.62
 3269,Bass Landing,PS,1999,ASCII Entertainment,0.62,0.62
 3319,Tomb Raider Chronicles,PS,1999,Eidos Interactive,0.61,0.61
 3424,Barbie: Race & Ride,PS,1999,Sony Computer Entertainment,0.59,0.59
 3497,Parasite Eve II,PS,1999,SquareSoft,0.58,0.58
-3629,NBA Showtime: NBA on NBC,PS,1999,Midway Games,0.55,0.8
+3629,NBA Showtime: NBA on NBC,Multi,1999,Midway Games,0.55,0.8
 3646,Fighting Force 2,PS,1999,Eidos Interactive,0.55,0.55
 3666,SD Gundam G Generation Zero,PS,1999,Namco Bandai Games,0.55,0.55
-3717,Gauntlet Legends,N64,1999,Midway Games,0.54,1.01
+3717,Gauntlet Legends,Multi,1999,Midway Games,0.54,1.01
 3726,Pachi-Slot Aruze Oukoku 2,PS,1999,Aruze Corp,0.54,0.54
-3774,Gex 3: Deep Cover Gecko,PS,1999,Eidos Interactive,0.53,0.74
+3774,Gex 3: Deep Cover Gecko,Multi,1999,Eidos Interactive,0.53,0.74
 3823,Seaman,DC,1999,Sega,0.52,0.52
 3825,The Grinch,PS,1999,Konami Digital Entertainment,0.52,0.52
 3864,Front Mission 3,PS,1999,SquareSoft,0.52,0.52
@@ -93,14 +93,14 @@
 3908,International Superstar Soccer 2000 (All region sales),N64,1999,Konami Digital Entertainment,0.51,0.51
 4068,Die Hard Trilogy 2: Viva Las Vegas,PS,1999,Fox Interactive,0.49,0.49
 4093,Yu-Gi-Oh! Forbidden Memories (JP sales),PS,1999,Konami Digital Entertainment,0.48,0.48
-4103,ECW Hardcore Revolution,PS,1999,Acclaim Entertainment,0.48,0.7
+4103,ECW Hardcore Revolution,Multi,1999,Acclaim Entertainment,0.48,0.7
 4115,Harvest Moon 64,N64,1999,Pack In Soft,0.48,0.48
-4120,Vigilante 8: 2nd Offense,PS,1999,Activision,0.48,0.59
+4120,Vigilante 8: 2nd Offense,Multi,1999,Activision,0.48,0.59
 4129,NFL Xtreme 2,PS,1999,989 Studios,0.48,0.48
 4189,Momotarou Dentetsu V,PS,1999,Hudson Entertainment,0.47,0.47
 4202,MTV Music Generator,PS,1999,Codemasters,0.47,0.47
 4234,Razor Freestyle Scooter,PS,1999,Ubisoft,0.46,0.46
-4258,Hydro Thunder,PS,1999,Midway Games,0.46,0.62
+4258,Hydro Thunder,Multi,1999,Midway Games,0.46,0.62
 4288,Bloody Roar II,PS,1999,Virgin Interactive,0.46,0.46
 4383,Final Fantasy Collection,PS,1999,Square,0.45,0.45
 4440,Chocobo Racing,PS,1999,SquareSoft,0.44,0.44
@@ -118,14 +118,14 @@
 4828,NFL Quarterback Club 2000,N64,1999,Acclaim Entertainment,0.4,0.4
 4832,Bugs Bunny: Lost in Time,PS,1999,Infogrames,0.4,0.4
 4846,Road Rash: Jailbreak,PS,1999,Electronic Arts,0.4,0.4
-4854,You Don't Know Jack,PS,1999,Vivendi Games,0.4,1.0
+4854,You Don't Know Jack,Multi,1999,Vivendi Games,0.4,1.0
 4930,All-Star Baseball 2000,N64,1999,Acclaim Entertainment,0.39,0.39
 4933,BattleTanx: Global Assault,N64,1999,3DO,0.39,0.39
 4968,Tokimeki Memorial 2,PS,1999,Konami Digital Entertainment,0.39,0.39
 5043,MediEvil II,PS,1999,Sony Computer Entertainment,0.38,0.38
 5054,NCAA Final Four 2000,PS,1999,989 Sports,0.38,0.38
 5125,Turok: Rage Wars,N64,1999,Acclaim Entertainment,0.37,0.37
-5144,Bottom of the 9th,N64,1999,Konami Digital Entertainment,0.37,0.51
+5144,Bottom of the 9th,Multi,1999,Konami Digital Entertainment,0.37,0.51
 5259,J-League Pro Soccer Club o Tsukurou!,DC,1999,Sega,0.36,0.36
 5337,Lunar 2: Eternal Blue Complete,PS,1999,Kadokawa Shoten,0.35,0.35
 5357,SoulCalibur,DC,1999,Namco Bandai Games,0.34,0.34
@@ -149,13 +149,13 @@
 6081,Tomba! 2: The Evil Swine Return,PS,1999,Sony Computer Entertainment,0.29,0.29
 6085,BeatMania Append 4thMix: The beat goes on,PS,1999,Konami Digital Entertainment,0.29,0.29
 6133,Digimon Adventure: Anode Tamer,WS,1999,Namco Bandai Games,0.28,0.28
-6345,Shadow Man,N64,1999,Acclaim Entertainment,0.27,0.52
+6345,Shadow Man,Multi,1999,Acclaim Entertainment,0.27,0.52
 6376,Superbike 2000,PS,1999,Electronic Arts,0.27,0.27
 6386,Alundra 2: A New Legend Begins,PS,1999,Activision,0.27,0.27
 6456,Jikkyou Powerful Pro Yakyuu '99 Ketteiban,PS,1999,Konami Digital Entertainment,0.26,0.26
 6517,Bust A Groove 2,PS,1999,Enix Corporation,0.26,0.26
 6524,Duke Nukem: Zero Hour,N64,1999,GT Interactive,0.26,0.26
-6525,Armorines: Project S.W.A.R.M.,N64,1999,Acclaim Entertainment,0.26,0.34
+6525,Armorines: Project S.W.A.R.M.,Multi,1999,Acclaim Entertainment,0.26,0.34
 6581,Armored Core: Master of Arena,PS,1999,From Software,0.26,0.26
 6582,Fire Emblem: Thracia 776,SNES,1999,Nintendo,0.26,0.26
 6595,NHL Rock the Rink,PS,1999,Electronic Arts,0.26,0.26
@@ -170,7 +170,7 @@
 7206,Barbie Super Sports,PS,1999,Mattel Interactive,0.22,0.22
 7286,Jackie Chan: Stuntmaster,PS,1999,Sony Computer Entertainment,0.22,0.22
 7287,Sports Car GT,PS,1999,Electronic Arts,0.22,0.22
-7342,WCW Backstage Assault,PS,1999,Electronic Arts,0.21,0.35
+7342,WCW Backstage Assault,Multi,1999,Electronic Arts,0.21,0.35
 7425,Threads of Fate,PS,1999,SquareSoft,0.21,0.21
 7446,Rollcage,PS,1999,Psygnosis,0.21,0.21
 7616,Roadsters 99,N64,1999,Titus,0.2,0.2
@@ -252,7 +252,7 @@
 13382,Test Drive Le Mans,PS,1999,Infogrames,0.05,0.05
 13404,The Misadventures of Tron Bonne,PS,1999,Eidos Interactive,0.05,0.05
 13434,Choro Q 64 2: Hacha Mecha Grand Prix Race,N64,1999,Takara,0.05,0.05
-13453,Rat Attack!,PS,1999,Mindscape,0.04,0.06
+13453,Rat Attack!,Multi,1999,Mindscape,0.04,0.06
 13738,PD Ultraman Battle Collection 64,N64,1999,Namco Bandai Games,0.04,0.04
 13739,Monaco Grand Prix,N64,1999,Ubisoft,0.04,0.04
 13741,Rally Challenge 2000,N64,1999,Imagineer,0.04,0.04

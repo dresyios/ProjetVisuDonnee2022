@@ -21,13 +21,13 @@
 2353,Seiken Densetsu 3,SNES,1995,SquareSoft,0.89,0.89
 2376,Gex,PS,1995,Crystal Dynamics,0.87,0.87
 2446,NFL GameDay,PS,1995,Sony Computer Entertainment,0.85,0.85
-2694,Street Fighter Alpha: Warriors' Dreams,PS,1995,Virgin Interactive,0.76,1.1099999999999999
+2694,Street Fighter Alpha: Warriors' Dreams,Multi,1995,Virgin Interactive,0.76,1.1099999999999999
 2887,Tactics Ogre: Let Us Cling Together,SNES,1995,Quest,0.71,0.71
 2890,Battle Arena Toshinden 2,PS,1995,Sony Computer Entertainment,0.71,0.71
 3237,Virtua Cop,SAT,1995,Sega,0.62,0.62
 3352,Suikoden,PS,1995,Konami Digital Entertainment,0.6,0.6
 3372,Front Mission,SNES,1995,SquareSoft,0.6,0.6
-3443,Tokimeki Memorial: Forever with You,PS,1995,Konami Digital Entertainment,0.58,0.96
+3443,Tokimeki Memorial: Forever with You,Multi,1995,Konami Digital Entertainment,0.58,0.96
 3520,Beyond The Beyond,PS,1995,Sony Computer Entertainment,0.57,0.57
 3985,Bases Loaded '96: Double Header,PS,1995,Jaleco,0.5,0.5
 4160,Super Puyo Puyo 2,SNES,1995,Compile,0.47,0.47
@@ -35,7 +35,7 @@
 4205,Super Momotarou Dentetsu DX,SNES,1995,Hudson Soft,0.47,0.47
 4322,J-League Excite Stage '95,SNES,1995,Epoch,0.45,0.45
 4373,Persona,PS,1995,Atlus,0.45,0.45
-4379,Mobile Suit Gundam,PS,1995,Namco Bandai Games,0.45,0.86
+4379,Mobile Suit Gundam,Multi,1995,Namco Bandai Games,0.45,0.86
 4634,Super Famista 4,SNES,1995,Namco Bandai Games,0.42,0.42
 4670,Cyber Troopers Virtual-On,SAT,1995,Sega,0.42,0.42
 4765,Mario no Super Picross,SNES,1995,Nintendo,0.41,0.41
@@ -59,7 +59,7 @@
 5920,Far East of Eden Zero,SNES,1995,Hudson Soft,0.3,0.3
 5972,Guardian Heroes,SAT,1995,Sega,0.29,0.29
 6115,Super Fire ProWrestling X,SNES,1995,Human Entertainment,0.28,0.28
-6139,The King of Fighters '95,SAT,1995,SNK Playmore,0.28,0.65
+6139,The King of Fighters '95,Multi,1995,SNK Playmore,0.28,0.65
 6192,Mega Man 7,SNES,1995,Laguna,0.28,0.28
 6196,NBA In The Zone,PS,1995,Konami Digital Entertainment,0.28,0.28
 6260,Nichibutsu Arcade Classics,SNES,1995,Nichibutsu,0.28,0.28
@@ -73,9 +73,9 @@
 7102,The Raiden Project,PS,1995,Ocean,0.23,0.23
 7294,Kanzen Chuuki Pro Yakyuu Greatest Nine,SAT,1995,Sega,0.22,0.22
 7385,Dragon Ball Z Hyper Dimension,SNES,1995,Namco Bandai Games,0.21,0.21
-7464,X-Men: Children of the Atom,SAT,1995,Acclaim Entertainment,0.21,0.31
+7464,X-Men: Children of the Atom,Multi,1995,Acclaim Entertainment,0.21,0.31
 7512,SD Gundam GNext,SNES,1995,Namco Bandai Games,0.2,0.2
-7681,Bust-A-Move 2 Arcade Edition,PS,1995,Acclaim Entertainment,0.2,0.28
+7681,Bust-A-Move 2 Arcade Edition,Multi,1995,Acclaim Entertainment,0.2,0.28
 7837,GunGriffon,SAT,1995,Sega,0.19,0.19
 7920,College Slam,PS,1995,Acclaim Entertainment,0.19,0.19
 7952,Super Real Mahjong P V,SAT,1995,Seta Corporation,0.19,0.19
@@ -100,7 +100,7 @@
 9536,Namco Soccer Prime Goal,PS,1995,Sony Computer Entertainment,0.13,0.13
 9546,Mystic Ark,SNES,1995,Enix Corporation,0.13,0.13
 9605,World Cup Golf: Professional Edition,PS,1995,U.S. Gold,0.13,0.13
-9640,Detana TwinBee Yahho! Deluxe Pack,SAT,1995,Konami Digital Entertainment,0.13,0.22
+9640,Detana TwinBee Yahho! Deluxe Pack,Multi,1995,Konami Digital Entertainment,0.13,0.22
 9669,High Velocity: Mountain Racing Challenge,SAT,1995,Atlus,0.12,0.12
 9765,Virtua Fighter CG Portrait Series Vol.4: Pai Chan,SAT,1995,Sega,0.12,0.12
 9978,Sengoku Cyber: Fujimaru Jigokuhen,PS,1995,Sony Computer Entertainment,0.12,0.12
@@ -139,7 +139,7 @@
 11619,GOTHA: Ismailia Seneki,SAT,1995,Sega,0.08,0.08
 11675,Krazy Ivan,PS,1995,Psygnosis,0.08,0.08
 11677,Quo Vadis,SAT,1995,Glams,0.08,0.08
-11740,Myst,PS,1995,Psygnosis,0.07,0.13
+11740,Myst,Multi,1995,Psygnosis,0.07,0.13
 11812,Hang On GP,SAT,1995,Sega,0.07,0.07
 11874,Viewpoint,PS,1995,Electronic Arts,0.07,0.07
 12075,Space Hulk: Vengeance of the Blood Angels,PS,1995,Electronic Arts,0.07,0.07

@@ -1,13 +1,13 @@
 ,Name,Platform,Year,Publisher,Global_Sales,Total_Sales
 71,Donkey Kong Country,SNES,1994,Nintendo,9.3,9.3
-389,Final Fantasy III,SNES,1994,SquareSoft,3.42,4.82
+389,Final Fantasy III,Multi,1994,SquareSoft,3.42,4.82
 952,Sonic & Knuckles,GEN,1994,Sega,1.82,1.82
-968,Disney's The Lion King,SNES,1994,Virgin Interactive,1.79,3.2
+968,Disney's The Lion King,Multi,1994,Virgin Interactive,1.79,3.2
 991,Sonic the Hedgehog 3,GEN,1994,Sega,1.76,1.76
-1221,Mortal Kombat 3,SNES,1994,Acclaim Entertainment,1.53,3.42
+1221,Mortal Kombat 3,Multi,1994,Acclaim Entertainment,1.53,3.42
 1360,Super Metroid,SNES,1994,Nintendo,1.42,1.42
 1567,Battle Arena Toshinden,PS,1994,Sony Computer Entertainment,1.27,1.27
-1841,NBA Jam Tournament Edition,GEN,1994,Acclaim Entertainment,1.11,2.37
+1841,NBA Jam Tournament Edition,Multi,1994,Acclaim Entertainment,1.11,2.37
 1923,Virtua Fighter,SAT,1994,Sega,1.07,1.07
 2289,Super Momotarou Dentetsu III,SNES,1994,Hudson Soft,0.91,0.91
 2379,Derby Stallion II,SNES,1994,ASCII Entertainment,0.87,0.87
@@ -19,15 +19,15 @@
 2906,Super Bomberman 3,SNES,1994,Hudson Soft,0.7,0.7
 2938,Fire Emblem: Monsh? no Nazo,SNES,1994,Nintendo,0.7,0.7
 3435,Kirby's Dream Course,SNES,1994,Nintendo,0.59,0.59
-3505,Theme Park,PS,1994,Electronic Arts,0.57,0.6499999999999999
+3505,Theme Park,Multi,1994,Electronic Arts,0.57,0.6499999999999999
 3609,Fatal Fury Special,SNES,1994,Takara,0.56,0.56
 3636,Daytona USA,SAT,1994,Sega,0.55,0.55
-3781,Romance of the Three Kingdoms IV: Wall of Fire,SNES,1994,Tecmo Koei,0.53,0.66
+3781,Romance of the Three Kingdoms IV: Wall of Fire,Multi,1994,Tecmo Koei,0.53,0.66
 3812,J-League Soccer: Prime Goal 2,SNES,1994,Namco Bandai Games,0.53,0.53
 4388,NHL FaceOff,PS,1994,Sony Computer Entertainment,0.45,0.45
 4522,Wonder Project J: Kikai no Shonen Pino,SNES,1994,Enix Corporation,0.43,0.43
 4767,Jikkyou Powerful Pro Yakuu '94,SNES,1994,Konami Digital Entertainment,0.41,0.41
-4815,Samurai Shodown,SNES,1994,Takara,0.4,0.47000000000000003
+4815,Samurai Shodown,Multi,1994,Takara,0.4,0.47000000000000003
 4960,Super Famista 3,SNES,1994,Namco Bandai Games,0.39,0.39
 5014,ESPN Extreme Games,PS,1994,Sony Computer Entertainment,0.38,0.38
 5101,Kileak: The DNA Imperative,PS,1994,Sony Computer Entertainment,0.37,0.37
@@ -39,7 +39,7 @@
 5217,Breath of Fire II,SNES,1994,Laguna,0.36,0.36
 5252,Ganbare Goemon 3: Shishi Jyuurokubei no Karakuri Manji Katame,SNES,1994,Konami Digital Entertainment,0.36,0.36
 5494,Super Power League 2,SNES,1994,Hudson Soft,0.33,0.33
-5533,Parodius,PS,1994,Konami Digital Entertainment,0.33,0.5
+5533,Parodius,Multi,1994,Konami Digital Entertainment,0.33,0.5
 5672,Live A Live,SNES,1994,SquareSoft,0.32,0.32
 5817,Yuu Yuu Hakusho 2: Kakutou no Sho,SNES,1994,Namco Bandai Games,0.31,0.31
 5868,Decathlete,SAT,1994,Sega,0.3,0.3
@@ -76,7 +76,7 @@
 11087,Clockwork Knight,SAT,1994,Sega,0.09,0.09
 11439,King's Field (Japan),PS,1994,From Software,0.08,0.08
 11541,Yuu Yuu Hakusho: Makyo Toitsusen,GEN,1994,Sega,0.08,0.08
-11640,Dragon Slayer: The Legend of Heroes,GEN,1994,Sega,0.08,0.15000000000000002
+11640,Dragon Slayer: The Legend of Heroes,Multi,1994,Sega,0.08,0.15000000000000002
 11670,Majin Tensei,SNES,1994,Atlus,0.08,0.08
 11738,Gale Racer,SAT,1994,Sega,0.07,0.07
 11751,Formula One World Championship: Beyond the Limit,SCD,1994,Sega,0.07,0.07

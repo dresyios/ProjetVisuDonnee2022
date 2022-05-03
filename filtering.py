@@ -19,6 +19,10 @@ data = data.drop_duplicates(subset=['Name'])
 data = data.fillna(0)
 data[['Year']] = data[['Year']].astype(int)
 
+for index, row in data.iterrows():
+   if data.loc[index, 'Global_Sales'] != data.loc[index, 'Total_Sales']:
+      data.loc[index, 'Platform'] = 'MULTI'
+
 for x in range(1980, 2017):
     data_year = data.loc[data['Year'] == x]
     filename="CSVs/"+str(x)+".csv"
