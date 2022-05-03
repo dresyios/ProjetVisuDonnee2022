@@ -1,6 +1,6 @@
 import pandas as pd
 
-data= pd.read_csv("CSVs/vgsales.csv", usecols= ['Rank','Name','Year','Platform','Publisher','Global_Sales'])
+data= pd.read_csv("CSVs/vgsales.csv", usecols= ['Name','Year','Platform','Publisher','Global_Sales'])
 
 print(data.columns)
 

@@ -1,9 +1,9 @@
-,Rank,Name,Platform,Year,Publisher,Global_Sales,Total_Sales
-258,259,Asteroids,2600,1980,Atari,4.31,5.459999999999999
-544,545,Missile Command,2600,1980,Atari,2.76,3.21
-1766,1768,Kaboom!,2600,1980,Activision,1.15,1.15
-1969,1971,Defender,2600,1980,Atari,1.05,1.6500000000000001
-2669,2671,Boxing,2600,1980,Activision,0.77,0.8400000000000001
-5366,5368,Freeway,2600,1980,Activision,0.34,0.34
-6317,6319,Bridge,2600,1980,Activision,0.27,0.27
-6896,6898,Checkers,2600,1980,Atari,0.24,0.24
+,Name,Platform,Year,Publisher,Global_Sales,Total_Sales
+258,Asteroids,2600,1980,Atari,4.31,5.459999999999999
+544,Missile Command,2600,1980,Atari,2.76,3.21
+1766,Kaboom!,2600,1980,Activision,1.15,1.15
+1969,Defender,2600,1980,Atari,1.05,1.6500000000000001
+2669,Boxing,2600,1980,Activision,0.77,0.8400000000000001
+5366,Freeway,2600,1980,Activision,0.34,0.34
+6317,Bridge,2600,1980,Activision,0.27,0.27
+6896,Checkers,2600,1980,Atari,0.24,0.24
