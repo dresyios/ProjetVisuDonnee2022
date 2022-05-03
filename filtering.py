@@ -26,7 +26,7 @@ for index, row in data.iterrows():
 for x in range(1980, 2017):
     data_year = data.loc[data['Year'] == x]
     filename="CSVs/"+str(x)+".csv"
-    data_year.to_csv(filename)
+    data_year.to_csv(filename, index=False)
 
 
 data.to_csv('CSVs/vgsalesfilterd.csv', index=False)

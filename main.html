@@ -1,18 +1,48 @@
 <!DOCTYPE html>
-<html lang="en" class="example#">
-    
-    <head>
-        <meta charset="utf-8" />
-        <title>
-            example#
-        </title>
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/6.6.0/d3.min.js' integrity='sha512-XgjkLS0sSzUq88GniFcrLy6zjgVWkBoRFziaLm1Z+gVgkHuO3ieikhD/Q6eNKXAsp88yvBFS0n6ovVlabXftIg==' crossorigin='anonymous'></script>
-        <script src="https://d3js.org/d3-geo.v2.min.js"></script>
-    </head>
-    
-    <body>
-        <script src="script.js"> </script>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        svg {
+            background-color: lightgreen;
+            margin : 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script>
+        const largeur = window.innerWidth;
+        const hauteur = window.innerHeight;
 
-    </body>
+        // lier les données
+        d3.csv('CSVs/essai.csv',function(d){
+            return{
+                Name: d.Name,
+                Platform:d.Platform,
+                Year:+d.Year,
+                Publisher:d.Publisher,
+                Total_Sales : +d.Total_Sales, // changé le nom + converti en nombre
+                Country:d.Country
+            }
+        }).then(donnees =>{
+            // vérfier que les données ont bien été importées
+            console.log(donnees)
 
+            // création de notre premier espace de dessin
+            let canevas1 = d3.select("body")
+            .append("svg")
+            .attr("width", largeur)
+            .attr("height", 200);
+
+            let ventesMaximal = d3.max(donnees,d => d.Total_Sales)
+            console.log("Ventes max : ",ventesMaximal)
+
+        })        
+        
+    </script>
+</body>
 </html>

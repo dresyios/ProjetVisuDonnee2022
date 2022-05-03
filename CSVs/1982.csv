@@ -1,34 +1,34 @@
-,Name,Platform,Year,Publisher,Global_Sales,Total_Sales
-89,Pac-Man,Multi,1982,Atari,7.81,9.03
-1115,Dig Dug,Multi,1982,Atari,1.64,2.05
-1705,Pole Position,2600,1982,Atari,1.18,1.18
-1817,Moon Patrol,2600,1982,Atari,1.12,1.12
-1851,Jungle Hunt,2600,1982,Atari,1.1,1.1
-1905,Joust,2600,1982,Atari,1.08,1.08
-2406,Enduro,2600,1982,Quelle,0.87,0.87
-2629,Yars' Revenge,2600,1982,Atari,0.78,0.78
-2660,Galaxian,2600,1982,Atari,0.77,0.77
-2843,Kangaroo,2600,1982,Atari,0.72,0.72
-3079,Keystone Kapers,2600,1982,Activision,0.66,0.66
-3215,X-Man,2600,1982,Universal Gamex,0.63,0.63
-3248,Battlezone,2600,1982,Atari,0.62,0.62
-3266,Halloween,2600,1982,Wizard Video Games,0.62,0.62
-3643,The Activision Decathlon,2600,1982,Activision,0.55,0.55
-3716,Action Force,2600,1982,CPG Products,0.54,0.54
-3966,Chopper Command,2600,1982,Activision,0.5,0.5
-4013,RealSports Tennis,2600,1982,Atari,0.5,0.5
-4016,Gauntlet,2600,1982,Answer Software,0.5,0.5
-4801,Congo Bongo,2600,1982,Sega,0.4,0.4
-4894,Bump 'n' Jump,2600,1982,Mattel Interactive,0.39,0.39
-5064,Gravitar,2600,1982,Atari,0.38,0.38
-5381,Alien's Return,2600,1982,ITT Family Games,0.34,0.34
-5395,Bank Heist,2600,1982,20th Century Fox Video Games,0.34,0.34
-5658,Frankenstein's Monster,2600,1982,Data Age,0.32,0.32
-5773,Mountain King,2600,1982,CBS Electronics,0.31,0.31
-6145,Polaris,2600,1982,Tigervision,0.28,0.28
-6265,Mr. Do!,2600,1982,Coleco,0.27,0.27
-6728,Porky's,2600,1982,20th Century Fox Video Games,0.25,0.25
-7149,Assault,2600,1982,Bomb,0.22,0.22
-8458,Death Trap,2600,1982,Avalon Interactive,0.17,0.17
-8758,Pressure Cooker,2600,1982,Activision,0.15,0.15
-9106,Krull,2600,1982,Atari,0.14,0.14
+Name,Platform,Year,Publisher,Global_Sales,Total_Sales
+Pac-Man,MULTI,1982,Atari,7.81,9.03,us
+Dig Dug,MULTI,1982,Atari,1.64,2.05,us
+Pole Position,2600,1982,Atari,1.18,1.18,us
+Moon Patrol,2600,1982,Atari,1.12,1.12,us,us
+Jungle Hunt,2600,1982,Atari,1.1,1.1,us
+Joust,2600,1982,Atari,1.08,1.08,us
+Enduro,2600,1982,Quelle,0.87,0.87,us
+Yars' Revenge,2600,1982,Atari,0.78,0.78,us
+Galaxian,2600,1982,Atari,0.77,0.77,us
+Kangaroo,2600,1982,Atari,0.72,0.72,us
+Keystone Kapers,2600,1982,Activision,0.66,0.66,us
+X-Man,2600,1982,Universal Gamex,0.63,0.63,us
+Battlezone,2600,1982,Atari,0.62,0.62,us
+Halloween,2600,1982,Wizard Video Games,0.62,0.62,us
+The Activision Decathlon,2600,1982,Activision,0.55,0.55,us
+Action Force,2600,1982,CPG Products,0.54,0.54,us
+Chopper Command,2600,1982,Activision,0.5,0.5,us
+RealSports Tennis,2600,1982,Atari,0.5,0.5,us
+Gauntlet,2600,1982,Answer Software,0.5,0.5,us
+Congo Bongo,2600,1982,Sega,0.4,0.4,jp
+Bump 'n' Jump,2600,1982,Mattel Interactive,0.39,0.39,us
+Gravitar,2600,1982,Atari,0.38,0.38,us
+Alien's Return,2600,1982,ITT Family Games,0.34,0.34,us
+Bank Heist,2600,1982,20th Century Fox Video Games,0.34,0.34,us
+Frankenstein's Monster,2600,1982,Data Age,0.32,0.32,us,us
+Mountain King,2600,1982,CBS Electronics,0.31,0.31,us
+Polaris,2600,1982,Tigervision,0.28,0.28,us
+Mr. Do!,2600,1982,Coleco,0.27,0.27,us
+Porky's,2600,1982,20th Century Fox Video Games,0.25,0.25,us
+Assault,2600,1982,Bomb,0.22,0.22,us
+Death Trap,2600,1982,Avalon Interactive,0.17,0.17,us
+Pressure Cooker,2600,1982,Activision,0.15,0.15,us
+Krull,2600,1982,Atari,0.14,0.14,us

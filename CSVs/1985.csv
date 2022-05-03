@@ -1,12 +1,12 @@
-,Name,Platform,Year,Publisher,Global_Sales,Total_Sales
-1,Super Mario Bros.,NES,1985,Nintendo,40.24,40.24
-374,Kung Fu,NES,1985,Nintendo,3.5,3.5
-868,Soccer,NES,1985,Nintendo,1.96,1.96
-1260,Ice Climber,NES,1985,Nintendo,1.5,1.5
-1490,Gyromite,NES,1985,Nintendo,1.32,1.32
-1973,Tag Team Match M.U.S.C.L.E.,NES,1985,Namco Bandai Games,1.05,1.05
-2020,Bomberman,Multi,1985,Hudson Soft,1.03,1.04
-2059,1942,NES,1985,Capcom,1.0,1.0
-2259,Balloon Fight,NES,1985,Nintendo,0.92,0.92
-3907,Wrecking Crew,NES,1985,Nintendo,0.51,0.51
-4337,Ghostbusters,2600,1985,Activision,0.45,0.45
+Name,Platform,Year,Publisher,Global_Sales,Total_Sales
+Super Mario Bros.,NES,1985,Nintendo,40.24,40.24
+Kung Fu,NES,1985,Nintendo,3.5,3.5
+Soccer,NES,1985,Nintendo,1.96,1.96
+Ice Climber,NES,1985,Nintendo,1.5,1.5
+Gyromite,NES,1985,Nintendo,1.32,1.32
+Tag Team Match M.U.S.C.L.E.,NES,1985,Namco Bandai Games,1.05,1.05
+Bomberman,MULTI,1985,Hudson Soft,1.03,1.04
+1942,NES,1985,Capcom,1.0,1.0
+Balloon Fight,NES,1985,Nintendo,0.92,0.92
+Wrecking Crew,NES,1985,Nintendo,0.51,0.51
+Ghostbusters,2600,1985,Activision,0.45,0.45

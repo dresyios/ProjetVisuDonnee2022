@@ -1,14 +1,14 @@
-,Name,Platform,Year,Publisher,Global_Sales,Total_Sales
-9,Duck Hunt,NES,1984,Nintendo,28.31,28.31
-277,Excitebike,NES,1984,Nintendo,4.16,4.16
-298,Golf,NES,1984,Nintendo,4.01,4.01
-754,Tennis,NES,1984,Nintendo,2.17,2.17
-938,Pinball,NES,1984,Nintendo,1.85,1.85
-1233,F1 Race,NES,1984,Nintendo,1.52,1.52
-1234,Xevious,NES,1984,Namco Bandai Games,1.52,1.52
-1324,4 Nin uchi Mahjong,NES,1984,Nintendo,1.45,1.45
-1560,Hogan's Alley,NES,1984,Nintendo,1.27,1.27
-1857,Lode Runner,NES,1984,Hudson Soft,1.1,1.1
-2513,Clu Clu Land,NES,1984,Nintendo,0.82,0.82
-2955,Mappy,NES,1984,Namco Bandai Games,0.69,0.69
-6296,Beamrider,2600,1984,Activision,0.27,0.27
+Name,Platform,Year,Publisher,Global_Sales,Total_Sales
+Duck Hunt,NES,1984,Nintendo,28.31,28.31,jp
+Excitebike,NES,1984,Nintendo,4.16,4.16,jp
+Golf,NES,1984,Nintendo,4.01,4.01,jp
+Tennis,NES,1984,Nintendo,2.17,2.17,jp
+Pinball,NES,1984,Nintendo,1.85,1.85,jp
+F1 Race,NES,1984,Nintendo,1.52,1.52,jp
+Xevious,NES,1984,Namco Bandai Games,1.52,1.52,jp
+4 Nin uchi Mahjong,NES,1984,Nintendo,1.45,1.45,jp
+Hogan's Alley,NES,1984,Nintendo,1.27,1.27,jp
+Lode Runner,NES,1984,Hudson Soft,1.1,1.1,jp
+Clu Clu Land,NES,1984,Nintendo,0.82,0.82,jp
+Mappy,NES,1984,Namco Bandai Games,0.69,0.69,jp
+Beamrider,2600,1984,Activision,0.27,0.27,us
