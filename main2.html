@@ -7,7 +7,7 @@
     <title>Document</title>
     <style>
         svg {
-            background-color: lightgreen;
+            background-image:url('https://upload.wikimedia.org/wikipedia/commons/d/df/Worldmap_location_NED_50m.svg');
             margin : 0 auto;
         }
     </style>
@@ -29,29 +29,47 @@
                 Country:d.Country
             }
         }).then(donnees =>{
-            // vérfier que les données ont bien été importées
-            console.log(donnees);
 
-            let 1984 = donnees.filter(function(d) 
+            let data1984 = donnees.filter(function(d)
             { 
-                if( d["Year"] == "1984")
-                { 
+                if(d["Year"] == "1984") { 
                     return d;
                 } 
-            }
-            )
+                })
 
-            console.log(1984)
-           
+            console.log(data1984)
+
+            let total1984 = d3.sum(data1984, d => d.Total_Sales)
+            console.log(total1984)
+
+            let data1984JP = data1984.filter(function(d)
+            { 
+                if(d["Country"] == "jp") { 
+                    return d;
+                } 
+                })
+
+            let total1984JP = d3.sum(data1984JP, d => d.Total_Sales)
+            console.log(total1984JP)
+
+            let data1984US = data1984.filter(function(d)
+            { 
+                if(d["Country"] == "us") { 
+                    return d;
+                } 
+                })
+
+            let total1984US = d3.sum(data1984US, d => d.Total_Sales)
+            console.log(total1984US)
+
+
+
             // création de notre premier espace de dessin
             let canevas1 = d3.select("body")
             .append("svg")
             .attr("width", largeur)
             .attr("height", 200);
-
-            let ventesMaximal = d3.max(donnees,d => d.Total_Sales)
-            console.log("Ventes max : ",ventesMaximal)
-            ....
+            
         })        
         
     </script>
