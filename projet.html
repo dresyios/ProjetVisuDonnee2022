@@ -22,10 +22,12 @@
         d3.csv('dataGames.csv',function(d){
             //renommer variables et définir type de variable
             return {
-                continent : d.continent,
-                annee : +d.annee,
-                jeux : +d.jeux,
-                constructeur : d.constructeur
+                Name: d.Name,
+                Platform:d.Platform,
+                Year:+d.Year,
+                Publisher:d.Publisher,
+                Total_Sales : +d.Total_Sales, // changé le nom + converti en nombre
+                Country:d.Country
             }
         }).then(donnees =>{
             //vérifier données
