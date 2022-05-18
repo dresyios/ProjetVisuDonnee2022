@@ -22,12 +22,12 @@
         d3.csv('essai.csv',function(d){
             //renommer variables et définir type de variable
             return {
-                Name: d.Name,
-                Platform:d.Platform,
-                Year:+d.Year,
-                Publisher:d.Publisher,
+                Name : d.Name,
+                Platform : d.Platform,
+                Year : +d.Year,
+                Publisher : d.Publisher,
                 Total_Sales : +d.Total_Sales, // changé le nom + converti en nombre
-                Country:d.Country
+                Country : d.Country
             }
         }).then(donnees =>{
             //vérifier données
@@ -38,243 +38,68 @@
             .append("svg")
             .attr("width", 1100)
             .attr("height", 550);
-            //trier pour avoir que les données de l'Amérique du Nord
-            let donnees = donnees.filter(function(d)
+            //trier pour avoir que les données de 1984
+            let donnees1984 = donnees.filter(function(d)
             { 
 
-                if( d["continent"] == "amnord")
+                if( d["Year"] == "1984")
                 { 
                     return d;
                 } 
 
                 })
 
-            console.log(donneesAmnord)
-            //cercles Amérique du Nord
+            let donnees1984us = donnees1984.filter(function(d)
+            { 
+
+                if( d["Country"] == "us")
+                { 
+                    return d;
+                } 
+
+                })
+
+            let Ventes1984us = d3.sum(donnees1984us, d => d.Total_Sales)
+            console.log(Ventes1984us)
+
+            //cercle Japon
             canevas1.selectAll('circle')
-            .data(donneesAmnord)
+            .data(Ventes1984us)
             .enter()
             .append('circle')
                 .attr('cx',(d,i) => 120 + i * 25)
                 .attr('cy', 150)
-                .attr('r', d => d.jeux)
-                .attr('fill', d =>{
-                    if(d.constructeur == 'Magnavox'){return 'pink'}
-                    else if(d.constructeur == 'Fairchild'){return 'brown'}
-                    else if(d.constructeur == 'Atari'){return 'black'}
-                    else if(d.constructeur == 'Nintendo'){return 'red'}
-                    else if(d.constructeur == 'Sega'){return 'lightblue'}
-                    else if(d.constructeur == 'NEC'){return 'darkblue'}
-                    else if(d.constructeur == 'SNK'){return 'turquoise'}
-                    else if(d.constructeur == 'Sony'){return 'blue'}
-                    else if(d.constructeur == 'Microsoft'){return 'green'}
+                .attr('r', d => d.Ventes1984us)
+                .attr('fill', 'blue')
+                .attr('opacity', 1)
+
+            //trier pour avoir que les données Japon
+
+            let donnees1984jp = donnees1984.filter(function(d)
+            { 
+
+                if( d["Country"] == "jp")
+                { 
+                    return d;
+                } 
+
                 })
+
+            let Ventes1984jp = d3.sum(donnees1984jp, d => d.Total_Sales)
+            console.log(Ventes1984jp)
+
+            //cercle Japon 1984
+            canevas1.append('g').selectAll('circle')
+            .data(Ventes1984jp)
+            .enter()
+            .append('circle')
+                .attr('cx',(d,i) => 120 + i * 25)
+                .attr('cy', 150)
+                .attr('r', d => d.Ventes1984jp)
+                .attr('fill', 'blue')
                 .attr('opacity', 1)
             
             //trier pour avoir que les données de l'Amérique du Sud
-            let donneesAmsud = donnees.filter(function(d) 
-            { 
-
-                if( d["continent"] == "amsud")
-                { 
-                    return d;
-                } 
-
-                })
-
-            console.log(donneesAmsud)
-
-            //cercles Amérique du Sud
-            canevas1.append('g').selectAll('circle')
-            .data(donneesAmsud)
-            .enter()
-            .append('circle')
-                .attr('cx',(d,i) => 240 + i * 25)
-                .attr('cy', 320)
-                .attr('r', d => d.jeux)
-                .attr('fill', d =>{
-                    if(d.constructeur == 'Magnavox'){return 'pink'}
-                    else if(d.constructeur == 'Fairchild'){return 'brown'}
-                    else if(d.constructeur == 'Atari'){return 'black'}
-                    else if(d.constructeur == 'Nintendo'){return 'red'}
-                    else if(d.constructeur == 'Sega'){return 'lightblue'}
-                    else if(d.constructeur == 'NEC'){return 'darkblue'}
-                    else if(d.constructeur == 'SNK'){return 'turquoise'}
-                    else if(d.constructeur == 'Sony'){return 'blue'}
-                    else if(d.constructeur == 'Microsoft'){return 'green'}
-                })
-                .attr('opacity', 1)
-
-            //trier pour avoir que les données de l'Europe
-            let donneesEurope = donnees.filter(function(d) 
-            { 
-
-                if( d["continent"] == "europe")
-                { 
-                    return d;
-                } 
-
-                })
-
-            console.log(donneesEurope)
-
-            //cercles Europe
-            canevas1.append('g').selectAll('circle')
-            .data(donneesEurope)
-            .enter()
-            .append('circle')
-                .attr('cx',(d,i) => 500 + i * 25)
-                .attr('cy', 120)
-                .attr('r', d => d.jeux)
-                .attr('fill', d =>{
-                    if(d.constructeur == 'Magnavox'){return 'pink'}
-                    else if(d.constructeur == 'Fairchild'){return 'brown'}
-                    else if(d.constructeur == 'Atari'){return 'black'}
-                    else if(d.constructeur == 'Nintendo'){return 'red'}
-                    else if(d.constructeur == 'Sega'){return 'lightblue'}
-                    else if(d.constructeur == 'NEC'){return 'darkblue'}
-                    else if(d.constructeur == 'SNK'){return 'turquoise'}
-                    else if(d.constructeur == 'Sony'){return 'blue'}
-                    else if(d.constructeur == 'Microsoft'){return 'green'}
-                })
-                .attr('opacity', 1)
-
-            //trier pour avoir que les données de l'Afrique
-            let donneesAfrique = donnees.filter(function(d) 
-            { 
-
-                if( d["continent"] == "afrique")
-                { 
-                    return d;
-                } 
-
-                })
-
-            console.log(donneesAfrique)
-
-            //cercles Afrique
-            canevas1.append('g').selectAll('circle')
-            .data(donneesAfrique)
-            .enter()
-            .append('circle')
-                .attr('cx',(d,i) => 470 + i * 25)
-                .attr('cy', 250)
-                .attr('r', d => d.jeux)
-                .attr('fill', d =>{
-                    if(d.constructeur == 'Magnavox'){return 'pink'}
-                    else if(d.constructeur == 'Fairchild'){return 'brown'}
-                    else if(d.constructeur == 'Atari'){return 'black'}
-                    else if(d.constructeur == 'Nintendo'){return 'red'}
-                    else if(d.constructeur == 'Sega'){return 'lightblue'}
-                    else if(d.constructeur == 'NEC'){return 'darkblue'}
-                    else if(d.constructeur == 'SNK'){return 'turquoise'}
-                    else if(d.constructeur == 'Sony'){return 'blue'}
-                    else if(d.constructeur == 'Microsoft'){return 'green'}
-                })
-                .attr('opacity', 1)
-
-            //trier pour avoir que les données de l'Asie
-            let donneesAsie = donnees.filter(function(d) 
-            { 
-
-                if( d["continent"] == "asie")
-                { 
-                    return d;
-                } 
-
-                })
-
-            console.log(donneesAsie)
-            
-            //cercles Asie
-            canevas1.append('g').selectAll('circle')
-            .data(donneesAsie)
-            .enter()
-            .append('circle')
-                .attr('cx',(d,i) => 800 + i * 25)
-                .attr('cy', 150)
-                .attr('r', d => d.jeux)
-                .attr('fill', d =>{
-                    if(d.constructeur == 'Magnavox'){return 'pink'}
-                    else if(d.constructeur == 'Fairchild'){return 'brown'}
-                    else if(d.constructeur == 'Atari'){return 'black'}
-                    else if(d.constructeur == 'Nintendo'){return 'red'}
-                    else if(d.constructeur == 'Sega'){return 'lightblue'}
-                    else if(d.constructeur == 'NEC'){return 'darkblue'}
-                    else if(d.constructeur == 'SNK'){return 'turquoise'}
-                    else if(d.constructeur == 'Sony'){return 'blue'}
-                    else if(d.constructeur == 'Microsoft'){return 'green'}
-                })
-                .attr('opacity', 1)
-
-            //trier pour avoir que les données de l'Océanie
-            let donneesOceanie = donnees.filter(function(d) 
-            { 
-
-                if( d["continent"] == "oceanie")
-                { 
-                    return d;
-                } 
-
-                })
-
-            console.log(donneesOceanie)
-
-            //cercles Océanie
-            canevas1.append('g').selectAll('circle')
-            .data(donneesOceanie)
-            .enter()
-            .append('circle')
-                .attr('cx',(d,i) => 850 + i * 25)
-                .attr('cy', 320)
-                .attr('r', d => d.jeux)
-                .attr('fill', d =>{
-                    if(d.constructeur == 'Magnavox'){return 'pink'}
-                    else if(d.constructeur == 'Fairchild'){return 'brown'}
-                    else if(d.constructeur == 'Atari'){return 'black'}
-                    else if(d.constructeur == 'Nintendo'){return 'red'}
-                    else if(d.constructeur == 'Sega'){return 'lightblue'}
-                    else if(d.constructeur == 'NEC'){return 'darkblue'}
-                    else if(d.constructeur == 'SNK'){return 'turquoise'}
-                    else if(d.constructeur == 'Sony'){return 'blue'}
-                    else if(d.constructeur == 'Microsoft'){return 'green'}
-                })
-                .attr('opacity', 0.8)
-            
-            //couleurs légendes
-            let nomsConstructeurs = ['Magnavox','Fairchild','Atari','Nintendo','Sega','NEC','SNK','Sony','Microsoft']
-            canevas1.append('g').selectAll('circle')
-            .data(nomsConstructeurs)
-            .enter()
-            .append('circle')
-                .attr('cx', 20)
-                .attr('cy', (d,i) => 300 + i * 25)
-                .attr('r', 10)
-                .attr('fill', d =>{
-                    if(d == 'Magnavox'){return 'pink'}
-                    else if(d == 'Fairchild'){return 'brown'}
-                    else if(d == 'Atari'){return 'black'}
-                    else if(d == 'Nintendo'){return 'red'}
-                    else if(d == 'Sega'){return 'lightblue'}
-                    else if(d == 'NEC'){return 'darkblue'}
-                    else if(d == 'SNK'){return 'turquoise'}
-                    else if(d == 'Sony'){return 'blue'}
-                    else if(d == 'Microsoft'){return 'green'}
-                })
-                .attr('opacity', 1)
-
-            // textes de la légende
-            canevas1.append('g').selectAll('text')
-            .data(nomsConstructeurs)
-            .enter()
-            .append('text')
-                .attr('x', 40)
-                .attr('y', (d,i) => 3 + 302 + i * 25)
-                .text(d => d)
-                .attr('fill', d =>{
-                    {return 'black'}
-                })
-
 
         })        
         
