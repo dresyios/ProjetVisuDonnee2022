@@ -1,9 +1,9 @@
 Name,Platform,Year,Publisher,Global_Sales,Total_Sales
-Asteroids,MULTI,1980,Atari,4.31,5.459999999999999
-Missile Command,MULTI,1980,Atari,2.76,3.21
-Kaboom!,2600,1980,Activision,1.15,1.15
-Defender,MULTI,1980,Atari,1.05,1.6500000000000001
-Boxing,MULTI,1980,Activision,0.77,0.8400000000000001
-Freeway,2600,1980,Activision,0.34,0.34
-Bridge,2600,1980,Activision,0.27,0.27
-Checkers,2600,1980,Atari,0.24,0.24
+Asteroids,MULTI,1980,Atari,4.31,5.459999999999999,us
+Missile Command,MULTI,1980,Atari,2.76,3.21,us
+Kaboom!,2600,1980,Activision,1.15,1.15,us
+Defender,MULTI,1980,Atari,1.05,1.6500000000000001,us
+Boxing,MULTI,1980,Activision,0.77,0.8400000000000001,us
+Freeway,2600,1980,Activision,0.34,0.34,us
+Bridge,2600,1980,Activision,0.27,0.27,us
+Checkers,2600,1980,Atari,0.24,0.24,us
