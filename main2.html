@@ -30,8 +30,19 @@
             }
         }).then(donnees =>{
             // vérfier que les données ont bien été importées
-            console.log(donnees)
+            console.log(donnees);
 
+            let 1984 = donnees.filter(function(d) 
+            { 
+                if( d["Year"] == "1984")
+                { 
+                    return d;
+                } 
+            }
+            )
+
+            console.log(1984)
+           
             // création de notre premier espace de dessin
             let canevas1 = d3.select("body")
             .append("svg")
