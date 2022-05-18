@@ -1,8 +1,8 @@
-Name,Platform,Year,Publisher,Global_Sales,Total_Sales
+Name,Platform,Year,Publisher,Global_Sales,Total_Sales,Country
 Pac-Man,MULTI,1982,Atari,7.81,9.03,us
 Dig Dug,MULTI,1982,Atari,1.64,2.05,us
 Pole Position,2600,1982,Atari,1.18,1.18,us
-Moon Patrol,2600,1982,Atari,1.12,1.12,us,us
+Moon Patrol,2600,1982,Atari,1.12,1.12,us
 Jungle Hunt,2600,1982,Atari,1.1,1.1,us
 Joust,2600,1982,Atari,1.08,1.08,us
 Enduro,2600,1982,Quelle,0.87,0.87,us
@@ -23,7 +23,7 @@ Bump 'n' Jump,2600,1982,Mattel Interactive,0.39,0.39,us
 Gravitar,2600,1982,Atari,0.38,0.38,us
 Alien's Return,2600,1982,ITT Family Games,0.34,0.34,us
 Bank Heist,2600,1982,20th Century Fox Video Games,0.34,0.34,us
-Frankenstein's Monster,2600,1982,Data Age,0.32,0.32,us,us
+Frankenstein's Monster,2600,1982,Data Age,0.32,0.32,us
 Mountain King,2600,1982,CBS Electronics,0.31,0.31,us
 Polaris,2600,1982,Tigervision,0.28,0.28,us
 Mr. Do!,2600,1982,Coleco,0.27,0.27,us

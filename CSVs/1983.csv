@@ -1,17 +1,17 @@
-Name,Platform,Year,Publisher,Global_Sales,Total_Sales
-Baseball,NES,1983,Nintendo,3.2,3.2
-Mario Bros.,MULTI,1983,Nintendo,2.28,3.87
-Mahjong,NES,1983,Nintendo,2.14,2.14
-Pitfall II: Lost Caverns,2600,1983,Activision,1.31,1.31
-Donkey Kong Jr.,NES,1983,Nintendo,1.11,1.11
-Popeye,MULTI,1983,Nintendo,1.1,1.6400000000000001
-Jr. Pac-Man,2600,1983,Atari,0.78,0.78
-Crystal Castles,2600,1983,Atari,0.77,0.77
-Midnight Magic,2600,1983,Atari,0.5,0.5
-Millipede,2600,1983,Atari,0.48,0.48
-Gremlins,2600,1983,Atari,0.46,0.46
-Pengo,2600,1983,Atari,0.4,0.4
-Frostbite,2600,1983,Activision,0.34,0.34
-Frogger II: Threeedeep!,2600,1983,Parker Bros.,0.33,0.33
-Dolphin,2600,1983,Activision,0.29,0.29
-Mr. Do!'s Castle,2600,1983,Parker Bros.,0.17,0.17
+Name,Platform,Year,Publisher,Global_Sales,Total_Sales,Country
+Baseball,NES,1983,Nintendo,3.2,3.2,jp
+Mario Bros.,MULTI,1983,Nintendo,2.28,3.87,jp
+Mahjong,NES,1983,Nintendo,2.14,2.14,jp
+Pitfall II: Lost Caverns,2600,1983,Activision,1.31,1.31,us
+Donkey Kong Jr.,NES,1983,Nintendo,1.11,1.11,jp
+Popeye,MULTI,1983,Nintendo,1.1,1.6400000000000001,jp
+Jr. Pac-Man,2600,1983,Atari,0.78,0.78,us
+Crystal Castles,2600,1983,Atari,0.77,0.77,us
+Midnight Magic,2600,1983,Atari,0.5,0.5,us
+Millipede,2600,1983,Atari,0.48,0.48,us
+Gremlins,2600,1983,Atari,0.46,0.46,us
+Pengo,2600,1983,Atari,0.4,0.4,us
+Frostbite,2600,1983,Activision,0.34,0.34,us
+Frogger II: Threeedeep!,2600,1983,Parker Bros.,0.33,0.33,us
+Dolphin,2600,1983,Activision,0.29,0.29,us
+Mr. Do!'s Castle,2600,1983,Parker Bros.,0.17,0.17,us
