@@ -69,6 +69,10 @@
             .append("svg")
             .attr("width", largeur)
             .attr("height", 200);
+
+            let ventesMaximal = d3.max(donnees,d => d.Total_Sales)
+            console.log("Ventes max : ",ventesMaximal)
+
             
         })        
         
