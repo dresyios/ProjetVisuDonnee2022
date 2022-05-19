@@ -56,9 +56,9 @@
                 .append('circle')
                     .attr('cx', (d) => d.LocX)
                     .attr('cy', (d) => d.LocY)
-                    .attr('r',  (d) => (d.Sales*30)/totalYear)
-                    .attr('opacity', 0.5)
-                    .style('fill', 'orange')
+                    .attr('r',  (d) => Math.sqrt((d.Sales*100)/totalYear)*5)
+                    .attr('opacity', 0.7)
+                    .style('fill', 'red')
                 }
 
             drawYear("1993")
