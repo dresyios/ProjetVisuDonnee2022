@@ -16,11 +16,6 @@
     <script>
         const largeur = window.innerWidth;
         const hauteur = window.innerHeight;
-
-        let locUS = [210, 155]
-        let locJP = [500, 155]
-
-
         // lier les données
         d3.csv('CSVs/dataset.csv',function(d){
             return{
@@ -32,35 +27,42 @@
             }
         }).then(donnees =>{
 
-            let data1984 = donnees.filter(function(d)
-            { 
-                if(d["Year"] == "1984") { 
+
+            function drawYear(year) {
+                console.log("Hello")
+                let dataYear = donnees.filter(function(d)
+                { 
+                if(d["Year"] == year) { 
                     return d;
                 } 
                 })
 
-            console.log(data1984)
+                console.log(dataYear)
 
-            let total1984 = d3.sum(data1984, d => d.Sales)
-            console.log(total1984)
+                let totalYear = d3.sum(dataYear, d => d.Sales)
+                console.log(totalYear)
             
-            //créer canevas
-            let canevas1 = d3.select("body")
-            .append("svg")
-            .attr("width", 1100)
-            .attr("height", 550);
+                //créer canevas
+                let canevas1 = d3.select("body")
+                .append("svg")
+                .attr("width", 1100)
+                .attr("height", 550);
 
 
-            // création de notre premier espace de dessin
-            canevas1.selectAll('circle')
-            .data(data1984)
-            .enter()
-            .append('circle')
-                .attr('cx', (d) => d.LocX)
-                .attr('cy', (d) => d.LocY)
-                .attr('r',  (d) => (d.Sales*30)/total1984)
-                .attr('opacity', 0.5)
-                .style('fill', 'orange')
+                // création de notre premier espace de dessin
+                canevas1.selectAll('circle')
+                .data(dataYear)
+                .enter()
+                .append('circle')
+                    .attr('cx', (d) => d.LocX)
+                    .attr('cy', (d) => d.LocY)
+                    .attr('r',  (d) => (d.Sales*30)/totalYear)
+                    .attr('opacity', 0.5)
+                    .style('fill', 'orange')
+                }
+
+            drawYear("1993")
+
             
         })        
         

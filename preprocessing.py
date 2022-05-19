@@ -37,5 +37,5 @@ print("flat: ", flat_newData)
 dataNP = np.array(flat_newData)
 print("dataNP: ", dataNP)
 
-df = pd.DataFrame(dataNP, columns=['Year,','Country','LocX','LocY','Sales'])
+df = pd.DataFrame(dataNP, columns=['Year','Country','LocX','LocY','Sales'])
 df.to_csv('CSVs/dataset.csv', index=False)
