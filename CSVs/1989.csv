@@ -1,8 +1,8 @@
 Name,Platform,Year,Publisher,Global_Sales,Total_Sales,Country
-Teenage Mutant Ninja Turtles,MULTI,1989,Palcom,4.17,5.74
-Disney's DuckTales,NES,1989,Capcom,1.67,1.67
-Famicom Jump: Eiyuu Retsuden,NES,1989,Namco Bandai Games,1.1,1.1
-Castlevania III: Dracula's Curse,NES,1989,Konami Digital Entertainment,0.85,0.85
-Double Dragon,2600,1989,Activision,0.47,0.47
-Klax,2600,1989,Atari,0.15,0.15
-Adventures of Lolo,NES,1989,HAL Laboratory,0.06,0.06
+Teenage Mutant Ninja Turtles,MULTI,1989,Palcom,4.17,5.74,jp
+Disney's DuckTales,NES,1989,Capcom,1.67,1.67,jp
+Famicom Jump: Eiyuu Retsuden,NES,1989,Namco Bandai Games,1.1,1.1,jp
+Castlevania III: Dracula's Curse,NES,1989,Konami Digital Entertainment,0.85,0.85,jp
+Double Dragon,2600,1989,Activision,0.47,0.47,us
+Klax,2600,1989,Atari,0.15,0.15,us
+Adventures of Lolo,NES,1989,HAL Laboratory,0.06,0.06,jp
