@@ -8,7 +8,6 @@
     <style>
         svg {
             background-image:url('https://upload.wikimedia.org/wikipedia/commons/d/df/Worldmap_location_NED_50m.svg');
-            margin : 0 auto;
         }
     </style>
 </head>
@@ -18,15 +17,18 @@
         const largeur = window.innerWidth;
         const hauteur = window.innerHeight;
 
+        let locUS = [210, 155]
+        let locJP = [500, 155]
+
+
         // lier les données
-        d3.csv('CSVs/essai.csv',function(d){
+        d3.csv('CSVs/bonFormat.csv',function(d){
             return{
-                Name: d.Name,
-                Platform:d.Platform,
-                Year:+d.Year,
-                Publisher:d.Publisher,
-                Total_Sales : +d.Total_Sales, // changé le nom + converti en nombre
-                Country:d.Country
+                Year: d.Year,
+                Country:d.Country,
+                LocX:+d.LocX,
+                LocY:+d.LocY
+                Sales : +d.Sales, // changé le nom + converti en nombre
             }
         }).then(donnees =>{
 
@@ -39,36 +41,26 @@
 
             console.log(data1984)
 
-            let total1984 = d3.sum(data1984, d => d.Total_Sales)
+            let total1984 = d3.sum(data1984, d => d.Sales)
             console.log(total1984)
-
-            let data1984JP = data1984.filter(function(d)
-            { 
-                if(d["Country"] == "jp") { 
-                    return d;
-                } 
-                })
-
-            let total1984JP = d3.sum(data1984JP, d => d.Total_Sales)
-            console.log(total1984JP)
-
-            let data1984US = data1984.filter(function(d)
-            { 
-                if(d["Country"] == "us") { 
-                    return d;
-                } 
-                })
-
-            let total1984US = d3.sum(data1984US, d => d.Total_Sales)
-            console.log(total1984US)
-
+            
+            //créer canevas
+            let canevas1 = d3.select("body")
+            .append("svg")
+            .attr("width", 1100)
+            .attr("height", 550);
 
 
             // création de notre premier espace de dessin
-            let canevas1 = d3.select("body")
-            .append("svg")
-            .attr("width", largeur)
-            .attr("height", 200);
+            canevas1.selectAll('circle')
+            .data(data1984)
+            .enter()
+            .append('circle')
+                .attr('cx', (d) => d.LocX)
+                .attr('cy', (d) => d.LocY)
+                .attr('r',  (d) => (d.Sales*30)/total1984)
+                .attr('opacity', 0.5)
+                .style('fill', 'orange')
             
         })        
         
