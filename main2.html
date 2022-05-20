@@ -8,7 +8,6 @@
     <style>
         svg {
             background-image:url('https://upload.wikimedia.org/wikipedia/commons/d/df/Worldmap_location_NED_50m.svg');
-            margin : 0 auto;
         }
     </style>
 </head>
@@ -17,61 +16,52 @@
     <script>
         const largeur = window.innerWidth;
         const hauteur = window.innerHeight;
-
         // lier les données
-        d3.csv('CSVs/essai.csv',function(d){
+        d3.csv('dataset.csv',function(d){
             return{
-                Name: d.Name,
-                Platform:d.Platform,
-                Year:+d.Year,
-                Publisher:d.Publisher,
-                Total_Sales : +d.Total_Sales, // changé le nom + converti en nombre
-                Country:d.Country
+                Year: d.Year,
+                Country:d.Country,
+                LocX:+d.LocX,
+                LocY:+d.LocY,
+                Sales : +d.Sales, // changé le nom + converti en nombre
             }
         }).then(donnees =>{
 
-            let data1984 = donnees.filter(function(d)
-            { 
-                if(d["Year"] == "1984") { 
+
+            function drawYear(year) {
+                console.log("Hello")
+                let dataYear = donnees.filter(function(d)
+                { 
+                if(d["Year"] == year) { 
                     return d;
                 } 
                 })
 
-            console.log(data1984)
+                console.log(dataYear)
 
-            let total1984 = d3.sum(data1984, d => d.Total_Sales)
-            console.log(total1984)
-
-            let data1984JP = data1984.filter(function(d)
-            { 
-                if(d["Country"] == "jp") { 
-                    return d;
-                } 
-                })
-
-            let total1984JP = d3.sum(data1984JP, d => d.Total_Sales)
-            console.log(total1984JP)
-
-            let data1984US = data1984.filter(function(d)
-            { 
-                if(d["Country"] == "us") { 
-                    return d;
-                } 
-                })
-
-            let total1984US = d3.sum(data1984US, d => d.Total_Sales)
-            console.log(total1984US)
+                let totalYear = d3.sum(dataYear, d => d.Sales)
+                console.log(totalYear)
+            
+                //créer canevas
+                let canevas1 = d3.select("body")
+                .append("svg")
+                .attr("width", 1100)
+                .attr("height", 550);
 
 
+                // création de notre premier espace de dessin
+                canevas1.selectAll('circle')
+                .data(dataYear)
+                .enter()
+                .append('circle')
+                    .attr('cx', (d) => d.LocX)
+                    .attr('cy', (d) => d.LocY)
+                    .attr('r',  (d) => Math.sqrt((d.Sales*100)/totalYear)*5)
+                    .attr('opacity', 0.7)
+                    .style('fill', 'red')
+                }
 
-            // création de notre premier espace de dessin
-            let canevas1 = d3.select("body")
-            .append("svg")
-            .attr("width", largeur)
-            .attr("height", 200);
-
-            let ventesMaximal = d3.max(donnees,d => d.Total_Sales)
-            console.log("Ventes max : ",ventesMaximal)
+            drawYear("1990")
 
             
         })        
