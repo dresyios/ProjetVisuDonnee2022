@@ -64,7 +64,7 @@
             console.log(Ventes1984us)
 
             //cercle US
-            canevas1.append('g').selectAll('circle')
+            canevas1.selectAll('circle')
             .data(donnees1984us)
             .enter()
             .append('circle')
@@ -89,7 +89,7 @@
             console.log(Ventes1984jp)
 
             //cercle Japon 1984
-            canevas1.append('g').selectAll('circle')
+            canevas1.selectAll('circle')
             .data(donnees1984jp)
             .enter()
             .append('circle')
