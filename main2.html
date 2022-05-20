@@ -55,7 +55,7 @@
 
 
                 // FONCTIONNALITE : mettre le cercle en évidence et afficher des infos quand on passe la souris dessus
-                var Tooltip = d3.select("body")
+                let Tooltip = d3.select("body")
                     .append("div")
                     .style("opacity", 0)
                     .attr("class", "tooltip")
@@ -66,20 +66,20 @@
                     .style("padding", "5px")
 
                 // les fonctions pour faire cela
-                var mouseover = function(d) {
+                let mouseover = function(d) {
                     Tooltip
                     .style("opacity", 1)
                     d3.select(this)
                     .style("stroke", "black")
                     .style("opacity", 1)
                 }
-                var mousemove = function(d) {
+                let mousemove = function(d) {
                     Tooltip
                     .html("Pays :" + d.Country + "<br> Ventes totales sur l'année :" + d.Sales) //ne fonctionne pas pour l'instant
                     .style("left", (d3.mouse(this)[0]+70) + "px")
                     .style("top", (d3.mouse(this)[1]) + "px")
                 }
-                var mouseleave = function(d) {
+                let mouseleave = function(d) {
                     Tooltip
                     .style("opacity", 0)
                     d3.select(this)
