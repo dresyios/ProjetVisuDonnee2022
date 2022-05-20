@@ -17,7 +17,7 @@
         const largeur = window.innerWidth;
         const hauteur = window.innerHeight;
         // lier les données
-        d3.csv('CSVs/dataset.csv',function(d){
+        d3.csv('dataset.csv',function(d){
             return{
                 Year: d.Year,
                 Country:d.Country,
@@ -61,7 +61,7 @@
                     .style('fill', 'red')
                 }
 
-            drawYear("1993")
+            drawYear("1990")
 
             
         })        

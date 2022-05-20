@@ -38,4 +38,4 @@ dataNP = np.array(flat_newData)
 print("dataNP: ", dataNP)
 
 df = pd.DataFrame(dataNP, columns=['Year','Country','LocX','LocY','Sales'])
-df.to_csv('CSVs/dataset.csv', index=False)
+df.to_csv('dataset.csv', index=False)
