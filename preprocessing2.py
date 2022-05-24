@@ -27,6 +27,7 @@ for year in range(1980,1982):
     #TRIER CURRENT ARRAY LA
     
 
+
     newData.append(currentArray)
 
 print('Array :', newData)
