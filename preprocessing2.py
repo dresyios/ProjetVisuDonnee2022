@@ -25,7 +25,17 @@ for year in range(1980,1982):
     print("Current array: ", currentArray)
     
     #TRIER CURRENT ARRAY LA
+    swapped = True
+    while swapped:
+        swapped = False
+        for i in range(len(currentArray) - 1):
+            if currentArray[i] < currentArray[i + 1]:
+                # Swap the elements
+                currentArray[i], currentArray[i + 1] = currentArray[i + 1], currentArray[i]
+                # Set the flag to True so we'll loop again
+                swapped = True
     
+    print("Current array: ", currentArray)
 
 
     newData.append(currentArray)
