@@ -19,12 +19,9 @@
         }
     </style>
     <script src="https://d3js.org/d3.v4.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
 
 </head>
 <body>
-
-    <input type="range" name="monSlider" id=monslider min="1980" max="2016" value="1"> 
     <script src="JS/drawPublisher.js"></script>
     <script src="JS/drawYear.js"></script>
 
@@ -38,26 +35,7 @@
             .attr("height", svgHeight);
     
 
-            //créer canevas
-            let canevas1 = d3.select("body")
-                .append("svg")
-                .attr("width", 1100)
-                .attr("height", 550);
-
-            function drawYear(year) {
-                console.log("Hello")
-                let dataYear = donnees.filter(function(d)
-                { 
-                if(d["Year"] == year) { 
-                    return d;
-                } 
-                })
-
-                console.log(dataYear)
-
-                let totalYear = d3.sum(dataYear, d => d.Sales)
-                console.log(totalYear);
-        drawPublisher(1995, 'jp')
+        drawPublisher(1980, 'us')
 
 
         // FONCTIONNALITE : création d'un bouton pour sélectionner l'année désirée (ne marche pas à tous les coups, je cherche encore pourquoi)
@@ -80,24 +58,14 @@
         // quand on appuie
         dropdownButton.on("change", function(d) {
 
-            let selectedOption = d3.select(this).property("value")
+        let selectedOption = d3.select(this).property("value")
 
-            // afficher les ventes de l'années sélectionnée
-            drawYear(selectedOption)
+        // afficher les ventes de l'années sélectionnée
+        drawYear(selectedOption)
         })      
 
-// quand on appuie
-dropdownButton.on("change", function(d) {
 
-    let selectedOption = eval(d3.select(this).property("value"))
 
-    // afficher les ventes de l'années sélectionnée
-    drawYear(selectedOption)
-})
-
-            
-        }        
-        
     </script>
 
 </body>

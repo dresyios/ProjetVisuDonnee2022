@@ -6,6 +6,7 @@ data= pd.read_csv("CSVs/salesMerged(96).csv", usecols= ['Country','Year','Total_
 
 newData=[]
 
+#Paires pays:xy pour les placer sur la carte A COMPLETER AU FIL DES DONNES
 locations={'us':[210,155], 'jp':[940,165], 'uk':[512, 110], 'fr':[526, 130], 'ca':[210, 100]}
 
 for year in range(1980,1996):
