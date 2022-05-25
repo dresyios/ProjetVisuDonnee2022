@@ -6,6 +6,7 @@ function drawPublisher(year, country) {
             height = 300,
             radius = Math.min(width, height) / 2;
 
+        //à chaque appel de la fonction je supprime la variable g, qui représente le piechart, pour éviter que les nouveaux piecharts se superposent
         d3.select("#mypiechart").remove();
 
         
