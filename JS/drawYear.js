@@ -17,12 +17,10 @@ function drawYear(year) {
 
         let totalYear = d3.sum(dataYear, d => d.Sales)
         console.log(totalYear)
-    
-        
 
         // FONCTIONNALITE : mettre le cercle en évidence et afficher des infos quand on passe la souris dessus
         let Tooltip = d3.select("body")
-            .append("div")
+            .append("g")
             .style("opacity", 0)
             .attr("class", "tooltip")
             .style("background-color", "white")
@@ -43,8 +41,8 @@ function drawYear(year) {
         let mousemove = function(d) {
             Tooltip
             .html("Pays :" + d.Country + "<br> Ventes totales sur l'année :" + d.Sales + "<br> Id:" + d3.select(this).attr("id")) //ne fonctionne pas pour l'instant
-            .style("left", (d3.mouse(this)[0]+70) + "px")
             .style("top", (d3.mouse(this)[1]) + "px")
+            .style("left", (d3.mouse(this)[0]) + "px")
         }
         let mouseleave = function(d) {
             Tooltip
