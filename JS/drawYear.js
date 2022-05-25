@@ -6,7 +6,6 @@ function drawYear(year) {
             throw error;
         }
 
-        console.log("Hello")
         let dataYear = data.filter(function(d)
         { 
         if(d["Year"] == year) { 

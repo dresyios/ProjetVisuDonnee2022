@@ -35,12 +35,13 @@ function drawPublisher(year, country) {
                 return d;
                 } 
             })
+            console.log(dataYear)
 
             var arc = g.selectAll(".arc")
                        .data(pie(dataYear))
                        .enter().append("g")
                        .attr("class", "arc");
-
+            console.log(data.Publisher)
             arc.append("path")
                .attr("d", path)
                .attr("fill", function(d) { return color(d.data.Publisher); });        
