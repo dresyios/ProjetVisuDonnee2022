@@ -1,5 +1,5 @@
 function drawYear(year) {
-
+    console.log("hello")
     // lier les données
     d3.csv("dataset.csv", function(error, data) {
         if (error) {

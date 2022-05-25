@@ -27,7 +27,6 @@
             stroke: #fff;
         }
         svg {
-            background-image:url('https://upload.wikimedia.org/wikipedia/commons/d/df/Worldmap_location_NED_50m.svg');
             width:100%;
             height:90%;
             margin:auto;
@@ -47,9 +46,6 @@
     <input type="range" name="monSlider" id=monslider min="1980" max="2016" value="1"> 
     <script src="JS/drawPublisher.js"></script>
     <script src="JS/drawYear.js"></script>
-
-    <div class="bg-container">
-    </div>
 
     <script>
         var svgHeight = 550,
@@ -87,17 +83,17 @@
             drawYear(selectedOption)
         })      
 
-// quand on appuie
-dropdownButton.on("change", function(d) {
+        // quand on appuie
+        dropdownButton.on("change", function(d) {
 
-    let selectedOption = eval(d3.select(this).property("value"))
+            let selectedOption = eval(d3.select(this).property("value"))
 
-    // afficher les ventes de l'années sélectionnée
-    drawYear(selectedOption)
-})
+            // afficher les ventes de l'années sélectionnée
+            drawYear(selectedOption)
+        })
 
             
-        }        
+               
         
     </script>
 
