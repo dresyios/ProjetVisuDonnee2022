@@ -13,10 +13,6 @@
             overflow:hidden;
         }
 
-        /*.bg-container {
-            
-        }*/
-
 
         .arc text {
             font: 10px sans-serif;
@@ -27,8 +23,8 @@
             stroke: #fff;
         }
         svg {
-            width:1100; 
-            height:550;
+            /*width:100%; 
+            height:95%;*/
             margin:auto;
 
             background-image:url('https://upload.wikimedia.org/wikipedia/commons/d/df/Worldmap_location_NED_50m.svg');
@@ -48,16 +44,16 @@
     <div id="bouton"></div>
 
     <script>
-        var svgHeight = 550,
-            svgWidth = 1100;
+        //var svgHeight = 550,
+          //  svgWidth = 1100;
 
         let canevas1 = d3.select("body")
             .append("svg")
-            .attr("width", svgWidth)
-            .attr("height", svgHeight)
+            .attr("width", "100%")
+            .attr("height", "100%")
             .attr("id", "canevas1");
 
-        drawYear(1980) //démarrer sur la première année automatiquement
+        drawYear(1993) //démarrer sur la première année automatiquement
 
         // FONCTIONNALITE : création d'un bouton pour sélectionner l'année désirée
         // liste des années
