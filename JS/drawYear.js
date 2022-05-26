@@ -46,7 +46,7 @@ function drawYear(year) {
         }
         let mousemove = function(d) {
             Tooltip
-            .html("Pays :" + d.Country + "<br> Ventes totales sur l'année : " + d.Sales + " millions d'unités") //+ "<br> Id:" + d3.select(this).attr("id")) //ne fonctionne pas pour l'instant
+            .html("Pays :" + d.Country + "<br> Ventes totales sur l'année : " + d.Sales + " millions d'unités") //+ "<br> Id:" + d3.select(this).attr("id"))
             .style("top", (d3.mouse(this)[1]) + "px")
             .style("left", (d3.mouse(this)[0]) + "px")
         }

@@ -7,12 +7,14 @@ function drawPublisher(year, country) {
         radius = Math.min(width, height) / 2;
 
     //à chaque appel de la fonction je supprime la variable g, qui représente le piechart, pour éviter que les nouveaux piecharts se superposent
-    d3.select("#mypiechart").remove();
+    d3.select("#mypiechart").remove()
+    
 
     
     var g = svg.append("g")
                .attr("transform", "translate(" + window.innerWidth / 2 + "," + (((window.innerHeight*0.9) / 2)+100) + ")")
-               .attr("id", "mypiechart");
+               .attr("id", "mypiechart")
+               .attr('opacity', 0);
 
     var color = d3.scaleOrdinal(['#4daf4a','#377eb8','#ff7f00','#984ea3','#e41a1c', '#ad783e']);
 
@@ -27,6 +29,10 @@ function drawPublisher(year, country) {
     var label = d3.arc()
               .outerRadius(radius)
               .innerRadius(radius - 80);
+
+    var labelVal = d3.arc()
+              .outerRadius(radius)
+              .innerRadius(radius - 160);
 
     
     d3.csv("dataset2.csv", function(error, data) {
@@ -58,7 +64,20 @@ function drawPublisher(year, country) {
                     return "translate(" + label.centroid(d) + ")"; 
             })
            .text(function(d) { return d.data.Publisher; });
+        
+        //label pour les valeurs, à voir si ensuite on décide de les afficher différemment
+        console.log(data.Sales)     
+           
+            arc.append("text")
+            .attr("transform", function(d) { 
+                       return "translate(" + labelVal.centroid(d) + ")"; 
+            })
+            .text(function(d) { return d.data.Sales + " mio"; })
         });
 
-
+        //transition plus smooth
+        d3.select("#mypiechart")
+        .transition()
+        .duration(800)
+        .attr("opacity", 0.8)
 }
