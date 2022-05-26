@@ -13,6 +13,8 @@ function drawYear(year) {
         } 
         })
 
+        //FAIRE DICTIONNAIRE PAYS-LOCATIONS
+
         console.log(dataYear)
 
         let totalYear = d3.sum(dataYear, d => d.Sales)
