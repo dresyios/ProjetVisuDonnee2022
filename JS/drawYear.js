@@ -56,8 +56,8 @@ function drawYear(year) {
             d3.select(this)
             .style("stroke", "none")
             .style("opacity", 0.8)
-            drawPublisher(year, d.Country)
-            d3.select("#mypiechart").remove();
+            //drawPublisher(year, d.Country)
+            //d3.select("#mypiechart").remove();
         }
 
         // création du canevas
