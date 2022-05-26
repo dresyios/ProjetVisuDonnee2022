@@ -11,8 +11,8 @@ function drawPublisher(year, country) {
 
     
     var g = svg.append("g")
-               .attr("transform", "translate(" + svgWidth / 2 + "," + ((svgHeight / 2)+100) + ")")
-               .attr("id", "mypiechart");
+            .attr("transform", "translate(" + svgWidth / 2 + "," + ((svgHeight / 2)+100) + ")")
+            .attr("id", "mypiechart");
 
     var color = d3.scaleOrdinal(['#4daf4a','#377eb8','#ff7f00','#984ea3','#e41a1c', '#ad783e']);
 
@@ -46,10 +46,11 @@ function drawPublisher(year, country) {
                    .data(pie(dataYear))
                    .enter().append("g")
                    .attr("class", "arc")
+
         console.log(data.Publisher)
         arc.append("path")
            .attr("d", path)
-           .attr("fill", function(d) { return color(d.data.Publisher); }) 
+           .attr("fill", function(d) { return color(d.data.Publisher); })
            .attr("opacity", 0.8);       
         
            arc.append("text")
