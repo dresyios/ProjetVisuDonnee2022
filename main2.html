@@ -27,8 +27,8 @@
             stroke: #fff;
         }
         svg {
-            width:100%;
-            height:90%;
+            width:1100; 
+            height:550;
             margin:auto;
 
             background-image:url('https://upload.wikimedia.org/wikipedia/commons/d/df/Worldmap_location_NED_50m.svg');
@@ -45,8 +45,7 @@
     <script src="JS/drawPublisher.js"></script>
     <script src="JS/drawYear.js"></script>
 
-    <input type="range" name="monSlider" id=monslider min="1980" max="2016" value="1"> 
-    <div id="body"></div>
+    <div id="bouton"></div>
 
     <script>
         var svgHeight = 550,
@@ -58,11 +57,13 @@
             .attr("height", svgHeight)
             .attr("id", "canevas1");
 
-        // FONCTIONNALITE : création d'un bouton pour sélectionner l'année désirée (ne marche pas à tous les coups, je cherche encore pourquoi)
+        drawYear(1980) //démarrer sur la première année automatiquement
+
+        // FONCTIONNALITE : création d'un bouton pour sélectionner l'année désirée
         // liste des années
         let allYears = ['1980','1981','1982','1983','1984','1985','1986','1987','1988','1989','1990','1991','1992','1993','1994','1995','1996','1997','1998','1999','2000','2001','2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015','2016']
         // création du bouton
-        let dropdownButton = d3.select("#body")
+        let dropdownButton = d3.select("#bouton")
             .append('select')
         // ajout des choix
         dropdownButton 
@@ -79,10 +80,13 @@
             // afficher les ventes de l'années sélectionnée
             drawYear(selectedOption)
 
-        d3.selectAll("circle").remove();
+        d3.selectAll("circle").remove(); //raffraichir les données à chaque nouveau choix
         })      
-            
+        
+        //SVG BG : j'ai retiré le 100% et le 90% dans le SVG car plus agréable pour travailler selon moi. Il suffit de remplacer les valeurs.
     </script>
+
+    <div id="infos"></div>
 
 </body>
 </html>

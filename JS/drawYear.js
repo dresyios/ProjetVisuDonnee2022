@@ -21,8 +21,8 @@ function drawYear(year) {
         console.log(totalYear)
 
         // FONCTIONNALITE : mettre le cercle en évidence et afficher des infos quand on passe la souris dessus
-        let Tooltip = d3.select("body")
-            .append("g")
+        let Tooltip = d3.select("#infos")
+            .append("div") //elles s'affichent pour l'instant en bas, je cherche à faire en sorte que le carré suive la souris...
             .style("opacity", 0)
             .attr("class", "tooltip")
             .style("background-color", "white")
@@ -42,7 +42,7 @@ function drawYear(year) {
         }
         let mousemove = function(d) {
             Tooltip
-            .html("Pays :" + d.Country + "<br> Ventes totales sur l'année :" + d.Sales + "<br> Id:" + d3.select(this).attr("id")) //ne fonctionne pas pour l'instant
+            .html("Pays :" + d.Country + "<br> Ventes totales sur l'année : " + d.Sales + " millions d'unités") //+ "<br> Id:" + d3.select(this).attr("id")) //ne fonctionne pas pour l'instant
             .style("top", (d3.mouse(this)[1]) + "px")
             .style("left", (d3.mouse(this)[0]) + "px")
         }
@@ -52,6 +52,8 @@ function drawYear(year) {
             d3.select(this)
             .style("stroke", "none")
             .style("opacity", 0.8)
+            drawPublisher(year, d.Country)
+            d3.select("#mypiechart").remove();
         }
 
         // création du canevas
