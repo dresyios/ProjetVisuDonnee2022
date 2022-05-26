@@ -13,10 +13,16 @@ function drawYear(year) {
         } 
         })
 
-        console.log(dataYear)
+        //FAIRE DICTIONNAIRE PAYS-LOCATIONS
+        var dictloc = {
+            'us': [0.19, 0.28],
+            'jp': [0.86, 0.30],
+            'uk': [0.467, 0.21],
+            'fr': [0.48, 0.24],
+            'ca': [0.19, 0.1806]
+        };
 
         let totalYear = d3.sum(dataYear, d => d.Sales)
-        console.log(totalYear)
 
         // FONCTIONNALITE : mettre le cercle en évidence et afficher des infos quand on passe la souris dessus
         let Tooltip = d3.select("#infos")
@@ -50,8 +56,8 @@ function drawYear(year) {
             d3.select(this)
             .style("stroke", "none")
             .style("opacity", 0.8)
-            drawPublisher(year, d.Country)
-            d3.select("#mypiechart").remove();
+            //drawPublisher(year, d.Country)
+            //d3.select("#mypiechart").remove();
         }
 
         // création du canevas
@@ -60,8 +66,8 @@ function drawYear(year) {
         .enter()
         .append('circle')
             .attr('id', 'mouseovercercle')
-            .attr('cx', (d) => d.LocX)
-            .attr('cy', (d) => d.LocY)
+            .attr('cx', (d) => (dictloc[d.Country][0])*window.innerWidth)
+            .attr('cy', (d) => (dictloc[d.Country][1])*window.innerHeight)
             .attr('r',  (d) => Math.sqrt((d.Sales*100)/totalYear)*5)
             .attr('opacity', 0.7)
             .attr("id", (d) => d.Country)

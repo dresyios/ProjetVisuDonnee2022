@@ -11,8 +11,8 @@ function drawPublisher(year, country) {
 
     
     var g = svg.append("g")
-            .attr("transform", "translate(" + svgWidth / 2 + "," + ((svgHeight / 2)+100) + ")")
-            .attr("id", "mypiechart");
+               .attr("transform", "translate(" + window.innerWidth / 2 + "," + (((window.innerHeight*0.9) / 2)+100) + ")")
+               .attr("id", "mypiechart");
 
     var color = d3.scaleOrdinal(['#4daf4a','#377eb8','#ff7f00','#984ea3','#e41a1c', '#ad783e']);
 
