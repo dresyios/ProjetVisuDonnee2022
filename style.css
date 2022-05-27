@@ -2,12 +2,18 @@
 /*CSS Document */
 
 p {
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-left: 450px;
     opacity: 1;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: xx-large;
 }
 .sliderContainer {
     width: 75%;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-left: 160px;
+    position: center;
 }
 
 .slider {
@@ -24,26 +30,26 @@ p {
 .slider::after {
     content: "2016";
     color: black;
-    font-size: 2rem;
+    font-size: 1rem;
     position: absolute;
-    left: 80%;
-    top: 26%;
+    left: 83%;
+    top: 7%;
  }
  
  .slider::before {
      content: "1980";
      color: black;
-     font-size: 2rem;
+     font-size: 1rem;
      position: absolute;
      left: 12%;
-     top: 10%;
+     top: 7%;
  }
  
 .slider:hover {
     opacity: 1;
 }
 
-.slider::-webkit-slider-thumb {
+.slider::-webkit-slider-thumb { /* pour chrome */
     -webkit-appearance: none;
     appearance: none;
     width: 40px;
@@ -53,7 +59,7 @@ p {
     cursor: pointer;
 }
 
-.slider::-moz-range-thumb {
+.slider::-moz-range-thumb { /*pour firefox*/
     -webkit-appearance: none;
     appearance: none;
     width: 40px;

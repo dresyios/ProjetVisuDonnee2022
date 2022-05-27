@@ -28,11 +28,11 @@ function drawPublisher(year, country) {
 
     var label = d3.arc()
               .outerRadius(radius)
-              .innerRadius(radius - 50);
+              .innerRadius(radius - 18);
 
     var labelVal = d3.arc()
               .outerRadius(radius)
-              .innerRadius(radius - 160);
+              .innerRadius(radius - 170);
 
     var getAngle = function (d) {
         return (180 / Math.PI * (d.startAngle + d.endAngle) / 2 - 90) // pour la lisibilité
@@ -85,5 +85,5 @@ function drawPublisher(year, country) {
         d3.select("#mypiechart")
         .transition()
         .duration(800)
-        .attr("opacity", 0.8)
+        .attr("opacity", 1)
 }

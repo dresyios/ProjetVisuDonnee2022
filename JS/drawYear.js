@@ -25,9 +25,9 @@ function drawYear(year) {
         let totalYear = d3.sum(dataYear, d => d.Sales)
 
         // FONCTIONNALITE : mettre le cercle en évidence et afficher des infos quand on passe la souris dessus
-        let Tooltip = d3.select("#infos")
-            .append("div") //elles s'affichent pour l'instant en bas, je cherche à faire en sorte que le carré suive la souris...
-            .style("opacity", 0)
+        let Tooltip = d3.select("div#infos")
+            .append("svg") //elles s'affichent pour l'instant en bas, je cherche à faire en sorte que le carré suive la souris...
+            .style("opacity", 1)
             .attr("class", "tooltip")
             .style("background-color", "white")
             .style("border", "solid")
