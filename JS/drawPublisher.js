@@ -28,12 +28,15 @@ function drawPublisher(year, country) {
 
     var label = d3.arc()
               .outerRadius(radius)
-              .innerRadius(radius - 80);
+              .innerRadius(radius - 50);
 
     var labelVal = d3.arc()
               .outerRadius(radius)
               .innerRadius(radius - 160);
 
+    var getAngle = function (d) {
+        return (180 / Math.PI * (d.startAngle + d.endAngle) / 2 - 90) // pour la lisibilité
+    };
     
     d3.csv("dataset2.csv", function(error, data) {
                 if (error) {
@@ -57,21 +60,25 @@ function drawPublisher(year, country) {
         arc.append("path")
            .attr("d", path)
            .attr("fill", function(d) { return color(d.data.Publisher); })
-           .attr("opacity", 0.8);       
+           .attr("opacity", 0.8);
         
            arc.append("text")
            .attr("transform", function(d) { 
-                    return "translate(" + label.centroid(d) + ")"; 
-            })
-           .text(function(d) { return d.data.Publisher; });
+                    return "translate(" + label.centroid(d) + ")" +
+                    "rotate(" + getAngle(d) + ")"; }) // pour améliorer la lisibilité (certains sont à l'envers pas contre, je chercher encore la solution)
+            .attr("dy", 5) 
+            .style("text-anchor", "start")
+            .text(function(d) { return d.data.Publisher; });
         
         //label pour les valeurs, à voir si ensuite on décide de les afficher différemment
         console.log(data.Sales)     
            
             arc.append("text")
             .attr("transform", function(d) { 
-                       return "translate(" + labelVal.centroid(d) + ")"; 
-            })
+                       return "translate(" + labelVal.centroid(d) + ")" +
+                       "rotate(" + getAngle(d) + ")"; }) // pour améliorer la lisibilité (certains sont à l'envers pas contre, je chercher encore la solution)
+               .attr("dy", 5) 
+               .style("text-anchor", "start")
             .text(function(d) { return d.data.Sales + " mio"; })
         });
 
