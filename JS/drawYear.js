@@ -68,7 +68,7 @@ function drawYear(year) {
             .attr('id', 'mouseovercercle')
             .attr('cx', (d) => (dictloc[d.Country][0])*window.innerWidth)
             .attr('cy', (d) => (dictloc[d.Country][1])*window.innerHeight)
-            .attr('r',  (d) => Math.sqrt((d.Sales*100)/totalYear)*5)
+            .attr('r', 0)
             .attr('opacity', 0.7)
             .attr("id", (d) => d.Country)
             .style('fill', 'red')
@@ -78,6 +78,13 @@ function drawYear(year) {
             .on("mouseover", mouseover)
             .on("mousemove", mousemove)
             .on("mouseleave", mouseleave)
+
+            //apparition plus smooth
+            d3.selectAll("circle")
+            .transition()
+            .duration(800)
+            .attr('r',  (d) => Math.sqrt((d.Sales*100)/totalYear)*5)
                         
         })
+        
 }

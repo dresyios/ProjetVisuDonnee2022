@@ -81,7 +81,6 @@ function drawPublisher(year, country) {
                .style("text-anchor", "start")
             .text(function(d) { return d.data.Sales + " mio"; })
         });
-
         //transition plus smooth
         d3.select("#mypiechart")
         .transition()
