@@ -34,6 +34,7 @@
         }
     </style>
     <script src="https://d3js.org/d3.v4.min.js"></script>
+    <link href="style.css" type="text/css" rel="stylesheet">
 
 </head>
 <body>
@@ -41,7 +42,10 @@
     <script src="JS/drawPublisher.js"></script>
     <script src="JS/drawYear.js"></script>
 
-    <div id="bouton"></div>
+    <div class="sliderContainer">
+        <input type="range" min="1980" max="2016" value ="1980" id="monSlider" class="slider">
+        <p>Année : <span id="value"></span></p>
+    </div>
 
     <script>
         //var svgHeight = 550,
@@ -55,7 +59,25 @@
 
         drawYear(1980) //démarrer sur la première année automatiquement
 
-        // FONCTIONNALITE : création d'un bouton pour sélectionner l'année désirée
+        //SLIDER
+        var slider = document.getElementById('monSlider');
+        var output = document.getElementById('value');
+
+        output.innerHTML = slider.value;
+        
+        slider.oninput = function() {
+            output.innerHTML = this.value; //afficher l'année
+            drawYear(slider.value)
+            d3.selectAll("circle").remove(); //raffraichir les données à chaque nouveau choix (je dois encore faire pour que le curseur revienne au début quand on recharge la page)
+        }
+    </script>
+    <div id="infos"></div>
+
+</body>
+</html>
+
+// ANCIEN BOUTON (for referance) : création d'un bouton pour sélectionner l'année désirée
+
         // liste des années
         let allYears = ['1980','1981','1982','1983','1984','1985','1986','1987','1988','1989','1990','1991','1992','1993','1994','1995','1996','1997','1998','1999','2000','2001','2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015','2016']
         // création du bouton
@@ -64,9 +86,9 @@
         // ajout des choix
         dropdownButton 
             .selectAll('myOptions')
- 	        .data(allYears)
+            .data(allYears)
             .enter()
-	        .append('option')
+            .append('option')
             .text(function (d) { return d; })
             .attr("value", function (d) { return d; })
 
@@ -77,11 +99,31 @@
             drawYear(selectedOption)
 
         d3.selectAll("circle").remove(); //raffraichir les données à chaque nouveau choix
-        })      
+        })
 
-    </script>
+        //SLIDER
 
-    <div id="infos"></div>
+        var sliderStep = d3
+            .sliderBottom()
+            .min('1980')
+            .max('2016')
+            .width(1000)
+            .tickFormat(d3.format(''))
+            .ticks(37)
+            .step(1)
+            .default(1980)
+            .on('onchange', val => {
+            d3.select('p#value-step').text(d3.format('')(val));
+            })
 
-</body>
-</html>
+        var gStep = d3
+            .select('div#slider-step')
+            .append('svg')
+            .attr('width', 1075)
+            .attr('height', 100)
+            .append('g')
+            .attr('transform', 'translate(30,30)');
+
+        gStep.call(sliderStep);
+
+        d3.select('p#value-step').text(d3.format('')(sliderStep.value()))
