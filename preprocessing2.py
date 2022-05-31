@@ -49,7 +49,7 @@ for year in range(1980,1996):
             d[pays].append([year, "Autres", pays, sommePlus5])
         newArraySorted.append(d[pays])
 
-    #Enlever une dimension
+    #Enlever une dimension des éditeurs
     flatNewArraySorted = []
     for item in newArraySorted:
         for subitem in item:
@@ -68,7 +68,7 @@ for year in range(1980,1996):
         
         yearGamesArray.append(yearGamesPublisherArray)
         
-    
+    #Réduire une dimension de year games array
     flat_yearGamesArray = []
     for item in yearGamesArray:
         for subitem in item:
