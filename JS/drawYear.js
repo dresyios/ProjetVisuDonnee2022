@@ -82,7 +82,7 @@ function drawYear(year) {
             //apparition plus smooth
             d3.selectAll("circle")
             .transition()
-            .duration(800)
+            .duration(200)
             .attr('r',  (d) => Math.sqrt((d.Sales*100)/totalYear)*5)
                         
         })

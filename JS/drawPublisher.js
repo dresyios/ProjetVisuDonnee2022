@@ -54,24 +54,23 @@ function drawPublisher(year, country) {
         var arc = g.selectAll(".arc")
                    .data(pie(dataYear))
                    .enter().append("g")
-                   .attr("class", "arc")
+                   .attr("class", "arc");
 
         console.log(data.Publisher)
         arc.append("path")
            .attr("d", path)
            .attr("fill", function(d) { return color(d.data.Publisher); })
-           .attr("opacity", 0.8);
-        
+           .attr("opacity", 0.8)
+           .attr("id", "path");
+
+
            arc.append("text")
            .attr("transform", function(d) { 
                     return "translate(" + label.centroid(d) + ")" +
                     "rotate(" + getAngle(d) + ")"; }) // pour améliorer la lisibilité (certains sont à l'envers pas contre, je chercher encore la solution)
             .attr("dy", 5) 
             .style("text-anchor", "start")
-            .text(function(d) { return d.data.Publisher; });
-        
-        //label pour les valeurs, à voir si ensuite on décide de les afficher différemment
-        console.log(data.Sales)     
+            .text(function(d) { return d.data.Publisher; }); 
            
             arc.append("text")
             .attr("transform", function(d) { 
@@ -79,7 +78,7 @@ function drawPublisher(year, country) {
                        "rotate(" + getAngle(d) + ")"; }) // pour améliorer la lisibilité (certains sont à l'envers pas contre, je chercher encore la solution)
                .attr("dy", 5) 
                .style("text-anchor", "start")
-            .text(function(d) { return d.data.Sales + " mio"; })
+            .text(function(d) { return Math.round(d.data.Sales*100)/100 + " mio"; })
         });
         //transition plus smooth
         d3.select("#mypiechart")
