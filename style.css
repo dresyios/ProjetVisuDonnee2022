@@ -81,8 +81,8 @@ p {
 .slider::-webkit-slider-thumb { /* pour chrome */
     -webkit-appearance: none;
     appearance: none;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     background: white;
     border-radius: 50%;
     cursor: pointer;
@@ -91,8 +91,8 @@ p {
 .slider::-moz-range-thumb { /*pour firefox*/
     -webkit-appearance: none;
     appearance: none;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     background: white;
     border-radius: 50%;
     cursor: pointer;
