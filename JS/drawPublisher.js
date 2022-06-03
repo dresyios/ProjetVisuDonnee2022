@@ -41,7 +41,7 @@ function drawPublisher(year, country) {
         .append("div")
         .attr("class", "tooltip")
         .style("position", "absolute")
-        .style("z-index", "-100")
+        .style("z-index", "10")
         .style("visibility", "hidden")
         .style("background-color", "white")
         .style("border", "solid")
@@ -62,9 +62,9 @@ function drawPublisher(year, country) {
 
     let mousemove = function(d) {
         Tooltip
-        .html("TOP 3 des ventes: " + d.Names + "<br> Ventes totales : " + d.Sales + " millions d'unités") //+ "<br> Id:" + d3.select(this).attr("id"))
-        .style("top",  (d3.mouse(this)[1]) + "px")
-        .style("left", (d3.mouse(this)[0]) + "px")
+        .html("TOP 3 des ventes: " + "<br> d.Names : " + " millions d'unités") //+ "<br> Id:" + d3.select(this).attr("id"))
+        .style("left", 900 + "px")     
+        .style("top", 500 + "px");
         }
 
     let mouseleave = function(d) {
@@ -126,5 +126,4 @@ function drawPublisher(year, country) {
         .transition()
         .duration(800)
         .attr("opacity", 1)
-        .append('text')
 }
