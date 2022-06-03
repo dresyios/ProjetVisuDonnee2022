@@ -67,6 +67,7 @@ function drawPublisher(year, country) {
         arc.on("mouseover", function (d) {
             d3.select(this)
                 .attr("stroke","purple")
+            drawTOP(publisher)
         })
 
         .on("mouseleave", function (d) {
@@ -75,7 +76,6 @@ function drawPublisher(year, country) {
                 // ici qu'il faut ajouter le trigger de la nouvelle visu
 
         })
-
 
            arc.append("text")
            .attr("transform", function(d) { 
@@ -99,4 +99,5 @@ function drawPublisher(year, country) {
         .transition()
         .duration(800)
         .attr("opacity", 1)
+        .append('text')
 }

@@ -25,8 +25,7 @@ function drawYear(year) {
         let totalYear = d3.sum(dataYear, d => d.Sales)
 
         // FONCTIONNALITE : mettre le cercle en évidence et afficher des infos quand on passe la souris dessus
-
-        var Tooltip = d3.selectAll('#main')
+        var Tooltip = d3.select('#main')
             .append("div") //je cherche à faire en sorte que le carré suive la souris...
             .style("opacity", 0)
             .attr("class", "tooltip")
@@ -47,8 +46,8 @@ function drawYear(year) {
         }
         let mousemove = function(d) {
             Tooltip
-            .html("Pays :" + d.Country + "<br> Ventes totales sur l'année : " + d.Sales + " millions d'unités") //+ "<br> Id:" + d3.select(this).attr("id"))
-            .style("left", (d3.mouse(this)[0]+70) + "px")
+            .html("Pays : " + d.Country + "<br> Ventes totales sur l'année : " + d.Sales + " millions d'unités") //+ "<br> Id:" + d3.select(this).attr("id"))
+            .style("left", (d3.mouse(this)[0]) + "px")
             .style("top", (d3.mouse(this)[1]) + "px")
         }
         let mouseleave = function(d) {

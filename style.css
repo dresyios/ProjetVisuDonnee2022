@@ -1,6 +1,35 @@
 @charset "utf-8";
 /*CSS Document */
 
+html, body {
+    margin:0;
+    height:100%;
+    overflow:hidden;
+}
+
+
+.arc text {
+    font: 12px Arial;
+    text-anchor: middle;
+    font-weight: bold;
+}
+
+.arc path {
+    stroke: #fff;
+}
+svg {
+    margin:auto;
+
+    background-image:url('https://upload.wikimedia.org/wikipedia/commons/d/df/Worldmap_location_NED_50m.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+p.YearTitle {
+    text-align: center;
+}
+
 p {
     margin-top: 20px;
     opacity: 1;
@@ -8,6 +37,7 @@ p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     font-size: xx-large;
 }
+
 .sliderContainer {
     width: 75%;
     margin-top: 20px;
@@ -18,7 +48,7 @@ p {
 .slider {
     -webkit-appearance: none;
     width: 100%;
-    height: 20px;
+    height: 15px;
     background: lightblue;
     outline: none;
     opacity: 1;
@@ -51,8 +81,8 @@ p {
 .slider::-webkit-slider-thumb { /* pour chrome */
     -webkit-appearance: none;
     appearance: none;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     background: white;
     border-radius: 50%;
     cursor: pointer;
@@ -61,8 +91,8 @@ p {
 .slider::-moz-range-thumb { /*pour firefox*/
     -webkit-appearance: none;
     appearance: none;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     background: white;
     border-radius: 50%;
     cursor: pointer;

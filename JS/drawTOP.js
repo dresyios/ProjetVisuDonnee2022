@@ -1,4 +1,4 @@
-function drawTOP(year, country, publisher) {
+function drawTOP(publisher) {
 
 
     var svg = d3.select("svg"),
@@ -9,7 +9,6 @@ function drawTOP(year, country, publisher) {
     //à chaque appel de la fonction je supprime la variable g, qui représente le piechart, pour éviter que les nouveaux piecharts se superposent
     d3.select("#mytop3").remove()
     
-
 
     var g = svg.append("g")
                .attr("transform", "translate(" + (window.innerWidth / 2) + 200 + "," + (((window.innerHeight*0.9) / 2)+50) + ")")
@@ -25,14 +24,15 @@ function drawTOP(year, country, publisher) {
 
         let dataGames = data.filter(function(d)
         { 
-        if(d["Year"] == year && d["Country"] == country && d["Publisher"] == publisher) { 
+        if(d["Publisher"] == publisher) { 
             return d;
         } 
         })
 
         
-        g.append('text')
+        caneva1.selectAll('text')
             .data(dataGames)
+            .append('text')
             .text('TOP 3 GAMES : ' +d.dataGames.Names + " : " + d.dataGames.Sales)
 
 

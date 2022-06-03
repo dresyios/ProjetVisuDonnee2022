@@ -5,36 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Visualisation des ventes de jeux par éditeurs et par pays</title>
-    <style>
 
-        html, body {
-            margin:0;
-            height:100%;
-            overflow:hidden;
-        }
-
-
-        .arc text {
-            font: 12px Arial;
-            text-anchor: middle;
-            font-weight: bold;
-        }
-
-        .arc path {
-            stroke: #fff;
-        }
-        svg {
-            margin:auto;
-
-            background-image:url('https://upload.wikimedia.org/wikipedia/commons/d/df/Worldmap_location_NED_50m.svg');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-        p.YearTitle {
-            text-align: center;
-        }
-    </style>
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <link href="style.css" type="text/css" rel="stylesheet">
 
@@ -47,9 +18,11 @@
 
     <div class="sliderContainer">
         <input type="range" min="1980" max="2016" value ="1980" id="monSlider" class="slider">
-        <p class="YearTitle">Année : <span id="value"></span></p>
+        <p class="YearTitle">Ventes de jeux par éditeurs en <span id="value"></span></p>
     </div>
     <div id = "main"></div>
+    <div id = "tooltip" class = "tooltip"></div>
+
 
     <script>
         //var svgHeight = 550,
@@ -58,7 +31,7 @@
         let canevas1 = d3.select("#main")
             .append("svg")
             .attr("width", "1440")
-            .attr("height", "770")
+            .attr("height", "600")
             .attr("id", "canevas1");
 
         drawYear(1980) //démarrer sur la première année automatiquement
@@ -79,55 +52,3 @@
 
 </body>
 </html>
-
-// ANCIEN BOUTON (for referance) : création d'un bouton pour sélectionner l'année désirée
-
-        // liste des années
-        let allYears = ['1980','1981','1982','1983','1984','1985','1986','1987','1988','1989','1990','1991','1992','1993','1994','1995','1996','1997','1998','1999','2000','2001','2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015','2016']
-        // création du bouton
-        let dropdownButton = d3.select("#bouton")
-            .append('select')
-        // ajout des choix
-        dropdownButton 
-            .selectAll('myOptions')
-            .data(allYears)
-            .enter()
-            .append('option')
-            .text(function (d) { return d; })
-            .attr("value", function (d) { return d; })
-
-        // quand on appuie
-        dropdownButton.on("change", function(d) {
-            let selectedOption = d3.select(this).property("value")
-            // afficher les ventes de l'années sélectionnée
-            drawYear(selectedOption)
-
-        d3.selectAll("circle").remove(); //raffraichir les données à chaque nouveau choix
-        })
-
-        //SLIDER
-
-        var sliderStep = d3
-            .sliderBottom()
-            .min('1980')
-            .max('2016')
-            .width(1000)
-            .tickFormat(d3.format(''))
-            .ticks(37)
-            .step(1)
-            .default(1980)
-            .on('onchange', val => {
-            d3.select('p#value-step').text(d3.format('')(val));
-            })
-
-        var gStep = d3
-            .select('div#slider-step')
-            .append('svg')
-            .attr('width', 1075)
-            .attr('height', 100)
-            .append('g')
-            .attr('transform', 'translate(30,30)');
-
-        gStep.call(sliderStep);
-
-        d3.select('p#value-step').text(d3.format('')(sliderStep.value()))
