@@ -18,21 +18,19 @@
 
     <div class="sliderContainer">
         <input type="range" min="1980" max="2016" value ="1980" id="monSlider" class="slider">
-        <p class="YearTitle">Ventes de jeux par éditeurs en <span id="value"></span></p>
+        <p class="YearTitle">Ventes de jeux par éditeur en <span id="value"></span></p>
     </div>
     <div id = "main"></div>
     <div id = "tooltip" class = "tooltip"></div>
 
 
     <script>
-        //var svgHeight = 550,
-          //  svgWidth = 1100;
 
         let canevas1 = d3.select("#main")
             .append("svg")
             .attr("width", "1440")
-            .attr("height", "780")
-            .attr("id", "canevas1");
+            .attr("height", "600")
+            .attr("class", "canevas1");
 
         drawYear(1980) //démarrer sur la première année automatiquement
 
