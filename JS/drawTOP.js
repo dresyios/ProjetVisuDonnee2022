@@ -5,9 +5,6 @@ function drawTOP(publisher) {
         width = 300,
         height = 300,
         radius = Math.min(width, height) / 2;
-
-    //à chaque appel de la fonction je supprime la variable g, qui représente le piechart, pour éviter que les nouveaux piecharts se superposent
-    d3.select("#mytop3").remove()
     
 
     var g = svg.append("g")
@@ -29,19 +26,6 @@ function drawTOP(publisher) {
         } 
         })
 
-        
-        caneva1.selectAll('text')
-            .data(dataGames)
-            .append('text')
-            .text('TOP 3 GAMES : ' +d.dataGames.Names + " : " + d.dataGames.Sales)
-
-
-
         });
 
-        //transition plus smooth
-        d3.select("#mypiechart")
-        .transition()
-        .duration(800)
-        .attr("opacity", 1)
 }

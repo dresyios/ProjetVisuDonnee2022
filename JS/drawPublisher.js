@@ -36,6 +36,44 @@ function drawPublisher(year, country) {
     var getAngle = function (d) {
         return (180 / Math.PI * (d.startAngle + d.endAngle) / 2 - 90) // pour la lisibilité
     };
+
+    var Tooltip = d3.select('#main')
+        .append("div")
+        .attr("class", "tooltip")
+        .style("position", "absolute")
+        .style("z-index", "-100")
+        .style("visibility", "hidden")
+        .style("background-color", "white")
+        .style("border", "solid")
+        .style("border-width", "2px")
+        .style("border-radius", "5px")
+        .style("padding", "5px")
+
+
+    // les fonctions pour faire cela
+    let mouseover = function(d) {
+        Tooltip
+        .style("visibility", "visible")
+        d3.select(this)
+        .style("stroke", "black")
+        .style('stroke-width', 2)
+        .style("opacity", 1)
+        }
+
+    let mousemove = function(d) {
+        Tooltip
+        .html("TOP 3 des ventes: " + d.Names + "<br> Ventes totales : " + d.Sales + " millions d'unités") //+ "<br> Id:" + d3.select(this).attr("id"))
+        .style("top",  (d3.mouse(this)[1]) + "px")
+        .style("left", (d3.mouse(this)[0]) + "px")
+        }
+
+    let mouseleave = function(d) {
+        Tooltip
+        .style("visibility", "hidden")
+        d3.select(this)
+        .style("stroke", "none")
+        .style("opacity", 0.8)
+        }
     
     d3.csv("dataset2.csv", function(error, data) {
                 if (error) {
@@ -62,20 +100,9 @@ function drawPublisher(year, country) {
            .attr("fill", function(d) { return color(d.data.Publisher); })
            .attr("opacity", 0.8)
            .attr("id", "path")
-        
-        //séléctionner la "part" qu'on veut
-        arc.on("mouseover", function (d) {
-            d3.select(this)
-                .attr("stroke","purple")
-            drawTOP(publisher)
-        })
-
-        .on("mouseleave", function (d) {
-            d3.select(this)
-                .attr("stroke", "none")
-                // ici qu'il faut ajouter le trigger de la nouvelle visu
-
-        })
+           .on("mouseover", mouseover)
+           .on("mousemove", mousemove)
+           .on("mouseleave", mouseleave)
 
            arc.append("text")
            .attr("transform", function(d) { 

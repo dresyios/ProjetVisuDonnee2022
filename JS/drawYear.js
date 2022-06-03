@@ -31,14 +31,17 @@ function drawYear(year) {
             .style("position", "absolute")
             .style("z-index", "10")
             .style("visibility", "hidden")
-            //.style("background-color", "white")
+            .style("background-color", "white")
+            .style("border", "solid")
+            .style("border-width", "2px")
+            .style("border-radius", "5px")
+            .style("padding", "5px")
 
 
         // les fonctions pour faire cela
         let mouseover = function(d) {
             Tooltip
             .style("visibility", "visible")
-            .text("Pays : " + d.Country + "<br> Ventes totales sur l'année : " + d.Sales + " millions d'unités")
             d3.select(this)
             .style("stroke", "black")
             .style("opacity", 1)
@@ -46,7 +49,7 @@ function drawYear(year) {
         }
         let mousemove = function(d) {
             Tooltip
-            .html("Pays : " + d.Country + "<br> Ventes totales sur l'année : " + d.Sales + " millions d'unités") //+ "<br> Id:" + d3.select(this).attr("id"))
+            .html("Pays: " + d.Country + "<br> Ventes totales: " + d.Sales + " millions d'unités") //+ "<br> Id:" + d3.select(this).attr("id"))
             .style("left", (d3.mouse(this)[0]) + "px")
             .style("top", (d3.mouse(this)[1]) + "px")
         }
