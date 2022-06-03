@@ -10,11 +10,10 @@ function drawPublisher(year, country) {
     d3.select("#mypiechart").remove()
     
 
-    
     var g = svg.append("g")
-               .attr("transform", "translate(" + window.innerWidth / 2 + "," + (((window.innerHeight*0.9) / 2)+100) + ")")
+               .attr("transform", "translate(" + window.innerWidth / 2 + "," + (((window.innerHeight*0.9) / 2)+50) + ")")
                .attr("id", "mypiechart")
-               .attr('opacity', 0);
+               .attr('opacity', 0)
 
     var color = d3.scaleOrdinal(['#4daf4a','#377eb8','#ff7f00','#984ea3','#e41a1c', '#ad783e']);
 
@@ -57,11 +56,25 @@ function drawPublisher(year, country) {
                    .attr("class", "arc");
 
         console.log(data.Publisher)
+    
         arc.append("path")
            .attr("d", path)
            .attr("fill", function(d) { return color(d.data.Publisher); })
            .attr("opacity", 0.8)
-           .attr("id", "path");
+           .attr("id", "path")
+        
+        //séléctionner la "part" qu'on veut
+        arc.on("mouseover", function (d) {
+            d3.select(this)
+                .attr("stroke","purple")
+        })
+
+        .on("mouseleave", function (d) {
+            d3.select(this)
+                .attr("stroke", "none")
+                // ici qu'il faut ajouter le trigger de la nouvelle visu
+
+        })
 
 
            arc.append("text")
@@ -80,6 +93,7 @@ function drawPublisher(year, country) {
                .style("text-anchor", "start")
             .text(function(d) { return Math.round(d.data.Sales*100)/100 + " mio"; })
         });
+
         //transition plus smooth
         d3.select("#mypiechart")
         .transition()

@@ -25,9 +25,10 @@ function drawYear(year) {
         let totalYear = d3.sum(dataYear, d => d.Sales)
 
         // FONCTIONNALITE : mettre le cercle en évidence et afficher des infos quand on passe la souris dessus
-        let Tooltip = d3.select("div#infos")
-            .append("svg") //elles s'affichent pour l'instant en bas, je cherche à faire en sorte que le carré suive la souris...
-            .style("opacity", 1)
+
+        var Tooltip = d3.selectAll('#main')
+            .append("div") //je cherche à faire en sorte que le carré suive la souris...
+            .style("opacity", 0)
             .attr("class", "tooltip")
             .style("background-color", "white")
             .style("border", "solid")
@@ -47,8 +48,8 @@ function drawYear(year) {
         let mousemove = function(d) {
             Tooltip
             .html("Pays :" + d.Country + "<br> Ventes totales sur l'année : " + d.Sales + " millions d'unités") //+ "<br> Id:" + d3.select(this).attr("id"))
+            .style("left", (d3.mouse(this)[0]+70) + "px")
             .style("top", (d3.mouse(this)[1]) + "px")
-            .style("left", (d3.mouse(this)[0]) + "px")
         }
         let mouseleave = function(d) {
             Tooltip
@@ -69,11 +70,9 @@ function drawYear(year) {
             .attr('cx', (d) => (dictloc[d.Country][0])*window.innerWidth)
             .attr('cy', (d) => (dictloc[d.Country][1])*window.innerHeight)
             .attr('r', 0)
-            .attr('opacity', 0.7)
             .attr("id", (d) => d.Country)
             .style('fill', 'red')
             .style("stroke-width", 4)
-            .style("stroke", "none")
             .style("opacity", 0.8)
             .on("mouseover", mouseover)
             .on("mousemove", mousemove)
@@ -82,7 +81,7 @@ function drawYear(year) {
             //apparition plus smooth
             d3.selectAll("circle")
             .transition()
-            .duration(200)
+            .duration(1000)
             .attr('r',  (d) => Math.sqrt((d.Sales*100)/totalYear)*5)
                         
         })

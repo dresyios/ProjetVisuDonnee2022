@@ -41,6 +41,7 @@
 </head>
 <body>
 
+    <script src="JS/drawTOP.js"></script>
     <script src="JS/drawPublisher.js"></script>
     <script src="JS/drawYear.js"></script>
 
@@ -48,16 +49,16 @@
         <input type="range" min="1980" max="2016" value ="1980" id="monSlider" class="slider">
         <p class="YearTitle">Année : <span id="value"></span></p>
     </div>
-    <div class="col-sm-2"><p id="infos"></p></div>
+    <div id = "main"></div>
 
     <script>
         //var svgHeight = 550,
           //  svgWidth = 1100;
 
-        let canevas1 = d3.select("body")
+        let canevas1 = d3.select("#main")
             .append("svg")
-            .attr("width", "100%")
-            .attr("height", "100%")
+            .attr("width", "1440")
+            .attr("height", "770")
             .attr("id", "canevas1");
 
         drawYear(1980) //démarrer sur la première année automatiquement
