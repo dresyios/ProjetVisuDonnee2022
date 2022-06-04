@@ -1,9 +1,9 @@
 Year,Names,Publisher,Country,Sales
-1980,Asteroids,Atari,us,5.459999999999999
+1980,Asteroids,Atari,us,5.46
 1980,Missile Command,Atari,us,3.21
 1980,Defender,Atari,us,1.65
 1980,Kaboom!,Activision,us,1.15
-1980,Boxing,Activision,us,0.8400000000000001
+1980,Boxing,Activision,us,0.84
 1980,Freeway,Activision,us,0.34
 1981,E.T.: The Extra Terrestrial,Atari,us,1.97
 1981,Ms. Pac-Man,Atari,us,1.65
@@ -132,7 +132,7 @@ Year,Names,Publisher,Country,Sales
 1992,Gunstar Heroes,Sega,jp,0.13
 1992,Dragon Quest V: Tenkuu no Hanayome,Enix Corporation,jp,4.44
 1992,Final Fantasy V,SquareSoft,jp,2.62
-1992,Romancing SaGa,SquareSoft,jp,1.5499999999999998
+1992,Romancing SaGa,SquareSoft,jp,1.55
 1992,NBA Jam,Arena Entertainment,uk,5.22
 1992,F1 ROC: Race of Champions,Ocean,uk,0.28
 1993,Super Mario All-Stars,Nintendo,jp,10.55
@@ -172,7 +172,7 @@ Year,Names,Publisher,Country,Sales
 1994,NBA Jam Tournament Edition,Acclaim Entertainment,us,2.37
 1994,Galactic Attack,Acclaim Entertainment,us,0.25
 1994,Disney's The Lion King,Virgin Interactive,us,3.2
-1994,Theme Park,Electronic Arts,us,0.6499999999999999
+1994,Theme Park,Electronic Arts,us,0.65
 1994,Primal Rage,Time Warner Interactive,us,0.11
 1994,Doom,Infogrames,fr,0.78
 1994,Discworld,Psygnosis,uk,0.06
@@ -210,3 +210,208 @@ Year,Names,Publisher,Country,Sales
 1995,Krazy Ivan,Psygnosis,uk,0.08
 1995,The Raiden Project,Ocean,uk,0.23
 1995,Zero Divide,Ocean,uk,0.06
+1996,Super Mario 64,Nintendo,jp,11.89
+1996,Mario Kart 64,Nintendo,jp,9.87
+1996,Donkey Kong Country 3: Dixie Kong's Double Trouble!,Nintendo,jp,3.51
+1996,Crash Bandicoot,Sony Computer Entertainment,jp,6.82
+1996,Tekken 2,Sony Computer Entertainment,jp,5.74
+1996,Namco Museum Vol.3,Sony Computer Entertainment,jp,4.05
+1996,Fighters MEGAMiX,Sega,jp,0.62
+1996,Sakura Wars,Sega,jp,0.66
+1996,Neon Genesis Evangelion,Sega,jp,0.5
+1996,Contra: Legacy of War,Konami Digital Entertainment,jp,0.67
+1996,International Track & Field,Konami Digital Entertainment,jp,0.51
+1996,Jikkyou Powerful Pro Yakyuu 3,Konami Digital Entertainment,jp,0.45
+1996,Derby Stallion 96,ASCII Entertainment,jp,1.05
+1996,Mini-Yonku Shining Scorpion: Let's & Go!!,ASCII Entertainment,jp,0.9
+1996,Clock Tower,ASCII Entertainment,jp,0.53
+1996,Resident Evil,Virgin Interactive,gb,5.34
+1996,Resident Evil Director's Cut,Virgin Interactive,gb,3.81
+1996,Mega Man X4,Virgin Interactive,gb,1.11
+1996,Tomb Raider,Eidos Interactive,gb,4.63
+1996,The Incredible Hulk: The Pantheon Saga,Eidos Interactive,gb,0.16
+1996,Machine Head,Eidos Interactive,gb,0.07
+1996,Destruction Derby 2,Psygnosis,gb,1.17
+1996,Formula 1,Psygnosis,gb,0.76
+1996,WipEout XL,Psygnosis,gb,0.25
+1996,Pro Pinball,Empire Interactive,gb,0.41
+1996,Olympic Summer Games: Atlanta 1996,U.S. Gold,gb,0.1
+1996,Olympic Soccer: Atlanta 1996,U.S. Gold,gb,0.05
+1996,NASCAR 98,Electronic Arts,us,1.52
+1996,Madden NFL 97,Electronic Arts,us,1.32
+1996,Soviet Strike,Electronic Arts,us,1.17
+1996,Mortal Kombat Trilogy,GT Interactive,us,3.75
+1996,Midway Presents Arcade's Greatest Hits: The Atari Collection 1,GT Interactive,us,0.94
+1996,Area 51,GT Interactive,us,1.46
+1996,Space Jam,Acclaim Entertainment,us,0.92
+1996,WWF in Your House,Acclaim Entertainment,us,0.62
+1996,Alien Trilogy,Acclaim Entertainment,us,0.47
+1996,SimCity 2000,Maxis,us,1.99
+1996,Die Hard Trilogy,Fox Interactive,us,1.54
+1996,Star Wars: Rebel Assault II - The Hidden Empire,CTO SpA,it,0.88
+1996,Reloaded,Gremlin Interactive Ltd,uk,0.17
+1996,VR Golf '97,Gremlin Interactive Ltd,uk,0.17
+1996,VR Soccer '96,Gremlin Interactive Ltd,uk,0.05
+1996,Tunnel B1,Ocean,uk,0.09
+1996,True Pinball,Ocean,uk,0.04
+1996,Strike Point,Elite,uk,0.07
+1996,Alone in the Dark: One-Eyed Jack's Revenge,Infogrames,fr,0.31
+1996,Time Commando,Adeline Software,fr,0.17
+1996,Street Racer,Ubisoft,fr,0.16
+1996,HardBall 5,SPS,ch,0.12
+1996,Shippuu Mahou Daisakusen: Kingdom-Grandprix,Gaga,ru,0.02
+1997,Gran Turismo,Sony Computer Entertainment,jp,10.95
+1997,Final Fantasy VII,Sony Computer Entertainment,jp,9.72
+1997,Crash Bandicoot 2: Cortex Strikes Back,Sony Computer Entertainment,jp,7.58
+1997,GoldenEye 007,Nintendo,jp,8.09
+1997,Diddy Kong Racing,Nintendo,jp,4.88
+1997,Star Fox 64,Nintendo,jp,4.03
+1997,Final Fantasy Tactics,SquareSoft,jp,2.45
+1997,SaGa Frontier,SquareSoft,jp,1.35
+1997,Chocobo no Fushigi Dungeon,SquareSoft,jp,1.22
+1997,Time Crisis,Namco Bandai Games,jp,1.68
+1997,Tales of Destiny,Namco Bandai Games,jp,1.56
+1997,Mobile Suit Z-Gundam,Namco Bandai Games,jp,0.36
+1997,Castlevania: Symphony of the Night,Konami Digital Entertainment,jp,1.27
+1997,International Superstar Soccer 64,Konami Digital Entertainment,jp,0.6
+1997,Jikkyou Powerful Pro Yakyuu '97 Kaimakuban,Konami Digital Entertainment,jp,0.59
+1997,Tiger Woods 99 PGA Tour Golf,Electronic Arts,us,1.53
+1997,Knockout Kings,Electronic Arts,us,1.52
+1997,NBA Live 98,Electronic Arts,us,1.51
+1997,Frogger,Hasbro Interactive,us,6.36
+1997,Jeopardy!,Hasbro Interactive,us,1.88
+1997,Oddworld: Abe's Oddysee,GT Interactive,us,1.24
+1997,Rampage World Tour,GT Interactive,us,1.3
+1997,San Francisco Rush: Extreme Racing,GT Interactive,us,1.13
+1997,Turok 2: Seeds of Evil,Acclaim Entertainment,us,1.86
+1997,NFL Quarterback Club 98,Acclaim Entertainment,us,1.06
+1997,Extreme-G,Acclaim Entertainment,us,0.59
+1997,Croc: Legend of the Gobbos,Fox Interactive,us,3.56
+1997,Independence Day,Fox Interactive,us,0.44
+1997,Tomb Raider II,Eidos Interactive,uk,5.24
+1997,Tomb Raider III: Adventures of Lara Croft,Eidos Interactive,uk,3.54
+1997,Fighting Force,Eidos Interactive,uk,1.32
+1997,TOCA Touring Car Championship,Codemasters,uk,2.28
+1997,Micro Machines V3,Codemasters,uk,0.1
+1997,Street Fighter EX Plus Alpha,Virgin Interactive,uk,0.75
+1997,Command & Conquer: Red Alert,Virgin Interactive,uk,0.41
+1997,Bloody Roar,Virgin Interactive,uk,0.39
+1997,Mission: Impossible,Ocean,uk,1.69
+1997,MRC: Multi-Racing Championship,Ocean,uk,0.25
+1997,Jersey Devil,Ocean,uk,0.23
+1997,Colony Wars,Psygnosis,uk,0.42
+1997,Formula 1 Championship Edition,Psygnosis,uk,0.36
+1997,G-Police,Psygnosis,uk,0.24
+1997,Need for Speed: V-Rally,Infogrames,fr,0.87
+1997,Automobili Lamborghini,Titus,fr,0.47
+1997,F1 Pole Position 64,Ubisoft,fr,0.25
+1997,VMX Racing,Playmates,hk,0.28
+1997,Ballblazer Champions,CTO SpA,it,0.02
+1998,Tekken 3,Sony Computer Entertainment,jp,7.16
+1998,Crash Bandicoot 3: Warped,Sony Computer Entertainment,jp,7.13
+1998,Spyro the Dragon,Sony Computer Entertainment,jp,5.0
+1998,The Legend of Zelda: Ocarina of Time,Nintendo,jp,7.6
+1998,Banjo-Kazooie,Nintendo,jp,3.66
+1998,Mario Party,Nintendo,jp,2.7
+1998,Metal Gear Solid,Konami Digital Entertainment,jp,6.03
+1998,BeatMania,Konami Digital Entertainment,jp,1.16
+1998,World Soccer Jikkyou Winning Eleven 3: World Cup France '98,Konami Digital Entertainment,jp,0.81
+1998,Parasite Eve,SquareSoft,jp,2.1
+1998,Xenogears,SquareSoft,jp,1.46
+1998,Brave Fencer Musashi,SquareSoft,jp,1.14
+1998,R4: Ridge Racer Type 4,Namco Bandai Games,jp,2.06
+1998,Pac-Man World,Namco Bandai Games,jp,1.5
+1998,SD Gundam G Generation,Namco Bandai Games,jp,0.72
+1998,Need for Speed III: Hot Pursuit,Electronic Arts,us,3.12
+1998,FIFA 2000,Electronic Arts,us,1.87
+1998,Madden NFL 2000,Electronic Arts,us,2.36
+1998,WWF War Zone,Acclaim Entertainment,us,4.69
+1998,WWF Attitude,Acclaim Entertainment,us,2.47
+1998,South Park,Acclaim Entertainment,us,1.85
+1998,Rugrats: Search For Reptar,THQ,us,3.34
+1998,WCW/nWo Revenge,THQ,us,2.38
+1998,WCW Nitro,THQ,us,2.09
+1998,Toy Story 2: Buzz Lightyear to the Rescue!,Activision,us,2.64
+1998,A Collection of Activision Classic Games for the Atari 2600,Activision,us,1.37
+1998,Vigilante 8,Activision,us,1.54
+1998,Cool Boarders 3,989 Studios,us,2.31
+1998,Twisted Metal III,989 Studios,us,1.73
+1998,NFL GameDay 99,989 Studios,us,1.53
+1998,Resident Evil 2,Virgin Interactive,uk,6.44
+1998,Street Fighter Alpha 3,Virgin Interactive,uk,1.03
+1998,Command & Conquer: Red Alert Retaliation,Virgin Interactive,uk,0.7
+1998,Colin McRae Rally,Codemasters,uk,2.87
+1998,TOCA 2: Touring Cars,Codemasters,uk,1.32
+1998,Brian Lara Cricket,Codemasters,uk,1.26
+1998,Tomb Raider: The Last Revelation,Eidos Interactive,uk,2.48
+1998,Fear Effect,Eidos Interactive,uk,0.72
+1998,Ninja: Shadow of Darkness,Eidos Interactive,uk,0.38
+1998,Heart of Darkness,Ocean,uk,0.32
+1998,Lucky Luke,Ocean,uk,0.24
+1998,Fighters Destiny,Ocean,uk,0.16
+1998,Rascal,Psygnosis,uk,0.42
+1998,Colony Wars: Vengeance,Psygnosis,uk,0.23
+1998,Blast Radius,Psygnosis,uk,0.07
+1998,Demolition Racer,Infogrames,fr,0.31
+1998,Lode Runner 3-D,Infogrames,fr,0.1
+1998,V-Rally Edition 99,Infogrames,fr,0.09
+1998,Evil Zone,Titus,fr,0.25
+1998,Virtual Chess 64,Titus,fr,0.06
+1998,Buck Bumble,Ubisoft,fr,0.16
+1998,S.C.A.R.S,Ubisoft,fr,0.14
+1998,Assault: Retribution,Telstar,nl,0.13
+1998,Wreckin Crew,Telstar,nl,0.08
+1998,Option Tuning Car Battle,MTO,ca,0.1
+1998,Tiny Toon Adventures: Toonenstein - Dare to Scare,Swing! Entertainment,de,0.05
+1999,Gran Turismo 2,Sony Computer Entertainment,jp,9.49
+1999,Crash Team Racing,Sony Computer Entertainment,jp,4.79
+1999,Spyro 2: Ripto's Rage!,Sony Computer Entertainment,jp,3.52
+1999,Super Smash Bros.,Nintendo,jp,5.55
+1999,Pokemon Stadium,Nintendo,jp,5.45
+1999,Donkey Kong 64,Nintendo,jp,5.27
+1999,Final Fantasy VIII,SquareSoft,jp,7.86
+1999,Chrono Cross,SquareSoft,jp,1.86
+1999,Legend of Mana,SquareSoft,jp,1.11
+1999,Yu-Gi-Oh! Forbidden Memories,Konami Digital Entertainment,jp,1.88
+1999,Silent Hill,Konami Digital Entertainment,jp,1.6
+1999,Dance Dance Revolution (Japan),Konami Digital Entertainment,jp,1.35
+1999,Namco Museum 64,Namco Bandai Games,jp,1.45
+1999,Digimon World,Namco Bandai Games,jp,1.3
+1999,SD Gundam G Generation Zero,Namco Bandai Games,jp,0.55
+1999,007: Tomorrow Never Dies,Electronic Arts,us,3.21
+1999,Need For Speed: High Stakes,Electronic Arts,us,2.31
+1999,NASCAR 2000,Electronic Arts,us,2.12
+1999,Tony Hawk's Pro Skater,Activision,us,7.13
+1999,Vigilante 8: 2nd Offense,Activision,us,0.59
+1999,A Collection of Classic Games from the Intellivision,Activision,us,0.31
+1999,Driver,GT Interactive,us,6.27
+1999,40 Winks,GT Interactive,us,0.31
+1999,Duke Nukem: Zero Hour,GT Interactive,us,0.26
+1999,NFL GameDay 2000,989 Studios,us,1.8
+1999,Twisted Metal 4,989 Studios,us,1.28
+1999,3Xtreme,989 Studios,us,0.9
+1999,Army Men 3D,3DO,us,1.28
+1999,Army Men: Air Attack,3DO,us,0.85
+1999,Army Men: Sarge's Heroes,3DO,us,1.37
+1999,Warzone 2100,Eidos Interactive,uk,5.01
+1999,Resident Evil 3: Nemesis,Eidos Interactive,uk,3.8
+1999,Tomb Raider Chronicles,Eidos Interactive,uk,0.61
+1999,LEGO Racers,LEGO Media,uk,1.07
+1999,LEGO Rock Raiders,LEGO Media,uk,0.1
+1999,MTV Music Generator,Codemasters,uk,0.47
+1999,Micro Machines 64 Turbo,Codemasters,uk,0.14
+1999,WipEout 3,Psygnosis,uk,0.34
+1999,Rollcage,Psygnosis,uk,0.21
+1999,G-Police: Weapons of Justice,Psygnosis,uk,0.06
+1999,Bloody Roar II,Virgin Interactive,uk,0.46
+1999,Jojo's Bizarre Adventure,Virgin Interactive,uk,0.02
+1999,Silent Bomber,Virgin Interactive,uk,0.02
+1999,The Dukes of Hazzard: Racing for Home,Ubisoft,fr,1.19
+1999,SnoCross Championship Racing,Ubisoft,fr,0.93
+1999,Rayman 2: The Great Escape,Ubisoft,fr,0.96
+1999,Superman: The New Superman Adventures,Titus,fr,0.41
+1999,Xena: Warrior Princess - The Talisman of Fate,Titus,fr,0.29
+1999,Roadsters 99,Titus,fr,0.2
+1999,Bugs Bunny: Lost in Time,Infogrames,fr,0.4
+1999,Gekido,Infogrames,fr,0.1
+1999,Expendable,Infogrames,fr,0.05

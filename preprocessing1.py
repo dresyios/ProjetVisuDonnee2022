@@ -2,14 +2,14 @@ import pandas as pd
 import numpy as np
 import math
 
-data= pd.read_csv("CSVs/salesMerged(96).csv", usecols= ['Country','Year','Total_Sales'])
+data= pd.read_csv("CSVs/salesMerged(99).csv", usecols= ['Country','Year','Total_Sales'])
 
 newData=[]
 
 #Paires pays:xy pour les placer sur la carte A COMPLETER AU FIL DES DONNES
 #locations={'us':[210,155], 'jp':[940,165], 'uk':[512, 110], 'fr':[526, 130], 'ca':[210, 100]}
 
-for year in range(1980,1996):
+for year in range(1980,2000):
     countries=[]
     print("Year: ", year)
     for index, row in data.iterrows():
