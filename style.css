@@ -19,7 +19,7 @@ html, body {
 .canevas1 {
     margin:auto;
     width: 100%;
-    height: 900px;
+    height: 770px;
 
     background:url('https://upload.wikimedia.org/wikipedia/commons/d/df/Worldmap_location_NED_50m.svg');
     background-size: contain;

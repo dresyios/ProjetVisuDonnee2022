@@ -12,6 +12,7 @@
 </head>
 <body>
 
+    <script src="JS/drawTOP.js"></script>
     <script src="JS/drawPublisher.js"></script>
     <script src="JS/drawYear.js"></script>
 
@@ -27,8 +28,8 @@
 
         let canevas1 = d3.select("#main")
             .append("svg")
-            .attr("width", "1440")
-            .attr("height", "600")
+            //.attr("width", "1440")
+            //.attr("height", "600")
             .attr("class", "canevas1");
 
         drawYear(1980) //démarrer sur la première année automatiquement
