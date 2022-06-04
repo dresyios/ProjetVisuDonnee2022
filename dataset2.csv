@@ -120,11 +120,12 @@ Year,Publisher,Country,Sales
 1996,Konami Digital Entertainment,jp,3.36
 1996,ASCII Entertainment,jp,2.87
 1996,Autres,jp,19.370000000000005
-1996,Virgin Interactive,gb,13.14
-1996,Eidos Interactive,gb,4.86
-1996,Psygnosis,gb,2.32
-1996,Empire Interactive,gb,0.41
-1996,U.S. Gold,gb,0.15
+1996,Virgin Interactive,uk,13.14
+1996,Eidos Interactive,uk,4.86
+1996,Psygnosis,uk,2.32
+1996,Empire Interactive,uk,0.41
+1996,Gremlin Interactive Ltd,uk,0.39
+1996,Autres,uk,0.35000000000000003
 1996,Electronic Arts,us,7.9
 1996,GT Interactive,us,6.42
 1996,Acclaim Entertainment,us,3.09
@@ -132,12 +133,10 @@ Year,Publisher,Country,Sales
 1996,Fox Interactive,us,1.54
 1996,Autres,us,5.750000000000002
 1996,CTO SpA,it,0.88
-1996,Gremlin Interactive Ltd,uk,0.39
-1996,Ocean,uk,0.13
-1996,Elite,uk,0.07
 1996,Infogrames,fr,0.31
 1996,Adeline Software,fr,0.17
 1996,Ubisoft,fr,0.16
+1996,FunSoft,de,0.12
 1996,SPS,ch,0.12
 1996,Gaga,ru,0.02
 1997,Sony Computer Entertainment,jp,44.16
@@ -208,3 +207,480 @@ Year,Publisher,Country,Sales
 1999,Ubisoft,fr,4.56
 1999,Titus,fr,0.98
 1999,Infogrames,fr,0.6
+2000,Electronic Arts,us,23.03
+2000,THQ,us,15.86
+2000,Activision,us,12.62
+2000,Take-Two Interactive,us,6.03
+2000,Acclaim Entertainment,us,5.24
+2000,Autres,us,18.5
+2000,Sony Computer Entertainment,jp,22.28
+2000,Nintendo,jp,20.45
+2000,Namco Bandai Games,jp,9.98
+2000,SquareSoft,jp,6.04
+2000,Konami Digital Entertainment,jp,4.97
+2000,Autres,jp,14.5
+2000,Eidos Interactive,uk,4.55
+2000,Virgin Interactive,uk,2.41
+2000,Midas Interactive Entertainment,uk,1.23
+2000,Empire Interactive,uk,1.14
+2000,Codemasters,uk,1.02
+2000,Autres,uk,0.12
+2000,Ubisoft,fr,4.13
+2000,Infogrames,fr,1.66
+2000,Titus,fr,0.08
+2000,Swing! Entertainment,de,0.18
+2001,Sony Computer Entertainment,jp,42.95
+2001,Nintendo,jp,16.78
+2001,Konami Digital Entertainment,jp,16.56
+2001,Capcom,jp,7.52
+2001,Namco Bandai Games,jp,5.02
+2001,Autres,jp,10.810000000000002
+2001,Electronic Arts,us,39.72
+2001,Take-Two Interactive,us,20.41
+2001,Activision,us,15.15
+2001,THQ,us,15.01
+2001,Microsoft Game Studios,us,13.41
+2001,Autres,us,41.92000000000001
+2001,Virgin Interactive,uk,4.89
+2001,Sony Computer Entertainment Europe,uk,3.17
+2001,Eidos Interactive,uk,2.18
+2001,Codemasters,uk,1.59
+2001,Empire Interactive,uk,1.0
+2001,Autres,uk,0.7200000000000001
+2001,Ubisoft,fr,2.88
+2001,Infogrames,fr,1.53
+2001,Titus,fr,1.12
+2001,Wanadoo,fr,0.2
+2001,Magix,de,0.31
+2001,Swing! Entertainment,de,0.08
+2001,DreamCatcher Interactive,ca,0.05
+2002,Electronic Arts,us,59.43
+2002,THQ,us,21.06
+2002,Activision,us,20.94
+2002,Take-Two Interactive,us,20.4
+2002,Atari,us,18.73
+2002,Autres,us,41.209999999999994
+2002,Sony Computer Entertainment,jp,27.6
+2002,Nintendo,jp,21.03
+2002,Namco Bandai Games,jp,12.42
+2002,Sega,jp,9.43
+2002,Capcom,jp,8.12
+2002,Autres,jp,14.579999999999995
+2002,Ubisoft,fr,16.37
+2002,Infogrames,fr,5.04
+2002,Wanadoo,fr,0.46
+2002,Titus,fr,0.14
+2002,NDA Productions,fr,0.12
+2002,Autres,fr,0.13
+2002,Eidos Interactive,uk,8.2
+2002,Codemasters,uk,1.8
+2002,Empire Interactive,uk,1.38
+2002,Rage Software,uk,1.28
+2002,Jester Interactive,uk,0.71
+2002,Autres,uk,1.1400000000000001
+2002,Play It,be,1.15
+2002,505 Games,it,0.29
+2002,Pacific Century Cyber Works,hk,0.26
+2002,Swing! Entertainment,de,0.14
+2002,Phantagram,kr,0.05
+2003,Electronic Arts,us,59.55
+2003,Activision,us,18.49
+2003,THQ,us,17.38
+2003,Vivendi Games,us,13.07
+2003,Atari,us,12.16
+2003,Autres,us,39.22000000000001
+2003,Sony Computer Entertainment,jp,24.72
+2003,Nintendo,jp,22.77
+2003,Sega,jp,12.35
+2003,Namco Bandai Games,jp,9.91
+2003,Konami Digital Entertainment,jp,9.3
+2003,Autres,jp,18.690000000000005
+2003,Ubisoft,fr,13.25
+2003,Microids,fr,0.1
+2003,LSP Games,fr,0.05
+2003,Titus,fr,0.02
+2003,Wanadoo,fr,0.02
+2003,Eidos Interactive,uk,3.6
+2003,Empire Interactive,uk,2.41
+2003,Codemasters,uk,2.23
+2003,Zoo Digital Publishing,uk,1.82
+2003,SCi,uk,1.48
+2003,Autres,uk,0.44999999999999996
+2003,Play It,be,0.42
+2003,505 Games,it,0.1
+2003,DreamCatcher Interactive,ca,0.09
+2004,Electronic Arts,us,63.8
+2004,Activision,us,27.29
+2004,Take-Two Interactive,us,25.58
+2004,THQ,us,16.4
+2004,Microsoft Game Studios,us,14.1
+2004,Autres,us,34.390000000000015
+2004,Sony Computer Entertainment,jp,32.45
+2004,Konami Digital Entertainment,jp,17.02
+2004,Sega,jp,11.66
+2004,Nintendo,jp,10.9
+2004,Square Enix,jp,6.29
+2004,Autres,jp,15.459999999999996
+2004,Ubisoft,fr,11.47
+2004,Microids,fr,0.13
+2004,Global Star,ca,5.32
+2004,Play It,be,3.37
+2004,Eidos Interactive,uk,3.0
+2004,Empire Interactive,uk,1.93
+2004,Zoo Digital Publishing,uk,1.72
+2004,Sony Computer Entertainment Europe,uk,1.71
+2004,Codemasters,uk,0.84
+2004,Autres,uk,1.35
+2004,Illusion Softworks,cz,0.93
+2004,505 Games,it,0.81
+2004,Deep Silver,de,0.32
+2005,Electronic Arts,us,57.8
+2005,Activision,us,25.75
+2005,THQ,us,12.73
+2005,Take-Two Interactive,us,11.34
+2005,LucasArts,us,11.26
+2005,Autres,us,28.39999999999999
+2005,Sony Computer Entertainment,jp,17.78
+2005,Namco Bandai Games,jp,12.89
+2005,Capcom,jp,11.48
+2005,Konami Digital Entertainment,jp,10.17
+2005,Nintendo,jp,8.98
+2005,Autres,jp,17.659999999999997
+2005,Ubisoft,fr,12.57
+2005,Microids,fr,0.07
+2005,Wanadoo,fr,0.02
+2005,Eidos Interactive,uk,6.82
+2005,Zoo Digital Publishing,uk,0.83
+2005,Codemasters,uk,0.5
+2005,Oxygen Interactive,uk,0.43
+2005,Jester Interactive,uk,0.4
+2005,Autres,uk,1.07
+2005,Global Star,ca,1.73
+2005,Hip Interactive,ca,0.17
+2005,Groove Games,ca,0.06
+2005,DreamCatcher Interactive,ca,0.02
+2005,505 Games,it,0.48
+2005,Black Bean Games,it,0.01
+2005,Play It,be,0.2
+2005,Deep Silver,de,0.17
+2005,Playlogic Game Factory,nl,0.12
+2005,JoWood Productions,at,0.04
+2006,Nintendo,jp,126.56
+2006,Sony Computer Entertainment,jp,20.18
+2006,Konami Digital Entertainment,jp,9.08
+2006,Square Enix,jp,8.87
+2006,Capcom,jp,7.61
+2006,Autres,jp,22.37
+2006,Electronic Arts,us,43.88
+2006,Activision,us,16.81
+2006,Take-Two Interactive,us,16.56
+2006,THQ,us,14.01
+2006,Microsoft Game Studios,us,9.52
+2006,Autres,us,23.620000000000005
+2006,Ubisoft,fr,11.85
+2006,Kando Games,fr,0.03
+2006,Eidos Interactive,uk,3.41
+2006,Oxygen Interactive,uk,1.73
+2006,Xplosiv,uk,0.28
+2006,Rising Star Games,uk,0.27
+2006,Empire Interactive,uk,0.26
+2006,Autres,uk,0.26
+2006,505 Games,it,0.7
+2006,Global Star,ca,0.09
+2006,DreamCatcher Interactive,ca,0.04
+2006,Groove Games,ca,0.03
+2006,Game Factory,dk,0.08
+2006,Yamasa Entertainment,vi,0.02
+2006,10TACLE Studios,de,0.02
+2007,Nintendo,jp,63.31
+2007,Sony Computer Entertainment,jp,29.94
+2007,Sega,jp,16.71
+2007,Konami Digital Entertainment,jp,14.03
+2007,Tecmo Koei,jp,5.52
+2007,Autres,jp,16.930000000000007
+2007,Electronic Arts,us,54.57
+2007,Activision,us,46.76
+2007,Microsoft Game Studios,us,25.79
+2007,Take-Two Interactive,us,18.91
+2007,THQ,us,18.8
+2007,Autres,us,42.839999999999996
+2007,Ubisoft,fr,24.43
+2007,Neko Entertainment,fr,0.03
+2007,Nobilis,fr,0.01
+2007,Eidos Interactive,uk,4.8
+2007,Codemasters,uk,2.95
+2007,Rising Star Games,uk,2.06
+2007,Zoo Digital Publishing,uk,0.73
+2007,Empire Interactive,uk,0.39
+2007,Autres,uk,0.8200000000000001
+2007,505 Games,it,4.09
+2007,Black Bean Games,it,0.07
+2007,RTL,lu,1.26
+2007,Game Factory,dk,0.16
+2007,Nordcurrent,lt,0.05
+2008,Electronic Arts,us,72.61
+2008,Activision,us,56.27
+2008,Take-Two Interactive,us,38.58
+2008,THQ,us,19.93
+2008,Microsoft Game Studios,us,15.04
+2008,Autres,us,74.07
+2008,Nintendo,jp,61.35
+2008,Sega,jp,24.68
+2008,Konami Digital Entertainment,jp,22.69
+2008,Sony Computer Entertainment,jp,20.66
+2008,Namco Bandai Games,jp,7.39
+2008,Autres,jp,18.349999999999998
+2008,Ubisoft,fr,33.92
+2008,Avanquest,fr,0.04
+2008,Neko Entertainment,fr,0.02
+2008,Eidos Interactive,uk,4.55
+2008,Codemasters,uk,3.04
+2008,Rising Star Games,uk,1.79
+2008,System 3 Arcade Software,uk,1.52
+2008,Zoo Digital Publishing,uk,1.05
+2008,Autres,uk,2.03
+2008,Deep Silver,de,2.01
+2008,DTP Entertainment,de,0.7
+2008,CDV Software Entertainment,de,0.1
+2008,Rondomedia,de,0.03
+2008,505 Games,it,1.69
+2008,Black Bean Games,it,0.48
+2008,Milestone,it,0.08
+2008,Koch Media,at,1.45
+2008,JoWood Productions,at,0.29
+2008,Gamebridge,ca,0.73
+2008,The Adventure Company,ca,0.25
+2008,Game Factory,dk,0.69
+2008,RTL,lu,0.68
+2008,Playlogic Game Factory,nl,0.12
+2008,Moss,no,0.12
+2009,Nintendo,jp,93.22
+2009,Sony Computer Entertainment,jp,25.29
+2009,Capcom,jp,18.37
+2009,Sega,jp,17.07
+2009,Konami Digital Entertainment,jp,12.03
+2009,Autres,jp,31.089999999999996
+2009,Activision,us,66.78
+2009,Electronic Arts,us,65.99
+2009,THQ,us,21.19
+2009,Take-Two Interactive,us,16.36
+2009,Microsoft Game Studios,us,15.44
+2009,Autres,us,44.90000000000001
+2009,Ubisoft,fr,32.49
+2009,Ubisoft Annecy,fr,0.86
+2009,Big Ben Interactive,fr,0.81
+2009,Focus Home Interactive,fr,0.33
+2009,Avanquest,fr,0.24
+2009,Autres,fr,0.12
+2009,Eidos Interactive,uk,9.62
+2009,Codemasters,uk,7.55
+2009,Rising Star Games,uk,1.91
+2009,PQube,uk,1.17
+2009,Zushi Games,uk,1.1
+2009,Autres,uk,1.3000000000000003
+2009,505 Games,it,2.49
+2009,Black Bean Games,it,0.27
+2009,Deep Silver,de,1.71
+2009,Rondomedia,de,0.65
+2009,DTP Entertainment,de,0.48
+2009,Kalypso Media,de,0.22
+2009,49Games,de,0.04
+2009,Autres,de,0.04
+2009,Nordic Games,at,1.24
+2009,JoWood Productions,at,0.21
+2009,Playlogic Game Factory,nl,0.64
+2009,Nordcurrent,lt,0.23
+2009,The Adventure Company,ca,0.11
+2010,Electronic Arts,us,74.16
+2010,Activision,us,49.2
+2010,Microsoft Game Studios,us,49.16
+2010,Take-Two Interactive,us,30.39
+2010,THQ,us,15.41
+2010,Autres,us,47.13000000000001
+2010,Ubisoft,fr,39.05
+2010,Ubisoft Annecy,fr,0.96
+2010,O-Games,fr,0.57
+2010,Focus Home Interactive,fr,0.42
+2010,Neko Entertainment,fr,0.18
+2010,Autres,fr,0.06
+2010,Nintendo,jp,33.37
+2010,Sony Computer Entertainment,jp,31.79
+2010,Sega,jp,13.33
+2010,Konami Digital Entertainment,jp,11.87
+2010,Namco Bandai Games,jp,10.95
+2010,Autres,jp,22.23
+2010,505 Games,it,13.45
+2010,Black Bean Games,it,1.28
+2010,Codemasters,uk,2.58
+2010,Rising Star Games,uk,0.94
+2010,PQube,uk,0.73
+2010,Slitherine Software,uk,0.18
+2010,Ghostlight,uk,0.1
+2010,Autres,uk,0.07
+2010,City Interactive,pl,2.3
+2010,Deep Silver,de,1.3
+2010,DTP Entertainment,de,0.29
+2010,Kalypso Media,de,0.2
+2010,Nordic Games,at,0.76
+2010,JoWood Productions,at,0.15
+2010,Virtual Play Games,nl,0.06
+2010,Home Entertainment Suppliers,au,0.06
+2010,Nordcurrent,lt,0.03
+2011,Electronic Arts,us,56.53
+2011,Activision,us,43.3
+2011,THQ,us,21.82
+2011,Microsoft Game Studios,us,20.9
+2011,Bethesda Softworks,us,20.61
+2011,Autres,us,61.90000000000002
+2011,Ubisoft,fr,38.08
+2011,Ubisoft Annecy,fr,0.97
+2011,O-Games,fr,0.16
+2011,Big Ben Interactive,fr,0.01
+2011,Sony Computer Entertainment,jp,23.46
+2011,Namco Bandai Games,jp,13.23
+2011,Nintendo,jp,10.43
+2011,Sega,jp,10.4
+2011,Square Enix,jp,8.77
+2011,Autres,jp,17.880000000000006
+2011,Deep Silver,de,6.24
+2011,DTP Entertainment,de,0.56
+2011,bitComposer Games,de,0.27
+2011,Kalypso Media,de,0.11
+2011,Codemasters,uk,4.61
+2011,Funbox Media,uk,0.74
+2011,Rising Star Games,uk,0.74
+2011,PQube,uk,0.45
+2011,Mastertronic,uk,0.08
+2011,Autres,uk,0.05
+2011,505 Games,it,2.08
+2011,Black Bean Games,it,0.67
+2011,Nordic Games,at,0.81
+2011,Koch Media,at,0.13
+2011,Home Entertainment Suppliers,au,0.6
+2012,Activision,us,40.71
+2012,Electronic Arts,us,38.62
+2012,Take-Two Interactive,us,18.83
+2012,Microsoft Game Studios,us,15.33
+2012,Warner Bros. Interactive Entertainment,us,9.5
+2012,Autres,us,14.680000000000001
+2012,Ubisoft,fr,32.35
+2012,Avanquest Software,fr,2.15
+2012,Focus Home Interactive,fr,0.79
+2012,Ubisoft Annecy,fr,0.14
+2012,Nintendo,jp,14.35
+2012,Capcom,jp,13.32
+2012,Namco Bandai Games,jp,9.55
+2012,Sony Computer Entertainment,jp,8.07
+2012,Square Enix,jp,7.88
+2012,Autres,jp,14.849999999999996
+2012,Codemasters,uk,2.64
+2012,Sony Computer Entertainment Europe,uk,0.25
+2012,PQube,uk,0.14
+2012,Funbox Media,uk,0.04
+2012,Reef Entertainment,uk,0.04
+2012,Autres,uk,0.04
+2012,505 Games,it,2.27
+2012,Deep Silver,de,0.39
+2012,Nordic Games,at,0.31
+2013,Take-Two Interactive,us,68.75
+2013,Electronic Arts,us,47.48
+2013,Activision,us,42.79
+2013,Warner Bros. Interactive Entertainment,us,16.13
+2013,Disney Interactive Studios,us,5.14
+2013,Autres,us,1.4600000000000002
+2013,Ubisoft,fr,24.72
+2013,Focus Home Interactive,fr,0.55
+2013,Microsoft Game Studios,se,21.48
+2013,Sony Computer Entertainment Europe,uk,13.04
+2013,Codemasters,uk,1.64
+2013,System 3,uk,0.17
+2013,Nintendo,jp,12.77
+2013,Sony Computer Entertainment,jp,11.79
+2013,Square Enix,jp,11.7
+2013,Namco Bandai Games,jp,4.69
+2013,Konami Digital Entertainment,jp,4.05
+2013,Autres,jp,11.169999999999996
+2013,Deep Silver,de,5.43
+2013,505 Games,it,2.81
+2013,City Interactive,pl,0.57
+2013,Nordic Games,at,0.06
+2013,Moss,no,0.01
+2014,Activision,us,41.06
+2014,Electronic Arts,us,40.91
+2014,Warner Bros. Interactive Entertainment,us,15.38
+2014,Take-Two Interactive,us,11.71
+2014,Microsoft Game Studios,us,7.42
+2014,Autres,us,14.31
+2014,Ubisoft,fr,40.35
+2014,Focus Home Interactive,fr,0.74
+2014,Nintendo,jp,17.86
+2014,Sony Computer Entertainment,jp,7.43
+2014,Namco Bandai Games,jp,7.15
+2014,Konami Digital Entertainment,jp,4.64
+2014,Sega,jp,3.65
+2014,Autres,jp,7.569999999999999
+2014,Deep Silver,de,2.64
+2014,505 Games,it,1.64
+2014,Milestone S.r.l.,it,0.39
+2014,Codemasters,uk,1.06
+2014,Sony Computer Entertainment Europe,uk,0.33
+2014,City Interactive,pl,0.12
+2014,Nordic Games,at,0.11
+2015,Electronic Arts,us,44.31
+2015,Activision,us,34.24
+2015,Warner Bros. Interactive Entertainment,us,19.88
+2015,Bethesda Softworks,us,14.61
+2015,Take-Two Interactive,us,13.62
+2015,Autres,us,14.599999999999998
+2015,Nintendo,jp,13.13
+2015,Namco Bandai Games,jp,10.31
+2015,Sony Computer Entertainment,jp,10.26
+2015,Square Enix,jp,7.69
+2015,Konami Digital Entertainment,jp,6.61
+2015,Autres,jp,4.28
+2015,Ubisoft,fr,11.85
+2015,Biuken Interactive,fr,0.7
+2015,Focus Home Interactive,fr,0.34
+2015,Mojang,se,2.81
+2015,Sony Computer Entertainment Europe,uk,1.64
+2015,Slightly Mad Studios,uk,1.27
+2015,Codemasters,uk,0.9
+2015,PQube,uk,0.32
+2015,Rebellion Developments,uk,0.3
+2015,Autres,uk,0.07
+2015,Koch Media,at,1.41
+2015,Nordic Games,at,0.35
+2015,Milestone S.r.l.,it,0.7
+2015,505 Games,it,0.17
+2015,Kalypso Media,de,0.44
+2015,Deep Silver,de,0.37
+2015,TopWare Interactive,de,0.01
+2015,Tru Blu Entertainment,au,0.28
+2016,Electronic Arts,us,12.07
+2016,Activision,us,2.95
+2016,Warner Bros. Interactive Entertainment,us,2.95
+2016,Take-Two Interactive,us,2.62
+2016,Bethesda Softworks,us,2.07
+2016,Autres,us,1.4000000000000001
+2016,Ubisoft,fr,9.07
+2016,Focus Home Interactive,fr,0.12
+2016,Avanquest,fr,0.04
+2016,Microids,fr,0.02
+2016,Sony Computer Entertainment,jp,6.56
+2016,Namco Bandai Games,jp,5.56
+2016,Square Enix,jp,2.16
+2016,Nintendo,jp,1.55
+2016,Konami Digital Entertainment,jp,1.04
+2016,Autres,jp,2.7299999999999995
+2016,Hello Games,uk,1.6
+2016,Codemasters,uk,0.79
+2016,PQube,uk,0.19
+2016,Alternative Software,uk,0.11
+2016,Introversion Software,uk,0.02
+2016,Autres,uk,0.05
+2016,Deep Silver,de,0.78
+2016,UIG Entertainment,de,0.01
+2016,505 Games,it,0.41
+2016,Milestone S.r.l.,it,0.13
+2016,Milestone S.r.l,it,0.05
+2016,Koch Media,at,0.01

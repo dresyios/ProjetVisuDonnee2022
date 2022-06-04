@@ -2,12 +2,12 @@ import pandas as pd
 import numpy as np
 import math
 
-data= pd.read_csv("CSVs/salesMerged(99).csv", usecols= ['Name','Country','Year','Publisher','Total_Sales'], keep_default_na=False)
+data= pd.read_csv("CSVs/salesMerged.csv", usecols= ['Name','Country','Year','Publisher','Total_Sales'], keep_default_na=False)
 
 newData=[]
 newDataGames=[]
 
-for year in range(1980,2000):
+for year in range(1980,2017):
     #Créer dictionnaire éditeurs:pays
     publishers={}
     for index, row in data.iterrows():
