@@ -62,7 +62,7 @@ function drawPublisher(year, country) {
 
     let mousemove = function(d) {
         Tooltip
-        .html("TOP 3 des ventes: " + "<br> d.Names : " + " millions d'unités") //+ "<br> Id:" + d3.select(this).attr("id"))
+        .html("TOP 3 des ventes: " + "<br>" + d.Names +  " . millions d'unités") //+ "<br> Id:" + d3.select(this).attr("id"))
         .style("left", 900 + "px")     
         .style("top", 500 + "px");
         }
