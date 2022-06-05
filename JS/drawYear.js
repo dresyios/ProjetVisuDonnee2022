@@ -1,4 +1,4 @@
-function drawYear(year) {
+function drawYear(year) { //fonction pour cercles rouges
     console.log("hello")
     // lier les données
     d3.csv("dataset.csv", function(error, data) {
@@ -15,41 +15,40 @@ function drawYear(year) {
 
         //FAIRE DICTIONNAIRE PAYS-LOCATIONS
         var dictloc = {
-            'us': [0.19, 0.28],
-            'jp': [0.86, 0.30],
-            'uk': [0.467, 0.21],
-            'fr': [0.48, 0.24],
-            'ca': [0.19, 0.1806],
-            'ru': [0.6, 0.2],
-            'it': [0.5, 0.3],
-            'de': [0.5, 0.21],
-            'nl': [0.48,0.21],
-            'hk': [0.75,0.7],
-            'ch': [0.8,0.8],
-            'be': [0.47, 0.22],
-            'cz': [0.54, 0.21],
-            'at': [0.54, 0.22],
-            'kr': [0.8, 0.3],
-            'dk': [0.5, 0.15],
-            'vi': [0.75,0.4],
-            'lu': [0.49,0.21],
-            'lt': [0.55,0.15],
-            'no': [0.5,0.1],
-            'pl': [0.55, 0.25],
-            'se': [0.52, 0.1],
-            'au': [0.86, 0.9]
+            'USA': [0.19, 0.28],
+            'Japon': [0.86, 0.30],
+            'Royaume-Uni': [0.467, 0.21],
+            'France': [0.48, 0.24],
+            'Canada': [0.19, 0.1806],
+            'Russie': [0.6, 0.2],
+            'Italie': [0.5, 0.3],
+            'Allemagne': [0.5, 0.21],
+            'Pays-Bas': [0.48,0.21],
+            'Hong Kong': [0.75,0.7],
+            'Belgique': [0.47, 0.22],
+            'République Tchèque': [0.54, 0.21],
+            'Autriche': [0.54, 0.22],
+            'Corée du Sud': [0.8, 0.3],
+            'Danemark': [0.5, 0.15],
+            'Vietnam': [0.75,0.4],
+            'Luxembourg': [0.49,0.21],
+            'Lituanie': [0.55,0.15],
+            'Norvège': [0.5,0.1],
+            'Pologne': [0.55, 0.25],
+            'Suède': [0.52, 0.1],
+            'Australie': [0.86, 0.9]
         };
 
-        let totalYear = d3.sum(dataYear, d => d.Sales)
+        let totalYear = d3.sum(dataYear, d => d.Sales) //obtenir le total des ventes pour chaque année
 
         // FONCTIONNALITE : mettre le cercle en évidence et afficher des infos quand on passe la souris dessus
         var Tooltip = d3.select('#main')
-            .append("div") //je cherche à faire en sorte que le carré suive la souris...
+            .append("div")
             .attr("class", "tooltip")
             .style("position", "absolute")
             .style("z-index", "10")
             .style("visibility", "hidden")
-            .style("background-color", "white")
+            .style("background-color", "white") //paramètres de la box
             .style("border", "solid")
             .style("border-width", "2px")
             .style("border-radius", "5px")
@@ -74,7 +73,6 @@ function drawYear(year) {
         let mouseleave = function(d) {
             Tooltip
             .style("visibility", "hidden")
-            //.style("opacity", 0)
             d3.select(this)
             .style("stroke", "none")
             .style("opacity", 0.8)
@@ -83,7 +81,7 @@ function drawYear(year) {
         }
 
         // création du canevas
-        canevas1.selectAll('circle')
+        canevas1.append('g').selectAll('circle')
         .data(dataYear)
         .enter()
         .append('circle')
@@ -104,6 +102,14 @@ function drawYear(year) {
             .transition()
             .duration(1000)
             .attr('r',  (d) => Math.sqrt((d.Sales*100)/totalYear)*5)
+
+            canevas1.append('g').selectAll('text') //total de l'année
+            .data(dataYear)
+            .enter()
+            .append('text')
+                .attr('x',600)
+                .attr('y', 11)
+                .html(function(d) { return totalYear.toFixed(2)+ " millions de jeux vendus"; })
                         
         })
         
