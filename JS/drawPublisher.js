@@ -115,7 +115,7 @@ function drawPublisher(year, country) { //fonction pour piechart
     .style("border", "solid")
     .style("border-width", "2px")
     .style("border-radius", "5px")
-    .style("padding", "5px")
+    .style("padding", "10px")
 
     // les fonctions pour faire cela
     let mouseover = function(d) {
@@ -123,8 +123,8 @@ function drawPublisher(year, country) { //fonction pour piechart
         .style("visibility", "visible")
         d3.select(this)
         .style("stroke", "black")
-        .style('stroke-width', 2)
-        .style("opacity", 1)
+        .style('stroke-width', 1)
+        .style("opacity", 0.9)
     }
 
     let mousemove = function(d) {
@@ -151,21 +151,20 @@ function drawPublisher(year, country) { //fonction pour piechart
             else if(values.length==2) {
                 values.push("Pas de jeu");
             }
-
             
             console.log("Publisher pie: ", publisherpie);
             
             if (publisherpie !=  "Autres") {
                 Tooltip
-                .html("TOP 3 des meilleurs jeux : <br>" + values[0] + "<br>" + values[1] + "<br>" + values[2])
-                .style("left", "400px")
-                .style("top", "600px")
+                .html("TOP 3 DES MEILLEURES VENTES : <br>" + values[0] + "<br>" + values[1] + "<br>" + values[2])
+                .style("left", '555px')
+                .style("top", '200px')
             }
             else {
                 Tooltip
                 .html("Pas de jeux à afficher")
-                .style("left", "400px")
-                .style("top", "600px")
+                .style("left", "615px")
+                .style("top", "200px")
             }
 
         })
