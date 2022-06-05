@@ -62,7 +62,7 @@ function drawPublisher(year, country) { //fonction pour piechart
            .attr("d", path)
            .attr("fill", function(d) { return color(d.data.Publisher); })
            .attr("opacity", 0.8)
-           .attr("id", (d) => d.Publisher)
+           .attr("id", (d) => d.data.Publisher)
            .on("mouseover", mouseover)
            .on("mousemove", mousemove)
            .on("mouseleave", mouseleave)
@@ -112,8 +112,7 @@ function drawPublisher(year, country) { //fonction pour piechart
     .style("border-width", "2px")
     .style("border-radius", "5px")
     .style("padding", "5px")
-    
-    
+
     // les fonctions pour faire cela
     let mouseover = function(d) {
         Tooltip
@@ -122,27 +121,34 @@ function drawPublisher(year, country) { //fonction pour piechart
         .style("stroke", "black")
         .style('stroke-width', 2)
         .style("opacity", 1)
-        d3.csv("dataset3.csv", function(error, data) {
-            if (error) {
-                throw error;
-            }
-            
-        let dataTOP = data.filter(function(d)
-        { 
-        if(d["Year"] == year && d["Country"] == country && d["Publisher"] == publisher) { 
-        return d;
-        } 
-        })
-        console.log(dataTOP)
-        console.log(dataTOP.Names)
-        })
-        }
+    }
 
     let mousemove = function(d) {
-        Tooltip
-        .html("TOP 3 des meilleurs jeux : " + d.Names )
-        .style("left", 900 + "px")     
-        .style("top", 500 + "px")
+        let publisherpie = d3.select(this).attr("id")
+        d3.csv("dataset3.csv", function(error2, data2) {
+            if (error2) {
+                throw error2;
+            }
+        
+            console.log(data2)
+            let dataTop = data2.filter(function(d)
+            { 
+                if(d["Year"] == year && d["Country"] == country && d["Publisher"] == publisherpie) { 
+                    console.log("Dans filter")
+                    return d;
+                } 
+            })
+    
+            let values = dataTop.map(function(d) { return d.Names; });
+            console.log("Values: ", values);
+
+            Tooltip
+            .html("TOP 3 des meilleurs jeux : <br>" + values[0] + "<br>" + values[1] + "<br>" + values[2])
+            .style("left", "400px")
+            .style("top", "600px")
+            //.style('left', (d3.event.pageX+10) + 'px')
+            //.style('top', (d3.event.pageY+10) + 'px')
+        })
         }
 
     let mouseleave = function(d) {
