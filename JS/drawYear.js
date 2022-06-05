@@ -106,7 +106,7 @@ function drawYear(year) { //fonction pour cercles rouges
             d3.selectAll("circle")
             .transition()
             .duration(1000)
-            .attr('r',  (d) => Math.sqrt((d.Sales*100)/totalYear)*5)
+            .attr('r',  (d) => Math.sqrt((d.Sales*100)/totalYear)*10)
 
             d3.select(".Total").html("Total des ventes cette année: " +totalYear.toFixed(2)+" millions de jeux")
                         
