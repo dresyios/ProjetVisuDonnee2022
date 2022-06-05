@@ -6,6 +6,6 @@ II.     Screenshot
 
 III.    Procédure d'installation ???
 
-IV.     Pour le preprocessing, nous avons utilisé la librairie Python Panda, mais pas de modules ou de scripts spécifiques.
+IV.     Pour le preprocessing, nous avons utilisé la librairie Python Panda, mais pas de modules ou de scripts spécifiques. Pour le reste, nous utilisé la librairie D3.
 
 V. Ce projet a été développé dans le cadre du cours "Visualisation de données" dispensé par Isaac Pante, MER (SLI, Lettres, UNIL) pendant le semestre de printemps 2022.
