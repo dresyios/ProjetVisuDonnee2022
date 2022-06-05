@@ -37,62 +37,6 @@ function drawPublisher(year, country) {
         return (180 / Math.PI * (d.startAngle + d.endAngle) / 2 - 90) // pour la lisibilité
     };
 
-
-d3.csv("dataset3.csv", function(error, data) {
-    if (error) {
-        throw error;
-    }
-    
-let dataTOP = data.filter(function(d)
-{ 
-if(d["Year"] == year && d["Country"] == country && d["Publisher"] == publisher) { 
-return d;
-} 
-})
-
-console.log(dataTOP)
-})
-
-    var Tooltip = d3.select('#main')
-        .append("div")
-        .attr("class", "tooltip")
-        .style("position", "absolute")
-        .style("z-index", "10")
-        .style("visibility", "hidden")
-        .style("background-color", "white")
-        .style("border", "solid")
-        .style("border-width", "2px")
-        .style("border-radius", "5px")
-        .style("padding", "5px")
-
-
-    // les fonctions pour faire cela
-    let mouseover = function(d) {
-        Tooltip
-        .style("visibility", "visible")
-        d3.select(this)
-        .style("stroke", "black")
-        .style('stroke-width', 2)
-        .style("opacity", 1)
-        drawTOP(year, country, d.Publisher)
-        console.log(dataTOP.Names)
-        }
-
-    let mousemove = function(d) {
-        Tooltip
-        .text("TOP 3 des meilleurs jeux : " +  d.Names)
-        .style("left", 900 + "px")     
-        .style("top", 500 + "px");
-        }
-
-    let mouseleave = function(d) {
-        Tooltip
-        .style("visibility", "hidden")
-        d3.select(this)
-        .style("stroke", "none")
-        .style("opacity", 0.8)
-        }
-
     d3.csv("dataset2.csv", function(error, data) {
                 if (error) {
                     throw error;
@@ -117,7 +61,7 @@ console.log(dataTOP)
            .attr("d", path)
            .attr("fill", function(d) { return color(d.data.Publisher); })
            .attr("opacity", 0.8)
-           .attr("id", "path")
+           .attr("id", (d) => d.Publisher)
            .on("mouseover", mouseover)
            .on("mousemove", mousemove)
            .on("mouseleave", mouseleave)
@@ -154,6 +98,58 @@ console.log(dataTOP)
             //.attr("transform", "translate(720,300) rotate("+n+")");
             //}
         });
+
+    var Tooltip = d3.select('#main')
+    .append("div")
+    .attr("class", "tooltip")
+    .style("position", "absolute")
+    .style("z-index", "10")
+    .style("visibility", "hidden")
+    .style("background-color", "white")
+    .style("border", "solid")
+    .style("border-width", "2px")
+    .style("border-radius", "5px")
+    .style("padding", "5px")
+    
+    
+    // les fonctions pour faire cela
+    let mouseover = function(d) {
+        Tooltip
+        .style("visibility", "visible")
+        d3.select(this)
+        .style("stroke", "black")
+        .style('stroke-width', 2)
+        .style("opacity", 1)
+        d3.csv("dataset3.csv", function(error, data) {
+            if (error) {
+                throw error;
+            }
+            
+        let dataTOP = data.filter(function(d)
+        { 
+        if(d["Year"] == year && d["Country"] == country && d["Publisher"] == publisher) { 
+        return d;
+        } 
+        })
+        console.log(dataTOP)
+        console.log(dataTOP.Names)
+        })
+        }
+
+    let mousemove = function(d) {
+        Tooltip
+        .html("TOP 3 des meilleurs jeux : " + d.Names )
+        .style("left", 900 + "px")     
+        .style("top", 500 + "px")
+        }
+
+    let mouseleave = function(d) {
+        Tooltip
+        .style("visibility", "hidden")
+        d3.select(this)
+        .style("stroke", "none")
+        .style("opacity", 0.8)
+        } 
 
         //transition plus smooth
         d3.select("#mypiechart")
