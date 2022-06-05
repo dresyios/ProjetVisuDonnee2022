@@ -27,16 +27,21 @@ html, body {
     background-repeat: no-repeat;
 }
 
-p.YearTitle {
+p.MainTitle {
     text-align: center;
-}
-
-p {
-    margin-top: 20px;
+    margin-top: 15px;
     opacity: 1;
     font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-family: sans-serif;
     font-size: xx-large;
+}
+
+p.Total {
+    text-align: center ;
+    opacity: 1;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: medium;
 }
 
 .sliderContainer {
@@ -61,6 +66,7 @@ p {
     content: "2016";
     color: black;
     font-size: 1rem;
+    font-family: sans-serif;
     position: absolute;
     left: 83%;
     top: 7%;
@@ -70,6 +76,7 @@ p {
      content: "1980";
      color: black;
      font-size: 1rem;
+     font-family: sans-serif;
      position: absolute;
      left: 12%;
      top: 7%;

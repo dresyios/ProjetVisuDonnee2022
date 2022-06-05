@@ -17,7 +17,8 @@
 
     <div class="sliderContainer">
         <input type="range" min="1980" max="2016" value ="1980" id="monSlider" class="slider" position="1980">
-        <p class="YearTitle">Ventes de jeux par éditeur en <span id="value"></span></p>
+        <p class="MainTitle">Ventes de jeux par éditeur en <span id="value"></span></p>
+        <p class="Total">Total : </p>
     </div>
     <div id = "main"></div>
     <div id = "tooltip" class = "tooltip"></div>
@@ -42,7 +43,8 @@
         slider.oninput = function() {
             output.innerHTML = this.value; //afficher l'année
             drawYear(slider.value)
-            d3.selectAll("circle").remove() //raffraichir les données à chaque nouveau choix (je dois encore faire pour que le curseur revienne au début quand on recharge la page)
+            d3.selectAll("circle").remove() //raffraichir les données à chaque nouveau choix
+            d3.selectAll("text").remove()
             d3.select("#mypiechart").remove();
         }
     </script>

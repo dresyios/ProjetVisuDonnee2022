@@ -1,4 +1,4 @@
-function drawPublisher(year, country) {
+function drawPublisher(year, country) { //fonction pour piechart
 
 
     var svg = d3.select("svg"),
@@ -15,6 +15,7 @@ function drawPublisher(year, country) {
                .attr("id", "mypiechart")
                .attr('opacity', 0)
 
+    //piecharts
     var color = d3.scaleOrdinal(['#4daf4a','#377eb8','#ff7f00','#984ea3','#e41a1c', '#ad783e']);
 
     var pie = d3.pie().value(function(d) { 
@@ -36,7 +37,7 @@ function drawPublisher(year, country) {
     var getAngle = function (d) {
         return (180 / Math.PI * (d.startAngle + d.endAngle) / 2 - 90) // pour la lisibilité
     };
-
+    //lier les données
     d3.csv("dataset2.csv", function(error, data) {
                 if (error) {
                     throw error;
@@ -66,7 +67,7 @@ function drawPublisher(year, country) {
            .on("mousemove", mousemove)
            .on("mouseleave", mouseleave)
 
-           arc.append("text")
+           arc.append("text") //nom des éditeurs
            .attr("transform", function(d) { 
                     return "translate(" + label.centroid(d) + ")" +
                     "rotate(" + getAngle(d) + ")"; }) // pour améliorer la lisibilité (certains sont à l'envers pas contre, je chercher encore la solution)
@@ -74,7 +75,7 @@ function drawPublisher(year, country) {
             .style("text-anchor", "start")
             .text(function(d) { return d.data.Publisher; }); 
            
-            arc.append("text")
+            arc.append("text") //nb de ventes par éditeur
             .attr("transform", function(d) { 
                        return "translate(" + labelVal.centroid(d) + ")" +
                        "rotate(" + getAngle(d) + ")"; }) // pour améliorer la lisibilité (certains sont à l'envers pas contre, je chercher encore la solution)
@@ -99,6 +100,7 @@ function drawPublisher(year, country) {
             //}
         });
 
+    //afficher le top 3 des meilleurs jeux par éditeur quand on passe la souris dessus
     var Tooltip = d3.select('#main')
     .append("div")
     .attr("class", "tooltip")

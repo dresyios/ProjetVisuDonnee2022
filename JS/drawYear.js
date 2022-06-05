@@ -1,4 +1,4 @@
-function drawYear(year) {
+function drawYear(year) { //fonction pour cercles rouges
     console.log("hello")
     // lier les données
     d3.csv("dataset.csv", function(error, data) {
@@ -39,16 +39,16 @@ function drawYear(year) {
             'Australie': [0.86, 0.9]
         };
 
-        let totalYear = d3.sum(dataYear, d => d.Sales)
+        let totalYear = d3.sum(dataYear, d => d.Sales) //obtenir le total des ventes pour chaque année
 
         // FONCTIONNALITE : mettre le cercle en évidence et afficher des infos quand on passe la souris dessus
         var Tooltip = d3.select('#main')
-            .append("div") //je cherche à faire en sorte que le carré suive la souris...
+            .append("div")
             .attr("class", "tooltip")
             .style("position", "absolute")
             .style("z-index", "10")
             .style("visibility", "hidden")
-            .style("background-color", "white")
+            .style("background-color", "white") //paramètres de la box
             .style("border", "solid")
             .style("border-width", "2px")
             .style("border-radius", "5px")
@@ -73,7 +73,6 @@ function drawYear(year) {
         let mouseleave = function(d) {
             Tooltip
             .style("visibility", "hidden")
-            //.style("opacity", 0)
             d3.select(this)
             .style("stroke", "none")
             .style("opacity", 0.8)
@@ -82,7 +81,7 @@ function drawYear(year) {
         }
 
         // création du canevas
-        canevas1.selectAll('circle')
+        canevas1.append('g').selectAll('circle')
         .data(dataYear)
         .enter()
         .append('circle')
@@ -103,6 +102,14 @@ function drawYear(year) {
             .transition()
             .duration(1000)
             .attr('r',  (d) => Math.sqrt((d.Sales*100)/totalYear)*5)
+
+            canevas1.append('g').selectAll('text') //total de l'année
+            .data(dataYear)
+            .enter()
+            .append('text')
+                .attr('x',600)
+                .attr('y', 11)
+                .html(function(d) { return totalYear.toFixed(2)+ " millions de jeux vendus"; })
                         
         })
         
