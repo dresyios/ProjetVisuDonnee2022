@@ -1,8 +1,8 @@
 # ProjetVisuDonn-e
 
-I. Notre projet consiste en une visualisation des différents éditeurs de jeux vidéos entre les années 1980 et 2016, respectivement par pays et par parts de marché. En outre, nous effectuons également une visualisation des trois meilleures ventes de jeux vidéos par éditeur et par année.
+I. Notre projet consiste en une visualisation des ventes effectuées par les différents éditeurs de jeux vidéos entre les années 1980 et 2016 et tout cela par pays. En outre, nous effectuons également une visualisation des trois plus gros succès par éditeur et par année.
 
-II.     Screenshot
+II.     Screenshots
 
 III.    Procédure d'installation ???
 
