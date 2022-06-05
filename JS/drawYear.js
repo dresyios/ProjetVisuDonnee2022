@@ -91,8 +91,8 @@ function drawYear(year) { //fonction pour cercles rouges
         .enter()
         .append('circle')
             .attr('id', 'mouseovercercle')
-            .attr('cx', (d) => (dictloc[d.Country][0])*window.innerWidth)
-            .attr('cy', (d) => (dictloc[d.Country][1])*window.innerHeight)
+            .attr('cx', (d) => (dictloc[d.Country][0])*1600)
+            .attr('cy', (d) => (dictloc[d.Country][1])*800)
             .attr('r', 0)
             .attr("id", (d) => d.Country)
             .style('fill',(d,i) => d3.schemeCategory10[i]) //une couleur par bulle
