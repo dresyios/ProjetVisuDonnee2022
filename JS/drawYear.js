@@ -47,7 +47,7 @@ function drawYear(year) { //fonction pour cercles rouges
             .append("div")
             .attr("class", "tooltip")
             .style("position", "absolute")
-            .style("z-index", "10")
+            .style("z-index", "12")
             .style("visibility", "hidden")
             .style("background-color", "white") //paramètres de la box
             .style("border", "solid")

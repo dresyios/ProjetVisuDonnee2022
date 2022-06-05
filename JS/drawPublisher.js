@@ -11,7 +11,7 @@ function drawPublisher(year, country) { //fonction pour piechart
     
 
     var g = svg.append("g")
-               .attr("transform", "translate(" + window.innerWidth / 2 + "," + (((window.innerHeight*0.9) / 2)+50) + ")")
+                .attr("transform", "translate(800, 500)")           
                .attr("id", "mypiechart")
                .attr('opacity', 0)
 
@@ -105,7 +105,7 @@ function drawPublisher(year, country) { //fonction pour piechart
         });
 
     //afficher le top 3 des meilleurs jeux par éditeur quand on passe la souris dessus
-    var Tooltip = d3.select('#main')
+    var Tooltip2 = d3.select('#main')
     .append("div")
     .attr("class", "tooltip")
     .style("position", "absolute")
@@ -119,7 +119,7 @@ function drawPublisher(year, country) { //fonction pour piechart
 
     // les fonctions pour faire cela
     let mouseover = function(d) {
-        Tooltip
+        Tooltip2
         .style("visibility", "visible")
         d3.select(this)
         .style("stroke", "black")
@@ -155,13 +155,13 @@ function drawPublisher(year, country) { //fonction pour piechart
             console.log("Publisher pie: ", publisherpie);
             
             if (publisherpie !=  "Autres") {
-                Tooltip
+                Tooltip2
                 .html("TOP 3 DES MEILLEURES VENTES : <br>" + values[0] + "<br>" + values[1] + "<br>" + values[2])
                 .style("left", '555px')
                 .style("top", '200px')
             }
             else {
-                Tooltip
+                Tooltip2
                 .html("Pas de jeux à afficher")
                 .style("left", "615px")
                 .style("top", "200px")
@@ -171,7 +171,7 @@ function drawPublisher(year, country) { //fonction pour piechart
         }
 
     let mouseleave = function(d) {
-        Tooltip
+        Tooltip2
         .style("visibility", "hidden")
         d3.select(this)
         .style("stroke", "none")

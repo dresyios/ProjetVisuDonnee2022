@@ -21,11 +21,14 @@
         <input type="range" min="1980" max="2016" value ="1980" id="monSlider" class="slider" position="1980">
         <p class="Total">Total : </p>
     </div>
+    <div id = "main"></div>
+    <div id = "tooltip" class = "tooltip"></div>
+
 
 
     <script>
-        let svgwidht = 1600;
-        let svgheight = 800;
+        let svgwidht = 1700;
+        let svgheight = 900;
         let canevas1 = d3.select("body")
             .append("svg")
             .attr("width", svgwidht+"px")
@@ -49,7 +52,6 @@
         }
     </script>
 
-    <div id = "tooltip" class = "tooltip"></div>
 
 
 </body>
