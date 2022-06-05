@@ -7,9 +7,7 @@ html, body {
 }
 
 .canevas1 {
-    position:fixed; top:20%; left:0; height:80%; width:100%;
-
-    background:url('https://upload.wikimedia.org/wikipedia/commons/d/df/Worldmap_location_NED_50m.svg');
+    background:url("map.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -79,12 +77,9 @@ p.Total {
      font-family: sans-serif;
      position: absolute;
      left: 12%;
-     top: 9%;
+     top: 7%;
  }
  
-.slider:hover {
-    opacity: 1;
-}
 
 .slider::-webkit-slider-thumb { /* pour chrome */
     -webkit-appearance: none;
