@@ -96,9 +96,7 @@ function drawPublisher(year, country) { //fonction pour piechart
             //},timeInterval);
 
             //var n;
-            // update the element
             //function update(n) {
-            // rotate the text
             //svg.select("#mypiechart")
             //.attr("transform", "translate(720,300) rotate("+n+")");
             //}

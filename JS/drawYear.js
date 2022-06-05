@@ -26,18 +26,18 @@ function drawYear(year) { //fonction pour cercles rouges
             'Pays-Bas': [0.452,0.234],
             'Hong Kong': [0.795,0.419],
             'Belgique': [0.451, 0.243],
-            'République Tchèque': [0.54, 0.21],
-            'Autriche': [0.54, 0.22],
-            'Corée du Sud': [0.8, 0.3],
-            'Danemark': [0.5, 0.15],
-            'Vietnam': [0.75,0.4],
-            'Luxembourg': [0.49,0.21],
-            'Lituanie': [0.55,0.15],
-            'Norvège': [0.5,0.1],
-            'Pologne': [0.55, 0.25],
-            'Suède': [0.52, 0.1],
-            'Australie': [0.86, 0.9],
-            'Brésil': [0.20,0.9],
+            'République Tchèque': [0.48, 0.25],
+            'Autriche': [0.48, 0.26],
+            'Corée du Sud': [0.825, 0.33],
+            'Danemark': [0.464, 0.21],
+            'Vietnam': [0.781,0.47],
+            'Luxembourg': [0.454,0.248],
+            'Lituanie': [0.503,0.215],
+            'Norvège': [0.464,0.18],
+            'Pologne': [0.49, 0.236],
+            'Suède': [0.48, 0.18],
+            'Australie': [0.86, 0.7],
+            'Brésil': [0.26,0.62],
         };
 
         let totalYear = d3.sum(dataYear, d => d.Sales) //obtenir le total des ventes pour chaque année
@@ -106,7 +106,7 @@ function drawYear(year) { //fonction pour cercles rouges
             d3.selectAll("circle")
             .transition()
             .duration(1000)
-            .attr('r',  (d) => Math.sqrt((d.Sales*100)/totalYear)*10)
+            .attr('r',  (d) => Math.sqrt((d.Sales*100)/totalYear)*12)
 
             d3.select(".Total").html("Total des ventes cette année: " +totalYear.toFixed(2)+" millions de jeux")
                         
