@@ -36,7 +36,8 @@ function drawYear(year) { //fonction pour cercles rouges
             'Norvège': [0.5,0.1],
             'Pologne': [0.55, 0.25],
             'Suède': [0.52, 0.1],
-            'Australie': [0.86, 0.9]
+            'Australie': [0.86, 0.9],
+            'Brésil': [0.20,0.9]
         };
 
         let totalYear = d3.sum(dataYear, d => d.Sales) //obtenir le total des ventes pour chaque année
