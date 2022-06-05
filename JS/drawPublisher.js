@@ -82,6 +82,10 @@ function drawPublisher(year, country) { //fonction pour piechart
                .attr("dy", 5) 
                .style("text-anchor", "start")
             .text(function(d) { return Math.round(d.data.Sales*100)/100 + " mio"; })
+            .attr("id", (d) => d.data.Publisher)
+            .on("mouseover", mouseover)
+            .on("mousemove", mousemove)
+            .on("mouseleave", mouseleave)
 
             //rotation pour améliorer la lisibilité ?
             //var i = 0;
