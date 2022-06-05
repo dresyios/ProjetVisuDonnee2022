@@ -105,13 +105,7 @@ function drawYear(year) { //fonction pour cercles rouges
             .duration(1000)
             .attr('r',  (d) => Math.sqrt((d.Sales*100)/totalYear)*5)
 
-            canevas1.append('g').selectAll('text') //total de l'année
-            .data(dataYear)
-            .enter()
-            .append('text')
-                .attr('x',600)
-                .attr('y', 12)
-                .html(function(d) { return totalYear.toFixed(2)+ " millions de jeux vendus"; })
+            d3.select(".Total").html("Total des ventes cette année: " +totalYear.toFixed(2)+" millions de jeux")
                         
         })
         

@@ -30,7 +30,7 @@ html, body {
 
 p.MainTitle {
     text-align: center;
-    margin-top: 15px;
+    margin-top: 30px;
     opacity: 1;
     font-weight: bold;
     font-family: sans-serif;
@@ -40,6 +40,7 @@ p.MainTitle {
 p.Total {
     text-align: center ;
     opacity: 1;
+    margin-top: 40px;
     font-weight: bold;
     font-family: sans-serif;
     font-size: medium;
@@ -70,7 +71,7 @@ p.Total {
     font-family: sans-serif;
     position: absolute;
     left: 83%;
-    top: 8%;
+    top: 9%;
  }
  
  .slider::before {
@@ -80,7 +81,7 @@ p.Total {
      font-family: sans-serif;
      position: absolute;
      left: 12%;
-     top: 8%;
+     top: 9%;
  }
  
 .slider:hover {
