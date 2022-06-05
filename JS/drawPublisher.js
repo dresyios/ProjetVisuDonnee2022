@@ -140,14 +140,30 @@ function drawPublisher(year, country) { //fonction pour piechart
             })
     
             let values = dataTop.map(function(d) { return d.Names; });
-            console.log("Values: ", values);
+            if(values.length==1) {
+                values.push("Pas de jeu");
+                values.push("Pas de jeu");
+            }
+            else if(values.length==2) {
+                values.push("Pas de jeu");
+            }
 
-            Tooltip
-            .html("TOP 3 des meilleurs jeux : <br>" + values[0] + "<br>" + values[1] + "<br>" + values[2])
-            .style("left", "400px")
-            .style("top", "600px")
-            //.style('left', (d3.event.pageX+10) + 'px')
-            //.style('top', (d3.event.pageY+10) + 'px')
+            
+            console.log("Publisher pie: ", publisherpie);
+            
+            if (publisherpie !=  "Autres") {
+                Tooltip
+                .html("TOP 3 des meilleurs jeux : <br>" + values[0] + "<br>" + values[1] + "<br>" + values[2])
+                .style("left", "400px")
+                .style("top", "600px")
+            }
+            else {
+                Tooltip
+                .html("Pas de jeux à afficher")
+                .style("left", "400px")
+                .style("top", "600px")
+            }
+
         })
         }
 
