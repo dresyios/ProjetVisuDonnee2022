@@ -37,7 +37,7 @@ function drawYear(year) { //fonction pour cercles rouges
             'Pologne': [0.55, 0.25],
             'Suède': [0.52, 0.1],
             'Australie': [0.86, 0.9],
-            'Brésil': [0.20,0.9]
+            'Brésil': [0.5,0.5]
         };
 
         let totalYear = d3.sum(dataYear, d => d.Sales) //obtenir le total des ventes pour chaque année
@@ -81,6 +81,9 @@ function drawYear(year) { //fonction pour cercles rouges
             //d3.select("#mypiechart").remove();
         }
 
+        let values = dataYear.map(function(d) { return d.Country; });
+        console.log("Values: ", values)
+
         // création du canevas
         canevas1.append('g').selectAll('circle')
         .data(dataYear)
@@ -104,13 +107,6 @@ function drawYear(year) { //fonction pour cercles rouges
             .duration(1000)
             .attr('r',  (d) => Math.sqrt((d.Sales*100)/totalYear)*5)
 
-            /*canevas1.append('g').selectAll('text') //total de l'année
-            .data(dataYear)
-            .enter()
-            .append('text')
-                .attr('x',600)
-                .attr('y', 11)
-                .html(function(d) { return totalYear.toFixed(2)+ " millions de jeux vendus"; })*/
             d3.select(".Total").html("Total: " +totalYear.toFixed(2))
                         
         })
