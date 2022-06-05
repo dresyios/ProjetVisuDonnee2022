@@ -37,7 +37,7 @@ function drawYear(year) { //fonction pour cercles rouges
             'Pologne': [0.55, 0.25],
             'Suède': [0.52, 0.1],
             'Australie': [0.86, 0.9],
-            'Brésil': [0.20,0.9]
+            'Brésil': [0.40,0.9],
         };
 
         let totalYear = d3.sum(dataYear, d => d.Sales) //obtenir le total des ventes pour chaque année
@@ -62,7 +62,8 @@ function drawYear(year) { //fonction pour cercles rouges
             .style("visibility", "visible")
             d3.select(this)
             .style("stroke", "black")
-            .style("opacity", 1)
+            .style("stroke-width",2)
+            .style("opacity", 0.9)
             drawPublisher(year, d.Country)
         }
         let mousemove = function(d) {
@@ -91,7 +92,7 @@ function drawYear(year) { //fonction pour cercles rouges
             .attr('cy', (d) => (dictloc[d.Country][1])*window.innerHeight)
             .attr('r', 0)
             .attr("id", (d) => d.Country)
-            .style('fill', 'red')
+            .style('fill',(d,i) => d3.schemeCategory10[i]) //une couleur par bulle
             .style("stroke-width", 4)
             .style("opacity", 0.8)
             .on("mouseover", mouseover)
@@ -109,7 +110,7 @@ function drawYear(year) { //fonction pour cercles rouges
             .enter()
             .append('text')
                 .attr('x',600)
-                .attr('y', 11)
+                .attr('y', 12)
                 .html(function(d) { return totalYear.toFixed(2)+ " millions de jeux vendus"; })
                         
         })

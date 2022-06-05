@@ -4,6 +4,7 @@
 html, body {
     margin:0;
     overflow:hidden;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -69,7 +70,7 @@ p.Total {
     font-family: sans-serif;
     position: absolute;
     left: 83%;
-    top: 7%;
+    top: 8%;
  }
  
  .slider::before {
@@ -79,7 +80,7 @@ p.Total {
      font-family: sans-serif;
      position: absolute;
      left: 12%;
-     top: 7%;
+     top: 8%;
  }
  
 .slider:hover {
