@@ -97,7 +97,7 @@ Year,Publisher,Country,Sales
 1994,Electronic Arts,USA,0.65
 1994,Time Warner Interactive,USA,0.11
 1994,Infogrames,France,0.78
-1994,PsygNorvègesis,Royaume-Uni,0.06
+1994,Psygnosis,Royaume-Uni,0.06
 1995,Sony Computer Entertainment,Japon,16.64
 1995,Nintendo,Japon,13.03
 1995,Sega,Japon,7.07
@@ -112,7 +112,7 @@ Year,Publisher,Country,Sales
 1995,Mindscape,USA,0.24
 1995,Autres,USA,0.27
 1995,Virgin Interactive,Royaume-Uni,1.59
-1995,PsygNorvègesis,Royaume-Uni,1.37
+1995,Psygnosis,Royaume-Uni,1.37
 1995,Ocean,Royaume-Uni,0.23
 1996,Nintendo,Japon,39.23
 1996,Sony Computer Entertainment,Japon,34.96
@@ -122,7 +122,7 @@ Year,Publisher,Country,Sales
 1996,Autres,Japon,19.370000000000005
 1996,Virgin Interactive,Royaume-Uni,13.14
 1996,Eidos Interactive,Royaume-Uni,4.86
-1996,PsygNorvègesis,Royaume-Uni,2.32
+1996,Psygnosis,Royaume-Uni,2.32
 1996,Empire Interactive,Royaume-Uni,0.41
 1996,Gremlin Interactive Ltd,Royaume-Uni,0.39
 1996,Autres,Royaume-Uni,0.35000000000000003
@@ -155,7 +155,7 @@ Year,Publisher,Country,Sales
 1997,Codemasters,Royaume-Uni,2.38
 1997,Virgin Interactive,Royaume-Uni,2.37
 1997,Ocean,Royaume-Uni,2.17
-1997,PsygNorvègesis,Royaume-Uni,1.73
+1997,Psygnosis,Royaume-Uni,1.73
 1997,Autres,Royaume-Uni,0.41000000000000003
 1997,Infogrames,France,0.87
 1997,Titus,France,0.47
@@ -178,7 +178,7 @@ Year,Publisher,Country,Sales
 1998,Codemasters,Royaume-Uni,5.58
 1998,Eidos Interactive,Royaume-Uni,4.3
 1998,Ocean,Royaume-Uni,0.9
-1998,PsygNorvègesis,Royaume-Uni,0.74
+1998,Psygnosis,Royaume-Uni,0.74
 1998,Autres,Royaume-Uni,0.6600000000000001
 1998,Infogrames,France,0.68
 1998,Titus,France,0.31
@@ -201,7 +201,7 @@ Year,Publisher,Country,Sales
 1999,Eidos Interactive,Royaume-Uni,10.86
 1999,LEGO Media,Royaume-Uni,1.17
 1999,Codemasters,Royaume-Uni,0.61
-1999,PsygNorvègesis,Royaume-Uni,0.61
+1999,Psygnosis,Royaume-Uni,0.61
 1999,Virgin Interactive,Royaume-Uni,0.51
 1999,Autres,Royaume-Uni,0.15000000000000002
 1999,Ubisoft,France,4.56
@@ -278,9 +278,9 @@ Year,Publisher,Country,Sales
 2002,Rage Software,Royaume-Uni,1.28
 2002,Jester Interactive,Royaume-Uni,0.71
 2002,Autres,Royaume-Uni,1.1400000000000001
-2002,Play It,Belgique,1.15
+2002,Play it,Belgique,1.15
 2002,505 Games,Italie,0.29
-2002,Pacific Century CyBelgiquer Works,Hong Kong,0.26
+2002,Pacific Century Cyber Works,Hong Kong,0.26
 2002,Swing! Entertainment,Allemagne,0.14
 2002,Phantagram,Corée du Sud,0.05
 2003,Electronic Arts,USA,59.55
@@ -306,7 +306,7 @@ Year,Publisher,Country,Sales
 2003,Zoo Digital Publishing,Royaume-Uni,1.82
 2003,SCi,Royaume-Uni,1.48
 2003,Autres,Royaume-Uni,0.44999999999999996
-2003,Play It,Belgique,0.42
+2003,Play it,Belgique,0.42
 2003,505 Games,Italie,0.1
 2003,DreamCatcher Interactive,Canada,0.09
 2004,Electronic Arts,USA,63.8
@@ -324,7 +324,7 @@ Year,Publisher,Country,Sales
 2004,Ubisoft,France,11.47
 2004,Microids,France,0.13
 2004,Global Star,Canada,5.32
-2004,Play It,Belgique,3.37
+2004,Play it,Belgique,3.37
 2004,Eidos Interactive,Royaume-Uni,3.0
 2004,Empire Interactive,Royaume-Uni,1.93
 2004,Zoo Digital Publishing,Royaume-Uni,1.72
@@ -360,8 +360,8 @@ Year,Publisher,Country,Sales
 2005,Groove Games,Canada,0.06
 2005,DreamCatcher Interactive,Canada,0.02
 2005,505 Games,Italie,0.48
-2005,Black Belgiquean Games,Italie,0.01
-2005,Play It,Belgique,0.2
+2005,Black Bean Games,Italie,0.01
+2005,Play it,Belgique,0.2
 2005,Deep Silver,Allemagne,0.17
 2005,Playlogic Game Factory,Pays-Bas,0.12
 2005,JoWood Productions,Autriche,0.04
@@ -406,7 +406,7 @@ Year,Publisher,Country,Sales
 2007,Autres,USA,42.839999999999996
 2007,Ubisoft,France,24.43
 2007,Neko Entertainment,France,0.03
-2007,Norvègebilis,France,0.01
+2007,Nobilis,France,0.01
 2007,Eidos Interactive,Royaume-Uni,4.8
 2007,Codemasters,Royaume-Uni,2.95
 2007,Rising Star Games,Royaume-Uni,2.06
@@ -414,10 +414,10 @@ Year,Publisher,Country,Sales
 2007,Empire Interactive,Royaume-Uni,0.39
 2007,Autres,Royaume-Uni,0.8200000000000001
 2007,505 Games,Italie,4.09
-2007,Black Belgiquean Games,Italie,0.07
+2007,Black Bean Games,Italie,0.07
 2007,RTL,Luxembourg,1.26
 2007,Game Factory,Danemark,0.16
-2007,Norvègerdcurrent,Lituanie,0.05
+2007,Nordcurrent,Lituanie,0.05
 2008,Electronic Arts,USA,72.61
 2008,Activision,USA,56.27
 2008,Take-Two Interactive,USA,38.58
@@ -444,7 +444,7 @@ Year,Publisher,Country,Sales
 2008,CDV Software Entertainment,Allemagne,0.1
 2008,Rondomedia,Allemagne,0.03
 2008,505 Games,Italie,1.69
-2008,Black Belgiquean Games,Italie,0.48
+2008,Black Bean Games,Italie,0.48
 2008,Milestone,Italie,0.08
 2008,Koch Media,Autriche,1.45
 2008,JoWood Productions,Autriche,0.29
@@ -468,28 +468,28 @@ Year,Publisher,Country,Sales
 2009,Autres,USA,44.90000000000001
 2009,Ubisoft,France,32.49
 2009,Ubisoft Annecy,France,0.86
-2009,Big Belgiquen Interactive,France,0.81
+2009,Big Ben Interactive,France,0.81
 2009,Focus Home Interactive,France,0.33
 2009,Avanquest,France,0.24
 2009,Autres,France,0.12
 2009,Eidos Interactive,Royaume-Uni,9.62
 2009,Codemasters,Royaume-Uni,7.55
 2009,Rising Star Games,Royaume-Uni,1.91
-2009,PQuBelgique,Royaume-Uni,1.17
+2009,PQube,Royaume-Uni,1.17
 2009,Zushi Games,Royaume-Uni,1.1
 2009,Autres,Royaume-Uni,1.3000000000000003
 2009,505 Games,Italie,2.49
-2009,Black Belgiquean Games,Italie,0.27
+2009,Black Bean Games,Italie,0.27
 2009,Deep Silver,Allemagne,1.71
 2009,Rondomedia,Allemagne,0.65
 2009,DTP Entertainment,Allemagne,0.48
 2009,Kalypso Media,Allemagne,0.22
 2009,49Games,Allemagne,0.04
 2009,Autres,Allemagne,0.04
-2009,Norvègerdic Games,Autriche,1.24
+2009,Nordic Games,Autriche,1.24
 2009,JoWood Productions,Autriche,0.21
 2009,Playlogic Game Factory,Pays-Bas,0.64
-2009,Norvègerdcurrent,Lituanie,0.23
+2009,Nordcurrent,Lituanie,0.23
 2009,The Adventure Company,Canada,0.11
 2010,Electronic Arts,USA,74.16
 2010,Activision,USA,49.2
@@ -510,10 +510,10 @@ Year,Publisher,Country,Sales
 2010,Namco Bandai Games,Japon,10.95
 2010,Autres,Japon,22.23
 2010,505 Games,Italie,13.45
-2010,Black Belgiquean Games,Italie,1.28
+2010,Black Bean Games,Italie,1.28
 2010,Codemasters,Royaume-Uni,2.58
 2010,Rising Star Games,Royaume-Uni,0.94
-2010,PQuBelgique,Royaume-Uni,0.73
+2010,PQube,Royaume-Uni,0.73
 2010,Slitherine Software,Royaume-Uni,0.18
 2010,Ghostlight,Royaume-Uni,0.1
 2010,Autres,Royaume-Uni,0.07
@@ -521,21 +521,21 @@ Year,Publisher,Country,Sales
 2010,Deep Silver,Allemagne,1.3
 2010,DTP Entertainment,Allemagne,0.29
 2010,Kalypso Media,Allemagne,0.2
-2010,Norvègerdic Games,Autriche,0.76
+2010,Nordic Games,Autriche,0.76
 2010,JoWood Productions,Autriche,0.15
 2010,Virtual Play Games,Pays-Bas,0.06
 2010,Home Entertainment Suppliers,Australie,0.06
-2010,Norvègerdcurrent,Lituanie,0.03
+2010,Nordcurrent,Lituanie,0.03
 2011,Electronic Arts,USA,56.53
 2011,Activision,USA,43.3
 2011,THQ,USA,21.82
 2011,Microsoft Game Studios,USA,20.9
-2011,Belgiquethesda Softworks,USA,20.61
+2011,Bethesda Softworks,USA,20.61
 2011,Autres,USA,61.90000000000002
 2011,Ubisoft,France,38.08
 2011,Ubisoft Annecy,France,0.97
 2011,O-Games,France,0.16
-2011,Big Belgiquen Interactive,France,0.01
+2011,Big Ben Interactive,France,0.01
 2011,Sony Computer Entertainment,Japon,23.46
 2011,Namco Bandai Games,Japon,13.23
 2011,Nintendo,Japon,10.43
@@ -549,12 +549,12 @@ Year,Publisher,Country,Sales
 2011,Codemasters,Royaume-Uni,4.61
 2011,Funbox Media,Royaume-Uni,0.74
 2011,Rising Star Games,Royaume-Uni,0.74
-2011,PQuBelgique,Royaume-Uni,0.45
+2011,PQube,Royaume-Uni,0.45
 2011,Mastertronic,Royaume-Uni,0.08
 2011,Autres,Royaume-Uni,0.05
 2011,505 Games,Italie,2.08
-2011,Black Belgiquean Games,Italie,0.67
-2011,Norvègerdic Games,Autriche,0.81
+2011,Black Bean Games,Italie,0.67
+2011,Nordic Games,Autriche,0.81
 2011,Koch Media,Autriche,0.13
 2011,Home Entertainment Suppliers,Australie,0.6
 2012,Activision,USA,40.71
@@ -575,13 +575,13 @@ Year,Publisher,Country,Sales
 2012,Autres,Japon,14.849999999999996
 2012,Codemasters,Royaume-Uni,2.64
 2012,Sony Computer Entertainment Europe,Royaume-Uni,0.25
-2012,PQuBelgique,Royaume-Uni,0.14
+2012,PQube,Royaume-Uni,0.14
 2012,Funbox Media,Royaume-Uni,0.04
 2012,Reef Entertainment,Royaume-Uni,0.04
 2012,Autres,Royaume-Uni,0.04
 2012,505 Games,Italie,2.27
 2012,Deep Silver,Allemagne,0.39
-2012,Norvègerdic Games,Autriche,0.31
+2012,Nordic Games,Autriche,0.31
 2013,Take-Two Interactive,USA,68.75
 2013,Electronic Arts,USA,47.48
 2013,Activision,USA,42.79
@@ -603,7 +603,7 @@ Year,Publisher,Country,Sales
 2013,Deep Silver,Allemagne,5.43
 2013,505 Games,Italie,2.81
 2013,City Interactive,Pologne,0.57
-2013,Norvègerdic Games,Autriche,0.06
+2013,Nordic Games,Autriche,0.06
 2013,Moss,Norvège,0.01
 2014,Activision,USA,41.06
 2014,Electronic Arts,USA,40.91
@@ -625,11 +625,11 @@ Year,Publisher,Country,Sales
 2014,Codemasters,Royaume-Uni,1.06
 2014,Sony Computer Entertainment Europe,Royaume-Uni,0.33
 2014,City Interactive,Pologne,0.12
-2014,Norvègerdic Games,Autriche,0.11
+2014,Nordic Games,Autriche,0.11
 2015,Electronic Arts,USA,44.31
 2015,Activision,USA,34.24
 2015,Warner Bros. Interactive Entertainment,USA,19.88
-2015,Belgiquethesda Softworks,USA,14.61
+2015,Bethesda Softworks,USA,14.61
 2015,Take-Two Interactive,USA,13.62
 2015,Autres,USA,14.599999999999998
 2015,Nintendo,Japon,13.13
@@ -645,22 +645,22 @@ Year,Publisher,Country,Sales
 2015,Sony Computer Entertainment Europe,Royaume-Uni,1.64
 2015,Slightly Mad Studios,Royaume-Uni,1.27
 2015,Codemasters,Royaume-Uni,0.9
-2015,PQuBelgique,Royaume-Uni,0.32
-2015,ReBelgiquellion Developments,Royaume-Uni,0.3
+2015,PQube,Royaume-Uni,0.32
+2015,Rebellion Developments,Royaume-Uni,0.3
 2015,Autres,Royaume-Uni,0.07
 2015,Koch Media,Autriche,1.41
-2015,Norvègerdic Games,Autriche,0.35
+2015,Nordic Games,Autriche,0.35
 2015,Milestone S.r.l.,Italie,0.7
 2015,505 Games,Italie,0.17
 2015,Kalypso Media,Allemagne,0.44
 2015,Deep Silver,Allemagne,0.37
 2015,TopWare Interactive,Allemagne,0.01
-2015,TRussie Blu Entertainment,Australie,0.28
+2015,Tru Blu Entertainment,Australie,0.28
 2016,Electronic Arts,USA,12.07
 2016,Activision,USA,2.95
 2016,Warner Bros. Interactive Entertainment,USA,2.95
 2016,Take-Two Interactive,USA,2.62
-2016,Belgiquethesda Softworks,USA,2.07
+2016,Bethesda Softworks,USA,2.07
 2016,Autres,USA,1.4000000000000001
 2016,Ubisoft,France,9.07
 2016,Focus Home Interactive,France,0.12
@@ -674,7 +674,7 @@ Year,Publisher,Country,Sales
 2016,Autres,Japon,2.7299999999999995
 2016,Hello Games,Royaume-Uni,1.6
 2016,Codemasters,Royaume-Uni,0.79
-2016,PQuBelgique,Royaume-Uni,0.19
+2016,PQube,Royaume-Uni,0.19
 2016,Alternative Software,Royaume-Uni,0.11
 2016,Introversion Software,Royaume-Uni,0.02
 2016,Autres,Royaume-Uni,0.05

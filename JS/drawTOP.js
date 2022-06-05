@@ -13,5 +13,14 @@ function drawTOP(year, country, publisher) { //fonction provisoire
     })
     
     console.log(dataTOP)
+    console.log(dataTOP.Names)
+
+    canevas1.append('g').selectAll('text') //total de l'année
+    .data(dataTOP)
+    .enter()
+    .append('text')
+        .attr('x',600)
+        .attr('y', 400)
+        .html(function(d) { return d.Names + " millions de jeux vendus"; })
     })
 }

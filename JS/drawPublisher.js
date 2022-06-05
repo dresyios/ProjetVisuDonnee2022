@@ -140,6 +140,7 @@ function drawPublisher(year, country) { //fonction pour piechart
 
     let mousemove = function(d) {
         Tooltip
+        drawTOP(year, country, d.Publisher)
         .html("TOP 3 des meilleurs jeux : " + d.Names )
         .style("left", 900 + "px")     
         .style("top", 500 + "px")
