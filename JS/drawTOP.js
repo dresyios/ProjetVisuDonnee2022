@@ -1,26 +1,23 @@
 function drawTOP(year, country, publisher) { //fonction provisoire
-
-    d3.csv("dataset3.csv", function(error, data) {
-        if (error) {
-            throw error;
+    //console.log("Year: ", year, " country: ", country, " publisher: ", publisher)
+    d3.csv("dataset3.csv", function(error2, data2) {
+        if (error2) {
+            throw error2;
         }
-        
-    let dataTOP = data.filter(function(d)
-    { 
-    if(d["Year"] == year && d["Country"] == country && d["Publisher"] == publisher) { 
-    return d;
-    } 
-    })
     
-    console.log(dataTOP)
-    console.log(dataTOP.Names)
+        console.log(data2)
+        let dataTop = data2.filter(function(d)
+        { 
+            if(d["Year"] == year && d["Country"] == country && d["Publisher"] == publisher) { 
+                console.log("Dans filter")
+                return d;
+            } 
+        })
 
-    canevas1.append('g').selectAll('text') //total de l'année
-    .data(dataTOP)
-    .enter()
-    .append('text')
-        .attr('x',600)
-        .attr('y', 400)
-        .html(function(d) { return d.Names + " millions de jeux vendus"; })
+        let values = dataTop.map(function(d) { return d.Names; });
+        console.log("Values: ", values);
+        return values;
+
     })
+    //console.log("Hors d3")
 }
