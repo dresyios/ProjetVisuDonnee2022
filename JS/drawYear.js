@@ -111,7 +111,7 @@ function drawYear(year) { //fonction pour cercles rouges
                 .attr('x',600)
                 .attr('y', 11)
                 .html(function(d) { return totalYear.toFixed(2)+ " millions de jeux vendus"; })*/
-            d3.select(".Total").html("Total: " +totalYear)
+            d3.select(".Total").html("Total: " +totalYear.toFixed(2))
                         
         })
         
