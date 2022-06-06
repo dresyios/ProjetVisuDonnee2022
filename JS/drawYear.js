@@ -1,4 +1,4 @@
-function drawYear(year) { //fonction pour cercles rouges
+function drawYear(year) { //fonction pour les bulles par pays (première visualisation)
     console.log("hello")
     // lier les données
     d3.csv("dataset.csv", function(error, data) {
@@ -42,7 +42,7 @@ function drawYear(year) { //fonction pour cercles rouges
 
         let totalYear = d3.sum(dataYear, d => d.Sales) //obtenir le total des ventes pour chaque année
 
-        // FONCTIONNALITE : mettre le cercle en évidence et afficher des infos quand on passe la souris dessus
+        // FONCTIONNALITE : mettre le cercle en évidence et afficher la deuxième visualisation quand on passe la souris dessus
         var Tooltip = d3.select('#main')
             .append("div")
             .attr("class", "tooltip")
@@ -64,11 +64,11 @@ function drawYear(year) { //fonction pour cercles rouges
             .style("stroke", "black")
             .style("stroke-width",2)
             .style("opacity", 0.9)
-            drawPublisher(year, d.Country)
+            drawPublisher(year, d.Country) //appel de la deuxième visualisation
         }
         let mousemove = function(d) {
             Tooltip
-            .html("Pays: " + d.Country + "<br> Ventes totales: " + d.Sales + " millions d'unités") //+ "<br> Id:" + d3.select(this).attr("id"))
+            .html("Pays: " + d.Country + "<br> Ventes totales: " + d.Sales + " millions d'unités")
             .style("left", (d3.mouse(this)[0]) + "px")
             .style("top", (d3.mouse(this)[1]) + "px")
         }
@@ -78,8 +78,6 @@ function drawYear(year) { //fonction pour cercles rouges
             d3.select(this)
             .style("stroke", "none")
             .style("opacity", 0.8)
-            //drawPublisher(year, d.Country)
-            //d3.select("#mypiechart").remove();
         }
 
         let values = dataYear.map(function(d) { return d.Country; });
@@ -106,7 +104,7 @@ function drawYear(year) { //fonction pour cercles rouges
             d3.selectAll("circle")
             .transition()
             .duration(800)
-            .attr('r',  (d) => Math.sqrt((d.Sales*100)/totalYear)*12) //ajuster pour grossir
+            .attr('r',  (d) => Math.sqrt((d.Sales*100)/totalYear)*12) //ajuster le dernier nombre pour grossir ou réduire les bulles tout en conservant les proportions
 
             d3.select(".Total").html("Ventes globales: " +totalYear.toFixed(2)+" millions de jeux")
                         

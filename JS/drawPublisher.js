@@ -1,4 +1,4 @@
-function drawPublisher(year, country) { //fonction pour piechart
+function drawPublisher(year, country) { //fonction pour les piecharts des éditeurs (deuxième visualisation)
 
 
     var svg = d3.select("svg"),
@@ -6,7 +6,7 @@ function drawPublisher(year, country) { //fonction pour piechart
         height = 300,
         radius = Math.min(width, height) / 2;
 
-    //à chaque appel de la fonction je supprime la variable g, qui représente le piechart, pour éviter que les nouveaux piecharts se superposent
+    //à chaque appel de la fonction on supprime la variable g, qui représente le piechart, pour éviter que les nouveaux piecharts se superposent
     d3.select("#mypiechart").remove()
     
 
@@ -70,7 +70,7 @@ function drawPublisher(year, country) { //fonction pour piechart
            arc.append("text") //nom des éditeurs
            .attr("transform", function(d) { 
                     return "translate(" + label.centroid(d) + ")" +
-                    "rotate(" + getAngle(d) + ")"; }) // pour améliorer la lisibilité (certains sont à l'envers pas contre, je chercher encore la solution)
+                    "rotate(" + getAngle(d) + ")"; }) // pour améliorer la lisibilité
             .attr("dy", 5) 
             .style("text-anchor", "start")
             .text(function(d) { return d.data.Publisher; }); 
@@ -78,7 +78,7 @@ function drawPublisher(year, country) { //fonction pour piechart
             arc.append("text") //nb de ventes par éditeur
             .attr("transform", function(d) { 
                        return "translate(" + labelVal.centroid(d) + ")" +
-                       "rotate(" + getAngle(d) + ")"; }) // pour améliorer la lisibilité (certains sont à l'envers pas contre, je chercher encore la solution)
+                       "rotate(" + getAngle(d) + ")"; }) // pour améliorer la lisibilité
                .attr("dy", 5) 
                .style("text-anchor", "start")
             .text(function(d) { return Math.round(d.data.Sales*100)/100 + " mio"; })
@@ -86,23 +86,9 @@ function drawPublisher(year, country) { //fonction pour piechart
             .on("mouseover", mouseover)
             .on("mousemove", mousemove)
             .on("mouseleave", mouseleave)
-
-            //rotation pour améliorer la lisibilité ?
-            //var i = 0;
-            //var timeInterval = 1000;
-            //setInterval(function(){
-                    //i += 1;
-                    //update(i % 360) 
-            //},timeInterval);
-
-            //var n;
-            //function update(n) {
-            //svg.select("#mypiechart")
-            //.attr("transform", "translate(720,300) rotate("+n+")");
-            //}
         });
 
-    //afficher le top 3 des meilleurs jeux par éditeur quand on passe la souris dessus
+    //afficher le top 3 des meilleurs jeux par éditeur quand on passe la souris dessus (troisième visualisation)
     var Tooltip2 = d3.select('#main')
     .append("div")
     .attr("class", "tooltip")
@@ -115,7 +101,6 @@ function drawPublisher(year, country) { //fonction pour piechart
     .style("border-radius", "5px")
     .style("padding", "10px")
 
-    // les fonctions pour faire cela
     let mouseover = function(d) {
         Tooltip2
         .style("visibility", "visible")
@@ -150,7 +135,7 @@ function drawPublisher(year, country) { //fonction pour piechart
                 values.push("Pas de jeu");
             }
 
-            let sales = dataTop.map(function(d) { return d.Sales; });
+            let sales = dataTop.map(function(d) { return d.Sales; }); //ajout du nombre de ventes
             sales.forEach((x, i) => sales[i]=": "+sales[i]+" Mio");
             if(sales.length==1) {
                 sales.push("");
