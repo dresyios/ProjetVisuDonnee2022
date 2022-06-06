@@ -2,11 +2,11 @@ Projet Visualisation de données
 
 I.	Brève description du projet et fonctionnalités
 
-Notre projet consiste en une visualisation des ventes effectuées par les différents éditeurs de jeux vidéo entre les années 1980 et 2016 et tout cela par pays. En outre, nous effectuons également une visualisation des trois plus gros succès par éditeur et par année. 
+Notre projet consiste en une visualisation des ventes effectuées par les différents éditeurs de jeux vidéo entre les années 1980 et 2016. En outre, nous effectuons également une visualisation des trois plus gros succès par éditeur et par année. 
 
 Les fonctionnalités sont les suivantes :
--	Afficher les pays d’où sont issus les éditeurs qui vendent le plus de jeux à l’international entre 1980 et 2016
--	Possibilité de découvrir le détail de chaque pays c’est-à-dire, les cinq plus gros éditeurs et leurs ventes respectives
+-	Afficher les pays d’où sont issus les éditeurs (siège social) qui vendent le plus de jeux à l’international entre 1980 et 2016
+-	Possibilité de découvrir le détail de chaque pays, c’est-à-dire, les cinq plus gros éditeurs et leurs ventes respectives
 -	Possibilité de sélectionner un éditeur simplement en passant la souris dessus pour découvrir les 3 jeux les vendus par celui-ci cette année-là.
 
 
