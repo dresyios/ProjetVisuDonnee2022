@@ -12,8 +12,8 @@ function drawPublisher(year, country) { //fonction pour piechart
 
     var g = svg.append("g")
                 .attr("transform", "translate(800, 550)")           
-               .attr("id", "mypiechart")
-               .attr('opacity', 0)
+                .attr("id", "mypiechart")
+                .attr('opacity', 0)
 
     //piecharts
     var color = d3.scaleOrdinal(['#4daf4a','#377eb8','#ff7f00','#984ea3','#e41a1c', '#ad783e']);
@@ -126,7 +126,7 @@ function drawPublisher(year, country) { //fonction pour piechart
     }
 
     let mousemove = function(d) {
-        let publisherpie = d3.select(this).attr("id")
+        let publisherpie = d3.select(this).attr("id") // TOP 3 JEUX 
         d3.csv("dataset3.csv", function(error2, data2) {
             if (error2) {
                 throw error2;

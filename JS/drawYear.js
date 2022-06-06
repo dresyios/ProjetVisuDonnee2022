@@ -13,7 +13,7 @@ function drawYear(year) { //fonction pour cercles rouges
         } 
         })
 
-        //FAIRE DICTIONNAIRE PAYS-LOCATIONS
+        //FAIRE DICTIONNAIRE PAYS-LOCATIONS : fonctionnement par ratio, haute présicision
         var dictloc = {
             'USA': [0.14, 0.31],
             'Japon': [0.86, 0.32],
@@ -106,9 +106,9 @@ function drawYear(year) { //fonction pour cercles rouges
             d3.selectAll("circle")
             .transition()
             .duration(1000)
-            .attr('r',  (d) => Math.sqrt((d.Sales*100)/totalYear)*12)
+            .attr('r',  (d) => Math.sqrt((d.Sales*100)/totalYear)*12) //ajuster pour grossir
 
-            d3.select(".Total").html("Total des ventes cette année: " +totalYear.toFixed(2)+" millions de jeux")
+            d3.select(".Total").html("Ventes globales: " +totalYear.toFixed(2)+" millions de jeux")
                         
         })
         

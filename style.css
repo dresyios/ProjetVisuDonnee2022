@@ -48,8 +48,8 @@ p.Total {
 
 .sliderContainer {
     width: 80%;
-    margin-top: 30px;
-    margin-left: 10%;
+    margin-left: auto;
+    margin-right: auto;
     position: center;
 }
 
@@ -61,27 +61,27 @@ p.Total {
     outline: none;
     opacity: 1;
     border-radius: 12px;
-    box-shadow: 0px 1px 10px 1px black;
+    box-shadow: 0px 1px 7px 1px black;
 }
 
 .slider::after {
     content: "2016";
     color: black;
-    font-size: 1rem;
+    font-size: medium;
     font-family: sans-serif;
     position: absolute;
-    left: 86%;
-    top: 7%;
+    left: 88%;
+    top: 10%;
  }
  
  .slider::before {
      content: "1980";
      color: black;
-     font-size: 1rem;
+     font-size: medium;
      font-family: sans-serif;
      position: absolute;
-     left: 12%;
-     top: 7%;
+     left: 10%;
+     top: 10%;
  }
  
 
