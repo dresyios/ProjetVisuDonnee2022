@@ -7,7 +7,7 @@ Notre projet consiste en une visualisation des ventes effectuées par les diffé
 Les fonctionnalités sont les suivantes :
 -	Afficher les pays d’où sont issus les éditeurs (siège social) qui vendent le plus de jeux à l’international entre 1980 et 2016
 -	Possibilité de découvrir le détail de chaque pays, c’est-à-dire, les cinq plus gros éditeurs et leurs ventes respectives
--	Possibilité de sélectionner un éditeur simplement en passant la souris dessus pour découvrir les 3 jeux les vendus par celui-ci cette année-là.
+-	Possibilité de sélectionner un éditeur simplement en passant la souris dessus pour découvrir ses 3 jeux les plus vendus cette année-là.
 
 
 II.	 Screenshots
