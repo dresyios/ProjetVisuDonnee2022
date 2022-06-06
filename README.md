@@ -9,7 +9,9 @@ Les fonctionnalités sont les suivantes :
 -	Possibilité de découvrir le détail de chaque pays c’est-à-dire, les cinq plus gros éditeurs et leurs ventes respectives
 -	Possibilité de sélectionner un éditeur simplement en passant la souris dessus pour découvrir les 3 jeux les vendus par celui-ci cette année-là.
 
+
 II.	 Screenshots
+
 
 III.	Procédure d'installation
 
@@ -21,7 +23,14 @@ Aucune procédure d’installation n’est nécessaire. Il suffit de disposer de
 -	style.css
 -	map.png
 
-IV.     Pour le preprocessing, nous avons utilisé la librairie Python Panda, mais pas de modules ou de scripts spécifiques. Pour le reste, nous avons utilisé la librairie D3.
 
-V. Ce projet a été développé par Maxime Jondeau, Sebastien Lecoultre et Ricardo Fernandes Costa dans le cadre du cours "Visualisation de données" dispensé par Isaac Pante, MER (SLI, Lettres, UNIL) pendant le semestre de printemps 2022.
+IV.	Modules, librairies et scripts
+
+Pour le preprocessing, nous avons utilisé la librairie Python Panda, mais pas de modules ou de scripts spécifiques. Pour le reste, nous avons utilisé la librairie D3.
+
+
+V.	Contexte de développement
+
+Ce projet a été développé par Maxime Jondeau, Sebastien Lecoultre et Ricardo Fernandes Costa dans le cadre du cours "Visualisation de données" dispensé par Isaac Pante, MER (SLI, Lettres, UNIL) pendant le semestre de printemps 2022.
+
 
