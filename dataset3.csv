@@ -5,9 +5,9 @@ Year,Names,Publisher,Country,Sales
 1980,Kaboom!,Activision,USA,1.15
 1980,Boxing,Activision,USA,0.84
 1980,Freeway,Activision,USA,0.34
+1981,Centipede,Atari,USA,2.01
 1981,E.T.: The Extra Terrestrial,Atari,USA,1.97
 1981,Ms. Pac-Man,Atari,USA,1.65
-1981,Centipede,Atari,USA,2.01
 1981,Pitfall!,Activision,USA,4.5
 1981,River Raid,Activision,USA,1.6
 1981,Megamania,Activision,USA,1.1
@@ -31,8 +31,8 @@ Year,Names,Publisher,Country,Sales
 1982,X-Man,Universal Gamex,USA,0.63
 1982,Halloween,Wizard Video Games,USA,0.62
 1982,Congo Bongo,Sega,Japon,0.4
-1983,Baseball,Nintendo,Japon,3.2
 1983,Mario Bros.,Nintendo,Japon,3.87
+1983,Baseball,Nintendo,Japon,3.2
 1983,Mahjong,Nintendo,Japon,2.14
 1983,Jr. Pac-Man,Atari,USA,0.78
 1983,Crystal Castles,Atari,USA,0.77
@@ -62,8 +62,8 @@ Year,Names,Publisher,Country,Sales
 1986,Dragon Warrior,Capcom,Japon,2.52
 1986,Ghosts 'n Goblins,Capcom,Japon,1.64
 1986,Commando,Capcom,Japon,1.61
-1986,Gradius,Konami Digital Entertainment,Japon,1.36
 1986,Castlevania,Konami Digital Entertainment,Japon,1.87
+1986,Gradius,Konami Digital Entertainment,Japon,1.36
 1986,TwinBee,Konami Digital Entertainment,Japon,1.2
 1986,World Class Track Meet,Namco Bandai Games,Japon,3.08
 1986,Pro Yakyuu Family Stadium,Namco Bandai Games,Japon,2.23
@@ -213,8 +213,8 @@ Year,Names,Publisher,Country,Sales
 1996,Crash Bandicoot,Sony Computer Entertainment,Japon,6.82
 1996,Tekken 2,Sony Computer Entertainment,Japon,5.74
 1996,Namco Museum Vol.3,Sony Computer Entertainment,Japon,4.05
-1996,Fighters MEGAMiX,Sega,Japon,0.62
 1996,Sakura Wars,Sega,Japon,0.66
+1996,Fighters MEGAMiX,Sega,Japon,0.62
 1996,Neon Genesis Evangelion,Sega,Japon,0.5
 1996,Contra: Legacy of War,Konami Digital Entertainment,Japon,0.67
 1996,International Track & Field,Konami Digital Entertainment,Japon,0.51
@@ -239,8 +239,8 @@ Year,Names,Publisher,Country,Sales
 1996,Madden NFL 97,Electronic Arts,USA,1.32
 1996,Soviet Strike,Electronic Arts,USA,1.17
 1996,Mortal Kombat Trilogy,GT Interactive,USA,3.75
-1996,Midway Presents Arcade's Greatest Hits: The Atari Collection 1,GT Interactive,USA,0.94
 1996,Area 51,GT Interactive,USA,1.46
+1996,Midway Presents Arcade's Greatest Hits: The Atari Collection 1,GT Interactive,USA,0.94
 1996,Space Jam,Acclaim Entertainment,USA,0.92
 1996,WWF in Your House,Acclaim Entertainment,USA,0.62
 1996,Alien Trilogy,Acclaim Entertainment,USA,0.47
@@ -273,8 +273,8 @@ Year,Names,Publisher,Country,Sales
 1997,NBA Live 98,Electronic Arts,USA,1.51
 1997,Frogger,Hasbro Interactive,USA,6.36
 1997,Jeopardy!,Hasbro Interactive,USA,1.88
-1997,Oddworld: Abe's Oddysee,GT Interactive,USA,1.24
 1997,Rampage World Tour,GT Interactive,USA,1.3
+1997,Oddworld: Abe's Oddysee,GT Interactive,USA,1.24
 1997,San Francisco Rush: Extreme Racing,GT Interactive,USA,1.13
 1997,Turok 2: Seeds of Evil,Acclaim Entertainment,USA,1.86
 1997,NFL Quarterback Club 98,Acclaim Entertainment,USA,1.06
@@ -316,8 +316,8 @@ Year,Names,Publisher,Country,Sales
 1998,Pac-Man World,Namco Bandai Games,Japon,1.5
 1998,SD Gundam G Generation,Namco Bandai Games,Japon,0.72
 1998,Need for Speed III: Hot Pursuit,Electronic Arts,USA,3.12
-1998,FIFA 2000,Electronic Arts,USA,1.87
 1998,Madden NFL 2000,Electronic Arts,USA,2.36
+1998,FIFA 2000,Electronic Arts,USA,1.87
 1998,WWF War Zone,Acclaim Entertainment,USA,4.69
 1998,WWF Attitude,Acclaim Entertainment,USA,2.47
 1998,South Park,Acclaim Entertainment,USA,1.85
@@ -400,8 +400,8 @@ Year,Names,Publisher,Country,Sales
 1999,Jojo's Bizarre Adventure,Virgin Interactive,Royaume-Uni,0.02
 1999,Silent Bomber,Virgin Interactive,Royaume-Uni,0.02
 1999,The Dukes of Hazzard: Racing for Home,Ubisoft,France,1.19
-1999,SnoCross Championship Racing,Ubisoft,France,0.93
 1999,Rayman 2: The Great Escape,Ubisoft,France,0.96
+1999,SnoCross Championship Racing,Ubisoft,France,0.93
 1999,Superman: The New Superman Adventures,Titus,France,0.41
 1999,Xena: Warrior Princess - The Talisman of Fate,Titus,France,0.29
 1999,Roadsters 99,Titus,France,0.2
@@ -411,8 +411,8 @@ Year,Names,Publisher,Country,Sales
 2000,Madden NFL 2001,Electronic Arts,USA,3.81
 2000,SSX,Electronic Arts,USA,3.31
 2000,007: The World is not Enough,Electronic Arts,USA,2.47
-2000,WWF SmackDown!,THQ,USA,3.58
 2000,Rugrats in Paris: The Movie,THQ,USA,4.02
+2000,WWF SmackDown!,THQ,USA,3.58
 2000,WWF SmackDown! 2: Know Your Role,THQ,USA,3.2
 2000,Tony Hawk's Pro Skater 2,Activision,USA,5.44
 2000,Spider-Man,Activision,USA,4.59
@@ -477,9 +477,9 @@ Year,Names,Publisher,Country,Sales
 2001,Namco Museum,Namco Bandai Games,Japon,3.36
 2001,Time Crisis II,Namco Bandai Games,Japon,0.53
 2001,Mobile Suit Gundam: Zeonic Front,Namco Bandai Games,Japon,0.43
-2001,Harry Potter and the Sorcerer's Stone,Electronic Arts,USA,4.16
-2001,The Simpsons: Road Rage,Electronic Arts,USA,4.9
 2001,James Bond 007: Agent Under Fire,Electronic Arts,USA,5.15
+2001,The Simpsons: Road Rage,Electronic Arts,USA,4.9
+2001,Harry Potter and the Sorcerer's Stone,Electronic Arts,USA,4.16
 2001,Grand Theft Auto III,Take-Two Interactive,USA,13.1
 2001,Max Payne,Take-Two Interactive,USA,4.53
 2001,Motocross Mania,Take-Two Interactive,USA,0.79
@@ -534,21 +534,21 @@ Year,Names,Publisher,Country,Sales
 2002,Kingdom Hearts,Sony Computer Entertainment,Japon,8.15
 2002,SOCOM: U.S. Navy SEALs,Sony Computer Entertainment,Japon,3.65
 2002,The Getaway,Sony Computer Entertainment,Japon,3.54
-2002,Super Mario Sunshine,Nintendo,Japon,6.31
 2002,The Legend of Zelda: The Wind Waker,Nintendo,Japon,6.37
+2002,Super Mario Sunshine,Nintendo,Japon,6.31
 2002,Metroid Prime,Nintendo,Japon,2.82
 2002,Tekken 4,Namco Bandai Games,Japon,3.44
-2002,Xenosaga Episode I: Der Wille zur Macht,Namco Bandai Games,Japon,1.74
 2002,Pac-Man World 2,Namco Bandai Games,Japon,2.37
+2002,Xenosaga Episode I: Der Wille zur Macht,Namco Bandai Games,Japon,1.74
 2002,Virtua Fighter 4,Sega,Japon,1.81
 2002,NBA 2K2,Sega,Japon,1.54
 2002,NBA 2K3,Sega,Japon,1.53
 2002,Onimusha 2: Samurai's Destiny,Capcom,Japon,2.25
-2002,Resident Evil (Remake),Capcom,Japon,1.42
 2002,Resident Evil Zero,Capcom,Japon,1.72
+2002,Resident Evil (Remake),Capcom,Japon,1.42
 2002,Tom Clancy's Splinter Cell,Ubisoft,France,5.9
-2002,The Elder Scrolls III: Morrowind,Ubisoft,France,2.86
 2002,Tom Clancy's Ghost Recon,Ubisoft,France,3.99
+2002,The Elder Scrolls III: Morrowind,Ubisoft,France,2.86
 2002,Sonic Mega Collection,Infogrames,France,2.05
 2002,Monopoly Party,Infogrames,France,0.82
 2002,Men in Black II: Alien Escape,Infogrames,France,0.51
@@ -575,14 +575,14 @@ Year,Names,Publisher,Country,Sales
 2002,Enclave,Swing! Entertainment,Allemagne,0.14
 2002,Phantom Crash,Phantagram,Corée du Sud,0.05
 2003,Need for Speed Underground,Electronic Arts,USA,10.12
-2003,Final Fantasy X-2,Electronic Arts,USA,5.29
 2003,Medal of Honor: Rising Sun,Electronic Arts,USA,6.72
+2003,Final Fantasy X-2,Electronic Arts,USA,5.29
 2003,Tony Hawk's Underground,Activision,USA,5.87
 2003,True Crime: Streets of LA,Activision,USA,5.21
 2003,Star Wars: Knights of the Old Republic,Activision,USA,2.19
-2003,WWE SmackDown! Here Comes the Pain,THQ,USA,2.8
 2003,Finding Nemo,THQ,USA,3.64
 2003,SpongeBob SquarePants: Battle for Bikini Bottom,THQ,USA,3.19
+2003,WWE SmackDown! Here Comes the Pain,THQ,USA,2.8
 2003,The Simpsons: Hit & Run,Vivendi Games,USA,7.04
 2003,Crash Nitro Kart,Vivendi Games,USA,2.52
 2003,Dr. Seuss' The Cat in the Hat,Vivendi Games,USA,0.67
@@ -605,8 +605,8 @@ Year,Names,Publisher,Country,Sales
 2003,DDRMAX2: Dance Dance Revolution,Konami Digital Entertainment,Japon,1.81
 2003,Castlevania: Lament of Innocence,Konami Digital Entertainment,Japon,0.94
 2003,Prince of Persia: The Sands of Time,Ubisoft,France,3.48
-2003,Star Ocean: Till The End of Time,Ubisoft,France,1.72
 2003,Tom Clancy's Rainbow Six 3,Ubisoft,France,2.42
+2003,Star Ocean: Till The End of Time,Ubisoft,France,1.72
 2003,Syberia,Microids,France,0.1
 2003,Sitting Ducks,LSP Games,France,0.05
 2003,RoboCop,Titus,France,0.02
@@ -614,8 +614,8 @@ Year,Names,Publisher,Country,Sales
 2003,Lara Croft Tomb Raider: The Angel of Darkness,Eidos Interactive,Royaume-Uni,1.25
 2003,Backyard Wrestling: Don't Try This at Home,Eidos Interactive,Royaume-Uni,0.77
 2003,Legacy of Kain: Defiance,Eidos Interactive,Royaume-Uni,0.72
-2003,Ford Racing 2,Empire Interactive,Royaume-Uni,1.15
 2003,Starsky & Hutch,Empire Interactive,Royaume-Uni,1.26
+2003,Ford Racing 2,Empire Interactive,Royaume-Uni,1.15
 2003,Colin McRae Rally 04,Codemasters,Royaume-Uni,1.04
 2003,American Idol,Codemasters,Royaume-Uni,0.55
 2003,Downhill Domination,Codemasters,Royaume-Uni,0.47
@@ -638,20 +638,20 @@ Year,Names,Publisher,Country,Sales
 2004,Grand Theft Auto: San Andreas,Take-Two Interactive,USA,22.88
 2004,Red Dead Revolver,Take-Two Interactive,USA,2.0
 2004,Ford Racing 3,Take-Two Interactive,USA,0.35
+2004,The SpongeBob SquarePants Movie,THQ,USA,3.24
 2004,The Incredibles,THQ,USA,3.21
 2004,MX Unleashed,THQ,USA,2.36
-2004,The SpongeBob SquarePants Movie,THQ,USA,3.24
 2004,Halo 2,Microsoft Game Studios,USA,8.49
 2004,Fable,Microsoft Game Studios,USA,3.14
 2004,Ninja Gaiden,Microsoft Game Studios,USA,1.23
 2004,Gran Turismo 4,Sony Computer Entertainment,Japon,11.66
-2004,Ratchet & Clank: Up Your Arsenal,Sony Computer Entertainment,Japon,2.57
 2004,SingStar,Sony Computer Entertainment,Japon,3.02
+2004,Ratchet & Clank: Up Your Arsenal,Sony Computer Entertainment,Japon,2.57
 2004,Metal Gear Solid 3: Snake Eater,Konami Digital Entertainment,Japon,4.23
 2004,World Soccer Winning Eleven 8 International,Konami Digital Entertainment,Japon,3.94
 2004,Dance Dance Revolution Extreme,Konami Digital Entertainment,Japon,2.13
-2004,Sonic Mega Collection Plus,Sega,Japon,3.81
 2004,ESPN NFL 2K5,Sega,Japon,4.25
+2004,Sonic Mega Collection Plus,Sega,Japon,3.81
 2004,ESPN College Hoops 2K5,Sega,Japon,1.22
 2004,Paper Mario: The Thousand-Year Door,Nintendo,Japon,2.25
 2004,Mario Party 6,Nintendo,Japon,1.65
@@ -659,8 +659,8 @@ Year,Names,Publisher,Country,Sales
 2004,Dragon Quest VIII: Journey of the Cursed King,Square Enix,Japon,5.21
 2004,Final Fantasy X-2: International + Last Mission,Square Enix,Japon,0.29
 2004,Final Fantasy X International,Square Enix,Japon,0.27
-2004,Prince of Persia: Warrior Within,Ubisoft,France,2.64
 2004,Tom Clancy's Splinter Cell: Pandora Tomorrow,Ubisoft,France,2.81
+2004,Prince of Persia: Warrior Within,Ubisoft,France,2.64
 2004,Tom Clancy's Ghost Recon 2,Ubisoft,France,2.51
 2004,Obscure,Microids,France,0.11
 2004,Knight's Apprentice: Memorick's Adventures,Microids,France,0.02
@@ -687,8 +687,8 @@ Year,Names,Publisher,Country,Sales
 2004,Harvest Moon: A Wonderful Life Special Edition,505 Games,Italie,0.18
 2004,Guilty Gear Isuka,505 Games,Italie,0.1
 2004,Kingdom Under Fire: The Crusaders,Deep Silver,Allemagne,0.32
-2005,Madden NFL 06,Electronic Arts,USA,7.93
 2005,Need for Speed: Most Wanted,Electronic Arts,USA,12.01
+2005,Madden NFL 06,Electronic Arts,USA,7.93
 2005,FIFA Soccer 06,Electronic Arts,USA,4.89
 2005,Call Of Duty 2: Big Red One,Activision,USA,4.12
 2005,Call of Duty 2,Activision,USA,2.02
@@ -696,8 +696,8 @@ Year,Names,Publisher,Country,Sales
 2005,WWE SmackDown! vs. RAW 2006,THQ,USA,2.94
 2005,MX vs. ATV Unleashed,THQ,USA,1.43
 2005,Destroy All Humans!,THQ,USA,1.4
-2005,Dollar Dash,Take-Two Interactive,USA,1.6
 2005,Major League Baseball 2K5,Take-Two Interactive,USA,2.04
+2005,Dollar Dash,Take-Two Interactive,USA,1.6
 2005,Midnight Club 3: DUB Edition (America weekly sales),Take-Two Interactive,USA,1.29
 2005,Star Wars: Battlefront II,LucasArts,USA,5.26
 2005,Star Wars Episode III: Revenge of the Sith,LucasArts,USA,4.56
@@ -774,9 +774,9 @@ Year,Names,Publisher,Country,Sales
 2006,The Elder Scrolls IV: Oblivion,Take-Two Interactive,USA,7.51
 2006,Grand Theft Auto: Liberty City Stories,Take-Two Interactive,USA,3.54
 2006,Midnight Club 3: DUB Edition Remix,Take-Two Interactive,USA,1.36
+2006,Cars,THQ,USA,3.53
 2006,WWE SmackDown vs. RAW 2007,THQ,USA,3.09
 2006,Saints Row,THQ,USA,2.19
-2006,Cars,THQ,USA,3.53
 2006,Gears of War,Microsoft Game Studios,USA,6.11
 2006,Viva Pinata,Microsoft Game Studios,USA,1.63
 2006,Blue Dragon,Microsoft Game Studios,USA,0.92
@@ -817,32 +817,32 @@ Year,Names,Publisher,Country,Sales
 2007,Pro Evolution Soccer 2008,Konami Digital Entertainment,Japon,7.48
 2007,Dance Dance Revolution: Hottest Party,Konami Digital Entertainment,Japon,2.08
 2007,Dance Dance Revolution SuperNOVA 2,Konami Digital Entertainment,Japon,0.79
-2007,Warriors Orochi,Tecmo Koei,Japon,1.07
 2007,Dynasty Warriors 6,Tecmo Koei,Japon,1.26
+2007,Warriors Orochi,Tecmo Koei,Japon,1.07
 2007,Shin Megami Tensei: Persona 3 FES,Tecmo Koei,Japon,0.63
+2007,Need for Speed: ProStreet,Electronic Arts,USA,7.63
 2007,FIFA Soccer 08,Electronic Arts,USA,7.27
 2007,Madden NFL 08,Electronic Arts,USA,7.17
-2007,Need for Speed: ProStreet,Electronic Arts,USA,7.63
-2007,Call of Duty 4: Modern Warfare,Activision,USA,16.04
 2007,Guitar Hero III: Legends of Rock,Activision,USA,16.39
+2007,Call of Duty 4: Modern Warfare,Activision,USA,16.04
 2007,"Transformers: The Game (XBox 360, PS2, PS3, Wii & PC Versions)",Activision,USA,2.71
 2007,Halo 3,Microsoft Game Studios,USA,12.14
 2007,Forza Motorsport 2,Microsoft Game Studios,USA,4.06
 2007,Mass Effect,Microsoft Game Studios,USA,2.93
-2007,Carnival Games,Take-Two Interactive,USA,4.1
 2007,BioShock,Take-Two Interactive,USA,4.28
+2007,Carnival Games,Take-Two Interactive,USA,4.1
 2007,Rockstar Games presents Table Tennis,Take-Two Interactive,USA,2.03
 2007,WWE SmackDown vs Raw 2008,THQ,USA,6.1
 2007,Ratatouille,THQ,USA,2.3
 2007,MX vs. ATV Untamed,THQ,USA,1.87
 2007,Assassin's Creed,Ubisoft,France,10.38
-2007,Rayman Raving Rabbids 2,Ubisoft,France,1.85
 2007,Tom Clancy's Ghost Recon Advanced Warfighter 2,Ubisoft,France,2.06
+2007,Rayman Raving Rabbids 2,Ubisoft,France,1.85
 2007,Safari Adventures: Africa,Neko Entertainment,France,0.03
 2007,Case Closed: One Truth Prevails,Nobilis,France,0.01
-2007,Ninja Gaiden Sigma,Eidos Interactive,Royaume-Uni,1.15
 2007,Tomb Raider: Anniversary,Eidos Interactive,Royaume-Uni,1.76
 2007,Kane & Lynch: Dead Men,Eidos Interactive,Royaume-Uni,1.52
+2007,Ninja Gaiden Sigma,Eidos Interactive,Royaume-Uni,1.15
 2007,DiRT,Codemasters,Royaume-Uni,1.93
 2007,Overlord,Codemasters,Royaume-Uni,0.4
 2007,Clive Barker's Jericho,Codemasters,Royaume-Uni,0.52
@@ -862,30 +862,30 @@ Year,Names,Publisher,Country,Sales
 2007,Code Lyoko: Quest for Infinity,Game Factory,Danemark,0.1
 2007,Legend of the Dragon,Game Factory,Danemark,0.06
 2007,Domino Rally,Nordcurrent,Lituanie,0.05
-2008,Left 4 Dead,Electronic Arts,USA,3.52
 2008,FIFA Soccer 09,Electronic Arts,USA,6.81
 2008,Madden NFL 09,Electronic Arts,USA,6.1
+2008,Left 4 Dead,Electronic Arts,USA,3.52
 2008,Call of Duty: World at War,Activision,USA,14.77
-2008,LEGO Indiana Jones: The Original Adventures,Activision,USA,8.6
 2008,Guitar Hero: World Tour,Activision,USA,10.05
+2008,LEGO Indiana Jones: The Original Adventures,Activision,USA,8.6
 2008,Grand Theft Auto IV,Take-Two Interactive,USA,21.59
 2008,Midnight Club: Los Angeles,Take-Two Interactive,USA,4.8
 2008,Carnival Games: Mini Golf,Take-Two Interactive,USA,1.58
 2008,Saints Row 2,THQ,USA,4.72
-2008,Big Beach Sports,THQ,USA,1.67
 2008,WWE SmackDown vs. Raw 2009,THQ,USA,3.94
+2008,Big Beach Sports,THQ,USA,1.67
 2008,Gears of War 2,Microsoft Game Studios,USA,6.76
 2008,Fable II,Microsoft Game Studios,USA,4.31
 2008,Too Human,Microsoft Game Studios,USA,0.79
 2008,Mario Kart Wii,Nintendo,Japon,35.82
 2008,Super Smash Bros. Brawl,Nintendo,Japon,13.04
 2008,Animal Crossing: City Folk,Nintendo,Japon,4.68
-2008,Sega Superstars Tennis,Sega,Japon,4.74
 2008,Sonic Unleashed,Sega,Japon,4.95
+2008,Sega Superstars Tennis,Sega,Japon,4.74
 2008,The House of the Dead 2 & 3 Return,Sega,Japon,1.47
+2008,PES 2009: Pro Evolution Soccer,Konami Digital Entertainment,Japon,6.06
 2008,Metal Gear Solid 4: Guns of the Patriots,Konami Digital Entertainment,Japon,6.03
 2008,Deca Sports,Konami Digital Entertainment,Japon,2.54
-2008,PES 2009: Pro Evolution Soccer,Konami Digital Entertainment,Japon,6.06
 2008,LittleBigPlanet,Sony Computer Entertainment,Japon,5.92
 2008,Resistance 2,Sony Computer Entertainment,Japon,2.48
 2008,MotorStorm: Pacific Rift,Sony Computer Entertainment,Japon,1.37
@@ -959,11 +959,11 @@ Year,Names,Publisher,Country,Sales
 2009,Call of Duty: Modern Warfare 2,Activision,USA,24.2
 2009,Guitar Hero 5,Activision,USA,4.94
 2009,Call of Duty: Modern Warfare: Reflex Edition,Activision,USA,1.53
+2009,FIFA Soccer 10,Electronic Arts,USA,8.94
 2009,Left 4 Dead 2,Electronic Arts,USA,3.99
 2009,EA Sports Active,Electronic Arts,USA,3.92
-2009,FIFA Soccer 10,Electronic Arts,USA,8.94
-2009,UFC 2009 Undisputed,THQ,USA,3.84
 2009,WWE SmackDown vs. Raw 2010,THQ,USA,4.05
+2009,UFC 2009 Undisputed,THQ,USA,3.84
 2009,The Biggest Loser,THQ,USA,1.08
 2009,Borderlands,Take-Two Interactive,USA,5.55
 2009,Ghostbusters: The Video Game (DS Version),Take-Two Interactive,USA,4.66
@@ -971,8 +971,8 @@ Year,Names,Publisher,Country,Sales
 2009,Halo 3: ODST,Microsoft Game Studios,USA,6.36
 2009,Forza Motorsport 3,Microsoft Game Studios,USA,5.51
 2009,Halo Wars,Microsoft Game Studios,USA,2.63
-2009,Just Dance,Ubisoft,France,7.27
 2009,Assassin's Creed II,Ubisoft,France,10.84
+2009,Just Dance,Ubisoft,France,7.27
 2009,Your Shape featuring Jenny McCarthy,Ubisoft,France,2.16
 2009,Ninja Gaiden Sigma 2,Ubisoft Annecy,France,0.86
 2009,Deer Drive,Big Ben Interactive,France,0.76
@@ -1023,20 +1023,20 @@ Year,Names,Publisher,Country,Sales
 2010,Battlefield: Bad Company 2,Electronic Arts,USA,6.45
 2010,Mass Effect 2,Electronic Arts,USA,4.59
 2010,Call of Duty: Black Ops,Activision,USA,28.77
-2010,GoldenEye 007 (2010),Activision,USA,1.86
 2010,Guitar Hero: Warriors of Rock,Activision,USA,2.7
+2010,GoldenEye 007 (2010),Activision,USA,1.86
 2010,Kinect Adventures!,Microsoft Game Studios,USA,21.82
 2010,Halo: Reach,Microsoft Game Studios,USA,9.88
 2010,Kinect Sports,Microsoft Game Studios,USA,6.24
 2010,Red Dead Redemption,Take-Two Interactive,USA,12.94
-2010,BioShock 2,Take-Two Interactive,USA,3.76
 2010,NBA 2K11,Take-Two Interactive,USA,4.81
-2010,uDraw Studio,THQ,USA,2.46
-2010,UFC Undisputed 2010,THQ,USA,2.75
+2010,BioShock 2,Take-Two Interactive,USA,3.76
 2010,WWE SmackDown vs. Raw 2011,THQ,USA,2.83
+2010,UFC Undisputed 2010,THQ,USA,2.75
+2010,uDraw Studio,THQ,USA,2.46
 2010,Just Dance 2,Ubisoft,France,9.52
-2010,Michael Jackson: The Experience,Ubisoft,France,5.84
 2010,Assassin's Creed: Brotherhood,Ubisoft,France,6.34
+2010,Michael Jackson: The Experience,Ubisoft,France,5.84
 2010,Fist of the North Star: Ken's Rage,Ubisoft Annecy,France,0.82
 2010,TRINITY: Souls of Zill O'll,Ubisoft Annecy,France,0.14
 2010,PDC World Championship Darts: Pro Tour,O-Games,France,0.24
@@ -1053,15 +1053,15 @@ Year,Names,Publisher,Country,Sales
 2010,Gran Turismo 5,Sony Computer Entertainment,Japon,10.77
 2010,God of War III,Sony Computer Entertainment,Japon,5.47
 2010,Sports Champions,Sony Computer Entertainment,Japon,3.87
-2010,Sonic Colors,Sega,Japon,1.74
 2010,Sonic & Sega All-Stars Racing,Sega,Japon,2.49
+2010,Sonic Colors,Sega,Japon,1.74
 2010,Sonic Free Riders,Sega,Japon,1.09
 2010,pro evolution soccer 2011,Konami Digital Entertainment,Japon,3.67
 2010,Castlevania: Lords of Shadow,Konami Digital Entertainment,Japon,1.79
 2010,Karaoke Revolution Glee,Konami Digital Entertainment,Japon,0.85
 2010,Naruto Shippuden: Ultimate Ninja Storm 2,Namco Bandai Games,Japon,2.01
-2010,Tales of Graces f,Namco Bandai Games,Japon,1.02
 2010,Dragon Ball: Raging Blast 2,Namco Bandai Games,Japon,1.47
+2010,Tales of Graces f,Namco Bandai Games,Japon,1.02
 2010,Zumba Fitness,505 Games,Italie,9.79
 2010,Grease,505 Games,Italie,0.57
 2010,Babysitting Mama,505 Games,Italie,0.5
@@ -1100,8 +1100,8 @@ Year,Names,Publisher,Country,Sales
 2011,Skylanders: Spyro's Adventure,Activision,USA,4.77
 2011,Wipeout: In The Zone,Activision,USA,0.92
 2011,Saints Row: The Third,THQ,USA,5.26
-2011,Homefront,THQ,USA,2.37
 2011,WWE '12,THQ,USA,2.81
+2011,Homefront,THQ,USA,2.37
 2011,Gears of War 3,Microsoft Game Studios,USA,6.24
 2011,Forza Motorsport 4,Microsoft Game Studios,USA,4.64
 2011,Halo: Combat Evolved Anniversary,Microsoft Game Studios,USA,2.44
@@ -1151,11 +1151,11 @@ Year,Names,Publisher,Country,Sales
 2011,Alien Breed Trilogy,Mastertronic,Royaume-Uni,0.03
 2011,Serious Sam HD: Gold Edition,Mastertronic,Royaume-Uni,0.02
 2011,Ruuky World Cup 2011,505 Games,Italie,0.61
-2011,Jillian Michaels' Fitness Adventure,505 Games,Italie,0.2
 2011,Grease Dance,505 Games,Italie,0.24
-2011,Kung-Fu: High Impact,Black Bean Games,Italie,0.15
-2011,SBK 2011: FIM Superbike World Championship,Black Bean Games,Italie,0.21
+2011,Jillian Michaels' Fitness Adventure,505 Games,Italie,0.2
 2011,National Geographic Challenge!,Black Bean Games,Italie,0.23
+2011,SBK 2011: FIM Superbike World Championship,Black Bean Games,Italie,0.21
+2011,Kung-Fu: High Impact,Black Bean Games,Italie,0.15
 2011,We Sing Deutsche Hits,Nordic Games,Autriche,0.36
 2011,We Dance,Nordic Games,Autriche,0.19
 2011,We Sing UK Hits,Nordic Games,Autriche,0.18
@@ -1165,10 +1165,10 @@ Year,Names,Publisher,Country,Sales
 2012,Skylanders Giants,Activision,USA,5.45
 2012,The Amazing Spider-Man (Console Version),Activision,USA,1.83
 2012,FIFA Soccer 13,Electronic Arts,USA,14.62
-2012,Mass Effect 3,Electronic Arts,USA,4.81
 2012,Madden NFL 13,Electronic Arts,USA,6.21
-2012,Borderlands 2,Take-Two Interactive,USA,5.35
+2012,Mass Effect 3,Electronic Arts,USA,4.81
 2012,NBA 2K13,Take-Two Interactive,USA,6.07
+2012,Borderlands 2,Take-Two Interactive,USA,5.35
 2012,Max Payne 3,Take-Two Interactive,USA,3.56
 2012,Halo 4,Microsoft Game Studios,USA,9.76
 2012,Forza Horizon,Microsoft Game Studios,USA,2.02
@@ -1176,8 +1176,8 @@ Year,Names,Publisher,Country,Sales
 2012,LEGO Batman 2: DC Super Heroes,Warner Bros. Interactive Entertainment,USA,4.49
 2012,LEGO The Lord of the Rings,Warner Bros. Interactive Entertainment,USA,3.33
 2012,Lollipop Chainsaw,Warner Bros. Interactive Entertainment,USA,1.16
-2012,Just Dance 4,Ubisoft,France,8.93
 2012,Assassin's Creed III,Ubisoft,France,12.16
+2012,Just Dance 4,Ubisoft,France,8.93
 2012,Far Cry 3,Ubisoft,France,6.49
 2012,The Walking Dead: Season One,Avanquest Software,France,2.15
 2012,The Testament of Sherlock Holmes,Focus Home Interactive,France,0.28
@@ -1189,9 +1189,9 @@ Year,Names,Publisher,Country,Sales
 2012,Resident Evil 6,Capcom,Japon,5.24
 2012,Dragon's Dogma,Capcom,Japon,2.58
 2012,Resident Evil: Operation Raccoon City,Capcom,Japon,1.96
+2012,Tekken Tag Tournament 2,Namco Bandai Games,Japon,1.42
 2012,One Piece: Pirate Warriors,Namco Bandai Games,Japon,1.2
 2012,The Witcher 2: Assassins of Kings,Namco Bandai Games,Japon,0.94
-2012,Tekken Tag Tournament 2,Namco Bandai Games,Japon,1.42
 2012,PlayStation All-Stars Battle Royale,Sony Computer Entertainment,Japon,0.96
 2012,MLB 12: The Show,Sony Computer Entertainment,Japon,0.92
 2012,LittleBigPlanet Karting,Sony Computer Entertainment,Japon,0.9
@@ -1220,8 +1220,8 @@ Year,Names,Publisher,Country,Sales
 2013,Call of Duty: Ghosts,Activision,USA,26.65
 2013,Skylanders SWAP Force,Activision,USA,6.02
 2013,Diablo III,Activision,USA,5.88
-2013,Batman: Arkham Origins,Warner Bros. Interactive Entertainment,USA,4.65
 2013,LEGO Marvel Super Heroes,Warner Bros. Interactive Entertainment,USA,7.64
+2013,Batman: Arkham Origins,Warner Bros. Interactive Entertainment,USA,4.65
 2013,Injustice: Gods Among Us,Warner Bros. Interactive Entertainment,USA,3.73
 2013,Disney Infinity,Disney Interactive Studios,USA,4.76
 2013,Disney's Planes,Disney Interactive Studios,USA,0.38
@@ -1229,9 +1229,9 @@ Year,Names,Publisher,Country,Sales
 2013,Just Dance 2014,Ubisoft,France,6.58
 2013,Rocksmith 2014,Ubisoft,France,2.96
 2013,Farming Simulator 2013,Focus Home Interactive,France,0.55
-2013,Minecraft,Microsoft Game Studios,Suède,21.48
-2013,Forza Motorsport 5,Microsoft Game Studios,Suède,2.18
-2013,Gears of War: Judgment,Microsoft Game Studios,Suède,1.61
+2013,Minecraft,Mojang,Suède,21.48
+2013,Forza Motorsport 5,Microsoft Game Studios,USA,2.18
+2013,Gears of War: Judgment,Microsoft Game Studios,USA,1.61
 2013,The Last of Us,Sony Computer Entertainment Europe,Royaume-Uni,10.54
 2013,Knack,Sony Computer Entertainment Europe,Royaume-Uni,1.67
 2013,Sly Cooper: Thieves in Time,Sony Computer Entertainment Europe,Royaume-Uni,0.55
@@ -1245,8 +1245,8 @@ Year,Names,Publisher,Country,Sales
 2013,Killzone: Shadow Fall,Sony Computer Entertainment,Japon,2.58
 2013,God of War: Ascension,Sony Computer Entertainment,Japon,2.29
 2013,Tomb Raider (2013),Square Enix,Japon,6.44
-2013,Final Fantasy X / X-2 HD Remaster,Square Enix,Japon,1.33
 2013,Final Fantasy XIV: A Realm Reborn,Square Enix,Japon,1.84
+2013,Final Fantasy X / X-2 HD Remaster,Square Enix,Japon,1.33
 2013,Naruto Shippuden: Ultimate Ninja Storm 3,Namco Bandai Games,Japon,1.47
 2013,One Piece: Pirate Warriors 2,Namco Bandai Games,Japon,0.69
 2013,JoJo's Bizarre Adventure: All Star Battle,Namco Bandai Games,Japon,0.58
@@ -1256,8 +1256,8 @@ Year,Names,Publisher,Country,Sales
 2013,Saints Row IV,Deep Silver,Allemagne,3.57
 2013,Dead Island: Riptide,Deep Silver,Allemagne,1.41
 2013,Killer is Dead,Deep Silver,Allemagne,0.34
-2013,Terraria,505 Games,Italie,1.34
 2013,Payday 2,505 Games,Italie,1.47
+2013,Terraria,505 Games,Italie,1.34
 2013,Sniper: Ghost Warrior 2,City Interactive,Pologne,0.57
 2013,Painkiller: Hell & Damnation,Nordic Games,Autriche,0.06
 2013,Caladrius,Moss,Norvège,0.01
@@ -1265,8 +1265,8 @@ Year,Names,Publisher,Country,Sales
 2014,Destiny,Activision,USA,12.61
 2014,Skylanders: Trap Team,Activision,USA,4.14
 2014,FIFA 15,Electronic Arts,USA,17.43
-2014,Titanfall,Electronic Arts,USA,4.28
 2014,Madden NFL 15,Electronic Arts,USA,6.97
+2014,Titanfall,Electronic Arts,USA,4.28
 2014,Middle-Earth: Shadow of Mordor,Warner Bros. Interactive Entertainment,USA,5.49
 2014,The LEGO Movie Videogame,Warner Bros. Interactive Entertainment,USA,4.17
 2014,Lego Batman 3: Beyond Gotham,Warner Bros. Interactive Entertainment,USA,3.58
@@ -1286,8 +1286,8 @@ Year,Names,Publisher,Country,Sales
 2014,Super Smash Bros. for Wii U and 3DS,Nintendo,Japon,5.02
 2014,Donkey Kong Country: Tropical Freeze,Nintendo,Japon,1.52
 2014,inFAMOUS: Second Son,Sony Computer Entertainment,Japon,2.78
-2014,DriveClub,Sony Computer Entertainment,Japon,2.0
 2014,LittleBigPlanet 3,Sony Computer Entertainment,Japon,2.61
+2014,DriveClub,Sony Computer Entertainment,Japon,2.0
 2014,Dark Souls II,Namco Bandai Games,Japon,2.89
 2014,Naruto Shippuden: Ultimate Ninja Storm Revolution,Namco Bandai Games,Japon,0.7
 2014,Mobile Suit Gundam: Extreme VS Full Boost,Namco Bandai Games,Japon,0.38
@@ -1295,8 +1295,8 @@ Year,Names,Publisher,Country,Sales
 2014,Pro Evolution Soccer 2015,Konami Digital Entertainment,Japon,1.68
 2014,Castlevania: Lords of Shadow 2,Konami Digital Entertainment,Japon,0.32
 2014,Alien: Isolation,Sega,Japon,2.3
-2014,Sonic Boom: Rise of Lyric,Sega,Japon,0.33
 2014,Yakuza: Ishin,Sega,Japon,0.41
+2014,Sonic Boom: Rise of Lyric,Sega,Japon,0.33
 2014,Metro: Last Light,Deep Silver,Allemagne,1.79
 2014,NASCAR '14,Deep Silver,Allemagne,0.26
 2014,Sacred 3,Deep Silver,Allemagne,0.18
@@ -1398,8 +1398,8 @@ Year,Names,Publisher,Country,Sales
 2016,The Legend of Zelda: Twilight Princess HD,Nintendo,Japon,0.94
 2016,Star Fox: Zero,Nintendo,Japon,0.35
 2016,Mario & Sonic at the Rio 2016 Olympic Games,Nintendo,Japon,0.26
-2016,Pro Evolution Soccer 2017,Konami Digital Entertainment,Japon,0.37
 2016,UEFA Euro 2016,Konami Digital Entertainment,Japon,0.39
+2016,Pro Evolution Soccer 2017,Konami Digital Entertainment,Japon,0.37
 2016,Jikkyou Powerful Pro Baseball 2016,Konami Digital Entertainment,Japon,0.28
 2016,No Man's Sky,Hello Games,Royaume-Uni,1.6
 2016,DiRT Rally,Codemasters,Royaume-Uni,0.43
