@@ -11,7 +11,11 @@ Les fonctionnalités sont les suivantes :
 
 
 II.	 Screenshots
+<img width="1440" alt="Fonctionnalité 1" src="https://user-images.githubusercontent.com/100705313/172131125-27f17a7d-4ab6-44c6-925a-7b19a29dfeea.png">
 
+<img width="968" alt="Fonctionnalité 2" src="https://user-images.githubusercontent.com/100705313/172131135-4deb3444-5065-47e4-a0c1-df059fe8c6e7.png">
+
+<img width="675" alt="Fonctionnalité 3" src="https://user-images.githubusercontent.com/100705313/172131165-bcb39739-3702-43b3-aa44-455753c5032e.png">
 
 III.	Procédure d'installation
 
