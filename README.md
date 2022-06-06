@@ -2,20 +2,21 @@ Projet Visualisation de données
 
 I.	Brève description du projet et fonctionnalités
 
-Notre projet consiste en une visualisation des ventes effectuées par les différents éditeurs de jeux vidéo entre les années 1980 et 2016. En outre, nous effectuons également une visualisation des trois plus gros succès par éditeur et par année. 
+Notre projet consiste en une visualisation des ventes effectuées par les différents éditeurs de jeux vidéo entre les années 1980 et 2016. En outre, nous permettons également une visualisation des trois plus gros succès par éditeur (en termes de ventes) et par année. 
 
 Les fonctionnalités sont les suivantes :
--	Afficher les pays d’où sont issus les éditeurs (siège social) qui vendent le plus de jeux à l’international entre 1980 et 2016
--	Possibilité de découvrir le détail de chaque pays, c’est-à-dire, les cinq plus gros éditeurs et leurs ventes respectives
--	Possibilité de sélectionner un éditeur simplement en passant la souris dessus pour découvrir ses 3 jeux les plus vendus cette année-là.
+-	Afficher les pays d’où sont issus les éditeurs (siège social) qui vendent le plus de jeux à l’international entre 1980 et 2016.
+-	Possibilité de découvrir le détail de chaque pays, c’est-à-dire, les cinq plus gros éditeurs et leurs ventes respectives. Le reste figure sous "Autres".
+-	Possibilité de sélectionner un éditeur en passant la souris dessus pour découvrir ses 3 jeux sortis cette année-là qui se sont le mieux vendus (ventes jusqu'en 2016).
 
 
 II.	 Screenshots
-<img width="1440" alt="Fonctionnalité 1" src="https://user-images.githubusercontent.com/100705313/172131125-27f17a7d-4ab6-44c6-925a-7b19a29dfeea.png">
+<img width="1440" alt="Capture d’écran 2022-06-06 à 13 54 31" src="https://user-images.githubusercontent.com/100705313/172156143-1812ed97-af63-4f4b-92bd-3aea79e73bed.png">
 
-<img width="968" alt="Fonctionnalité 2" src="https://user-images.githubusercontent.com/100705313/172131135-4deb3444-5065-47e4-a0c1-df059fe8c6e7.png">
+<img width="1038" alt="Capture d’écran 2022-06-06 à 13 55 00" src="https://user-images.githubusercontent.com/100705313/172156162-aa861ab8-e40f-4561-9bbd-4fc49899f42d.png">
 
-<img width="675" alt="Fonctionnalité 3" src="https://user-images.githubusercontent.com/100705313/172131165-bcb39739-3702-43b3-aa44-455753c5032e.png">
+<img width="727" alt="Capture d’écran 2022-06-06 à 13 56 32" src="https://user-images.githubusercontent.com/100705313/172156172-b68f367b-361a-4d28-a7b7-ed55053fa55c.png">
+
 
 III.	Procédure d'installation
 
