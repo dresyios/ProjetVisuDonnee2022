@@ -155,14 +155,14 @@ function drawPublisher(year, country) { //fonction pour piechart
             if (publisherpie !=  "Autres") {
                 Tooltip2
                 .html("TOP 3 DES MEILLEURES VENTES : <br>" + values[0] + "<br>" + values[1] + "<br>" + values[2])
-                .style("left", '555px')
-                .style("top", '200px')
+                .style("left", '850px')
+                .style("top", '400px')
             }
             else {
                 Tooltip2
                 .html("Pas de jeux à afficher")
-                .style("left", "615px")
-                .style("top", "200px")
+                .style("left", "850px")
+                .style("top", "475px")
             }
 
         })
