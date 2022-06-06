@@ -121,7 +121,7 @@ function drawPublisher(year, country) { //fonction pour piechart
         .style("visibility", "visible")
         d3.select(this)
         .style("stroke", "black")
-        .style('stroke-width', 1)
+        .style('stroke-width', 2)
         .style("opacity", 0.9)
     }
 
