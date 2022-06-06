@@ -71,7 +71,7 @@ p.Total {
     font-family: sans-serif;
     position: absolute;
     left: 88%;
-    top: 10%;
+    top: 7%;
  }
  
  .slider::before {
@@ -81,7 +81,7 @@ p.Total {
      font-family: sans-serif;
      position: absolute;
      left: 10%;
-     top: 10%;
+     top: 7%;
  }
  
 

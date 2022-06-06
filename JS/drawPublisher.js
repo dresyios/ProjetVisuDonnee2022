@@ -149,12 +149,22 @@ function drawPublisher(year, country) { //fonction pour piechart
             else if(values.length==2) {
                 values.push("Pas de jeu");
             }
+
+            let sales = dataTop.map(function(d) { return d.Sales; });
+            sales.forEach((x, i) => sales[i]=": "+sales[i]+"Mio");
+            if(sales.length==1) {
+                sales.push("");
+                sales.push("");
+            }
+            else if(sales.length==2) {
+                sales.push("");
+            }
             
             console.log("Publisher pie: ", publisherpie);
             
             if (publisherpie !=  "Autres") {
                 Tooltip2
-                .html("TOP 3 DES MEILLEURES VENTES : <br>" + values[0] + "<br>" + values[1] + "<br>" + values[2])
+                .html("TOP 3 DES MEILLEURES VENTES : <br>" + values[0] + sales[0] + "<br>" + values[1] + sales[1] + "<br>" + values[2] + sales[2])
                 .style("left", '850px')
                 .style("top", '400px')
             }

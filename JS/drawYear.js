@@ -16,7 +16,7 @@ function drawYear(year) { //fonction pour cercles rouges
         //FAIRE DICTIONNAIRE PAYS-LOCATIONS : fonctionnement par ratio, haute précision
         var dictloc = {
             'USA': [0.14, 0.31],
-            'Japon': [0.86, 0.32],
+            'Japon': [0.8555, 0.33],
             'Royaume-Uni': [0.431, 0.23],
             'France': [0.444, 0.27],
             'Canada': [0.15, 0.22],
