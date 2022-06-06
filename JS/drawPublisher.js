@@ -151,7 +151,7 @@ function drawPublisher(year, country) { //fonction pour piechart
             }
 
             let sales = dataTop.map(function(d) { return d.Sales; });
-            sales.forEach((x, i) => sales[i]=": "+sales[i]+"Mio");
+            sales.forEach((x, i) => sales[i]=": "+sales[i]+" Mio");
             if(sales.length==1) {
                 sales.push("");
                 sales.push("");
