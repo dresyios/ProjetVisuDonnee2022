@@ -11,7 +11,7 @@ function drawPublisher(year, country) { //fonction pour piechart
     
 
     var g = svg.append("g")
-                .attr("transform", "translate(800, 550)")           
+                .attr("transform", "translate(800, 500)")           
                 .attr("id", "mypiechart")
                 .attr('opacity', 0)
 
