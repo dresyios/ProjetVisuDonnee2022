@@ -11,7 +11,7 @@ function drawPublisher(year, country) { //fonction pour les piecharts des édite
     
 
     var g = svg.append("g")
-                .attr("transform", "translate(800, 500)")           
+                .attr("transform", "translate(850, 530)")           
                 .attr("id", "mypiechart")
                 .attr('opacity', 0)
 
@@ -86,6 +86,15 @@ function drawPublisher(year, country) { //fonction pour les piecharts des édite
             .on("mouseover", mouseover)
             .on("mousemove", mousemove)
             .on("mouseleave", mouseleave)
+
+        svg.append("text")
+            .attr("x", (svgwidht / 2))             
+            .attr("y", 300)
+            .attr("text-anchor", "middle")  
+            .style("font-size", "30px") 
+            .style("text-decoration", "underline") 
+            .style("z-index", "1000") 
+            .text("Répartition des ventes par éditeurs");
         });
 
     //afficher le top 3 des meilleurs jeux par éditeur quand on passe la souris dessus (troisième visualisation)
